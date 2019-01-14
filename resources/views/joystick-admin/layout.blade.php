@@ -56,6 +56,7 @@
         <div class="col-sm-3 col-md-2 sidebar" id="navbar">
           <ul class="nav nav-sidebar">
             <li class="sidebar-title">Главное</li>
+            <li @if (Request::is('admin/projects', 'admin/projects/*')) class="active" @endif> <a href="/admin/projects"><i class="material-icons md-18">widgets</i> Проекты</a> </li>
             <li @if (Request::is('admin/pages', 'admin/pages/*')) class="active" @endif> <a href="/admin/pages"><i class="material-icons md-18">content_copy</i> Страницы</a> </li>
             <li @if (Request::is('admin/news', 'admin/news/*')) class="active" @endif> <a href="/admin/news"><i class="material-icons md-18">create</i> Новости</a> </li>
             <li @if (Request::is('admin/categories', 'admin/categories/*')) class="active" @endif> <a href="/admin/categories"><i class="material-icons md-18">list</i> Категории</a> </li>

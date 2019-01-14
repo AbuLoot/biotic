@@ -10,6 +10,7 @@
       <thead>
         <tr class="active">
           <td>№</td>
+          <td>Проект</td>
           <td>Имя</td>
           <td>Email</td>
           <td>Номер</td>
@@ -21,6 +22,7 @@
         @forelse ($apps as $app)
           <tr>
             <td>{{ $app->id }}</td>
+            <td>{{ $app->project->name }}</td>
             <td>{{ $app->name }}</td>
             <td>{{ $app->email }}</td>
             <td>{{ $app->phone }}</td>

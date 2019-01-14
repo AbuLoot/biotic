@@ -9,7 +9,7 @@ Route::get('logout', 'Auth\AuthCustomController@getLogout');
 
 // Registration routes...
 // Route::get('register', 'Auth\AuthController@getRegister');
-Route::post('register', 'Auth\AuthCustomController@postRegister');
+// Route::post('register', 'Auth\AuthCustomController@postRegister');
 // Route::get('confirm/{token}', 'Auth\AuthCustomController@confirm');
 
 // Profile
@@ -36,6 +36,7 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'role:admin']], func
     Route::resource('options', 'Joystick\OptionController');
     Route::resource('orders', 'Joystick\OrderController');
     Route::resource('pages', 'Joystick\PageController');
+    Route::resource('projects', 'Joystick\ProjectController');
     Route::resource('products', 'Joystick\ProductController');
     Route::resource('slide', 'Joystick\SlideController');
     Route::get('products/{id}/comments', 'Joystick\ProductController@comments');
@@ -79,6 +80,8 @@ Route::get('toggle-favorite/{id}', 'FavoriteController@toggleFavorite');
 
 // Pages
 Route::get('/', 'PageController@index');
+Route::get('/epimediumnaya-pasta', 'PageController@epimedium');
+Route::get('/protein', 'PageController@collagen');
 Route::get('catalog', 'PageController@catalog');
 Route::get('catalog/all/{category}', 'PageController@allCategoryProducts');
 Route::get('catalog/{category}', 'PageController@categoryProducts');

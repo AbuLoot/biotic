@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Validator;
 
 use App\App;
+use App\Project;
 use App\Product;
 use App\Category;
 
@@ -65,7 +66,10 @@ class InputController extends Controller
             return redirect('/#contact-form')->withErrors($validator)->withInput();
         }
 
+        $project = Project::where('name', $request->project)->first();
+
         $app = new App;
+        $app->project_id = $project->id;
         $app->name = $request->name;
         $app->email = $request->email;
         $app->phone = $request->phone;
@@ -73,10 +77,10 @@ class InputController extends Controller
         $app->save();
 
         // Email subject
-        $subject = "GoMarket - novaya zayavka ot $request->name";
+        $subject = "Biotic - Новая заявка от $request->name";
 
         // Email content
-        $content = "<h2>GoMarket</h2>";
+        $content = "<h2>biotic</h2>";
         $content .= "<b>Имя: $request->name</b><br>";
         $content .= "<b>Номер: $request->phone</b><br>";
         $content .= "<b>Email: $request->email</b><br>";
@@ -84,7 +88,7 @@ class InputController extends Controller
         $content .= "<b>Дата: " . date('Y-m-d') . "</b><br>";
         $content .= "<b>Время: " . date('G:i') . "</b>";
 
-        $headers = "From: info@gomarket.kz \r\n" .
+        $headers = "From: info@biotic.kz \r\n" .
                    "MIME-Version: 1.0" . "\r\n" . 
                    "Content-type: text/html; charset=UTF-8" . "\r\n";
 
@@ -99,7 +103,8 @@ class InputController extends Controller
         }
 
         return redirect()->back()->with([
-            'info' => $message
+            'alert' => $status,
+            'message' => $message
         ]);
     }
 }

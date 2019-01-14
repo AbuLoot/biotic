@@ -1,0 +1,239 @@
+#main {
+  background-color: #101010;
+}
+.bg-header {
+  background-color: #151515;
+  background-image: url(../../img/collagen/bodybuilder-new.jpg);
+  background-repeat: no-repeat;
+  /*background-position:  -150px top;*/
+  background-position: center;
+  background-size: cover;
+}
+.bg-green {
+  background-color: #1b6736;
+}
+.red {
+  color: #CE0A00;
+}
+.yellow {
+  color: #ffed00;
+}
+
+/* Biotic Logo */
+.navbar-brand {
+  padding: 0;
+}
+.biotic-logo {
+  /*position: absolute;*/
+  display: block;
+  /*padding: 25px 15px 10px;*/
+  /*border-bottom-right-radius: 25px;*/
+  /*border-bottom-left-radius: 25px;*/
+  /*background-color: #f6f7f7;*/
+  /*background-color: #333;*/
+}
+.biotic-logo > img {
+  max-width: 100px;
+}
+.navbar-toggler {
+  height: 40px;
+  border: none;
+}
+.presentation-epimedium > h2,
+.presentation-collagen > h2,
+.presentation-epimedium > p,
+.presentation-collagen > p {
+  color: #fff;
+}
+.presentation-epimedium {
+  background-image: url(../img/epimedium-2000x1600.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 675px;
+  padding: 50px;
+}
+.presentation-collagen {
+  background-image: url(../img/collagen-2000x1600.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 675px;
+  padding: 50px;
+}
+@media (max-width: 479px) {
+  .presentation-epimedium {
+    background-image: url(../img/epimedium-mobile.png);
+    /*background-size: 240%;*/
+    padding: 50px 15px;
+  }
+  .presentation-collagen {
+    background-image: url(../img/collagen-mobile.png);
+    /*background-size: 240%;*/
+    /*background-position: 42% center;*/
+    padding: 50px 15px;
+  }
+}
+.phones {
+  max-width: 240px;
+  text-align: center;
+  margin: 20px 0 0 auto;
+}
+.phones a {
+  max-width: 240px;
+  color: #1b6736;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.phones > a > i {
+  font-size: 24px;
+}
+
+/* Buttons */
+.btn-app {
+  -moz-box-shadow: 0px 10px 14px -7px #3e7327;
+  -webkit-box-shadow: 0px 10px 14px -7px #3e7327;
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #01a107), color-stop(1, #1a1f17));
+  background:-moz-linear-gradient(top, #01a107 5%, #1a1f17 100%);
+  background:-webkit-linear-gradient(top, #01a107 5%, #1a1f17 100%);
+  background:-o-linear-gradient(top, #01a107 5%, #1a1f17 100%);
+  background:-ms-linear-gradient(top, #01a107 5%, #1a1f17 100%);
+  background:linear-gradient(to bottom, #01a107 5%, #1a1f17 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#01a107', endColorstr='#1a1f17',GradientType=0);
+  background-color: #01a107;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  text-shadow:0px 1px 0px #5b8a3c;
+}
+.btn-app-p {
+  font-weight: bold;
+  padding: 10px 42px;
+}
+.btn-app:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #72b352), color-stop(1, #01a107));
+  background:-moz-linear-gradient(top, #72b352 5%, #01a107 100%);
+  background:-webkit-linear-gradient(top, #72b352 5%, #01a107 100%);
+  background:-o-linear-gradient(top, #72b352 5%, #01a107 100%);
+  background:-ms-linear-gradient(top, #72b352 5%, #01a107 100%);
+  background:linear-gradient(to bottom, #72b352 5%, #01a107 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#72b352', endColorstr='#01a107',GradientType=0);
+  background-color:#72b352;
+  color:#ffffff;
+}
+.btn-app:active {
+  position:relative;
+  top:1px;
+}
+.box-section-shadow {
+  border: 1px solid #eeeeee;
+  -moz-box-shadow: 0 0 30px rgba(170, 170, 170, 0.2);
+  -webkit-box-shadow: 0 0 30px rgba(170, 170, 170, 0.2);
+  box-shadow: 0 0 30px rgba(170, 170, 170, 0.2);
+}
+
+@media (max-width: 768px) {
+  .branding__logo > a {
+    display: block;
+    text-align: center;
+  }
+  .branding__logo > a > img {margin: 20px 0; }
+  .branding__logo > h3 {text-align: center; }
+  .phones {margin: 20px auto; }
+  .header-main-content {
+    padding: 20px 0 20px;
+    text-align: center;
+  }
+  .header-title {font-size: 36px; }
+  .section-custom-padding {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 479px) {
+  .branding__logo > a {
+    display: block;
+    text-align: center;
+  }
+  .branding__logo > a > img {margin: 20px 0; }
+  .branding__logo > h3 {text-align: center; }
+  .phones {margin: 20px auto; }
+  .header-main-content {
+    padding: 20px 0 20px;
+    text-align: center;
+  }
+  .header-title {font-size: 36px; }
+  .header-price > s {display: none; }
+  .order-xs-1 {
+    -ms-flex-order:1;
+    order:1
+  }
+  .order-xs-2 {
+    -ms-flex-order:2;
+    order:2
+  }
+}
+
+
+/* ------------------------------------------------------------------------ */
+/*  FIXED BUTTON
+/* ------------------------------------------------------------------------ */
+.fixed-button ,
+.fixed-button2 {
+  display: none;
+}
+@media (max-width: 480px) {
+  .fixed-button ,
+  .fixed-button2 {
+    display: block;
+    position: fixed;
+    z-index: 2000;
+    left: 15px;
+  }
+  .fixed-button {
+    bottom: 20px;
+  }
+  .fixed-button2 {
+    bottom: 20px;
+    left: 75px;
+  }
+  .fixed-button a,
+  .fixed-button2 a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    /*text-indent: -9999px;*/
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-transition: 0.2s all linear;
+    -moz-transition: 0.2s all linear;
+    -o-transition: 0.2s all linear;
+    transition: 0.2s all linear;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+  }
+  .fixed-button a {
+    background-color: #28a745;
+    background: linear-gradient(135deg, #4dc368, #28a745);
+  }
+  .fixed-button2 a {
+    background-color: #5F58FA;
+    background: linear-gradient(135deg, #5F58FA, #a777e3);
+  }
+}

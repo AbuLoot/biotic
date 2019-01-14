@@ -47,7 +47,7 @@
     <div class="form-group">
       <label for="link">Ссылка на продукт</label>
       <div class="input-group">
-        <span class="input-group-addon" id="basic-addon3">http://gomarket.kz/</span>
+        <span class="input-group-addon" id="basic-addon3">http://biotic.kz/</span>
         <input type="text" name="link" class="form-control" id="link" aria-describedby="basic-addon3" maxlength="255" value="{{ (old('link')) ? old('link') : '' }}">
       </div>
     </div>

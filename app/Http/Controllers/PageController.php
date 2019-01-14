@@ -11,6 +11,7 @@ use App\Page;
 use App\News;
 use App\Mode;
 use App\Slide;
+use App\Project;
 use App\Product;
 use App\Comment;
 use App\Company;
@@ -20,27 +21,19 @@ class PageController extends Controller
 {
     public function index()
     {
-        dd(11);
-        $news = News::where('status', 1)->orderBy('created_at', 'desc')->take(6)->get();
-        $modes = Mode::whereIn('slug', ['new', 'top', 'budgetary'])->get();
-        $slide_mode = Mode::where('slug', 'slide')->first();
-        $slide_items = Slide::where('status', 1)->take(10)->get();
-        $categories_part = Category::whereIn('slug', ['gadjets', 'life-style'])->orderBy('sort_id')->get();
+        return view('index');
+    }
 
-        $ids = collect();
+    public function epimedium()
+    {
+        $project = Project::where('name', 'epimedium')->first();
 
-        foreach ($categories_part as $key => $category_item)
-        {
-            if ($category_item->children && count($category_item->children) > 0) {
-                $ids[$key] = $category_item->children->pluck('id');
-            }
-        }
+        return view('epimedium', compact('project')); }
 
-        $products_part = Product::where('status', 1)->whereIn('category_id', $ids[0])->orderBy('sort_id')->take(16)->get();
-        $products_part2 = Product::where('status', 1)->whereIn('category_id', $ids[1])->orderBy('sort_id')->take(16)->get();
-        $group_products = [0 => $products_part, 1 => $products_part2];
-
-        return view('pages.index', compact('news', 'modes', 'slide_mode', 'slide_items', 'categories_part', 'group_products'));
+    public function collagen()
+    {
+        $project = Project::where('name', 'collagen')->first();
+        return view('collagen', compact('project'));
     }
 
     public function page($slug)
