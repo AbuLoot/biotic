@@ -2736,8 +2736,8 @@ h6, .h6 {
 }
 .button.style-outline.button-secondary {
   background-color: transparent;
-  border-color: #1a237e;
-  color: #1a237e;
+  border-color: #101010;
+  color: #101010;
 }
 .button.style-outline.button-primary {
   background-color: transparent;
@@ -2746,7 +2746,7 @@ h6, .h6 {
 }
 .button.style-outline.button-secondary:hover {
   color: #fff;
-  background-color: #1a237e;
+  background-color: #101010;
 }
 .button.style-outline.button-primary:hover {
   color: #fff;

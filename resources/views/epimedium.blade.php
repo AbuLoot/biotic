@@ -860,15 +860,15 @@
   </div>
 
   <!-- MODAL MESSAGE -->
-  <div class="modal fade" id="message-status" tabindex="-1" role="dialog">
+  <div class="modal fade" id="message-status" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title">Статус заявки</h4>
+          <h4 class="modal-title text-center text-uppercase">Статус заявки</h4>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         </div>
         <div class="modal-body">
-          <p class="alert "></p>
+          <p class="alert {{ session('status') }}">{{ session('message') }}</p>
         </div>
       </div>
     </div>
@@ -877,5 +877,10 @@
 
 
 @section('scripts')
-
+  <!-- Message Status -->
+  @if (session('status'))
+    <script type="text/javascript">
+      $('#message-status').modal('show');
+    </script>
+  @endif
 @endsection

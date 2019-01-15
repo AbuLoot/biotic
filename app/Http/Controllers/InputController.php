@@ -68,19 +68,19 @@ class InputController extends Controller
 
         $project = Project::where('name', $request->project)->first();
 
-        $app = new App;
-        $app->project_id = $project->id;
-        $app->name = $request->name;
-        $app->email = $request->email;
-        $app->phone = $request->phone;
-        $app->message = $request->message;
-        $app->save();
+        // $app = new App;
+        // $app->project_id = $project->id;
+        // $app->name = $request->name;
+        // $app->email = $request->email;
+        // $app->phone = $request->phone;
+        // $app->message = $request->message;
+        // $app->save();
 
         // Email subject
-        $subject = "Biotic - Новая заявка от $request->name";
+        $subject = "Biotic - " . $project->name . " Новая заявка от $request->name";
 
         // Email content
-        $content = "<h2>biotic</h2>";
+        $content = "<h2>Biotic - " . $project->name . "</h2>";
         $content .= "<b>Имя: $request->name</b><br>";
         $content .= "<b>Номер: $request->phone</b><br>";
         $content .= "<b>Email: $request->email</b><br>";
@@ -102,8 +102,9 @@ class InputController extends Controller
             $message = 'Произошла ошибка.';
         }
 
+        // dd($status, $message);
         return redirect()->back()->with([
-            'alert' => $status,
+            'status' => $status,
             'message' => $message
         ]);
     }

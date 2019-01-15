@@ -67,10 +67,8 @@
               </div>
             </div>
             <div class="product-info">
-              <a href="shop-detail.html">
-                <h2 class="product-title">Коллаген в пластмассовой таре<br> 1 кг.</h2>
-                <span class="price">11900〒</span>
-              </a>
+              <h2 class="product-title">Коллаген в пластмассовой таре<br> 1 кг.</h2>
+              <span class="price">11900〒</span>
             </div>
           </div>
         </div>
@@ -86,10 +84,8 @@
               </div>
             </div>
             <div class="product-info">
-              <a href="shop-detail.html">
-                <h2 class="product-title">Коллаген в зип пакете 1 кг.</h2>
-                <span class="price">10900〒</span>
-              </a>
+              <h2 class="product-title">Коллаген в зип пакете 1 кг.</h2>
+              <span class="price">10900〒</span>
             </div>
           </div>
         </div>
@@ -105,10 +101,8 @@
               </div>
             </div>
             <div class="product-info">
-              <a href="shop-detail.html">
-                <h2 class="product-title">Коллаген в зип пакете 1 кг.</h2>
-                <span class="price">10900〒</span>
-              </a>
+              <h2 class="product-title">Коллаген в зип пакете 1 кг.</h2>
+              <span class="price">10900〒</span>
             </div>
           </div>
         </div>
@@ -124,10 +118,8 @@
               </div>
             </div>
             <div class="product-info">
-              <a href="shop-detail.html">
-                <h2 class="product-title">Коллаген в капсулах</h2>
-                <span class="price">7900〒</span>
-              </a>
+              <h2 class="product-title">Коллаген в капсулах</h2>
+              <span class="price">7900〒</span>
             </div>
           </div>
         </div>
@@ -632,15 +624,15 @@
   </div>
 
   <!-- MODAL MESSAGE -->
-  <div class="modal fade" id="message-status" tabindex="-1" role="dialog">
+  <div class="modal fade" id="message-status" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title">Статус заявки</h4>
+          <h4 class="modal-title text-center text-uppercase">Статус заявки</h4>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         </div>
         <div class="modal-body">
-          <p class="alert"></p>
+          <p class="alert {{ session('status') }}">{{ session('message') }}</p>
         </div>
       </div>
     </div>
@@ -649,8 +641,10 @@
 
 
 @section('scripts')
-  <?php if (isset($_SESSION['status'])) : ?>
-    <script> $('#message-status').modal('show'); </script>
-    <?php unset($_SESSION['status']); unset($_SESSION['message']); ?>
-  <?php endif; ?>
+  <!-- Message Status -->
+  @if (session('status'))
+    <script type="text/javascript">
+      $('#message-status').modal('show');
+    </script>
+  @endif
 @endsection

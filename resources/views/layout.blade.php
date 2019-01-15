@@ -91,21 +91,6 @@
       </div>
     </main>
 
-    <!-- MESSAGE STATUS -->
-    <div class="modal fade" id="message-status" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title text-center text-uppercase">Статус заявки</h4>
-          </div>
-          <div class="modal-body">
-            <p class="alert {{ session('alert') }}">{{ session('message') }}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <footer class="footer bg-black">
       <div class="footer-inner">
         <div class="container">
@@ -181,7 +166,6 @@
                     <a class="link" aria-label="Vkontakte" href="https://www.vk.com/biotic_kz" target="_blank"><i class="fa fa-vk"></i></a>
                   </li>
                 </ul>
-
               </div>
             </div>
           </div>
@@ -221,15 +205,6 @@
   <script src="/js/headroom.min.js"></script>
   <script src="/js/jQuery.headroom.js"></script>
   <script src="/js/script.js"></script>
-
-  <!-- Message Status -->
-  @if (session('alert'))
-    <script type="text/javascript">
-      $(window).on('load',function(){
-          $('#message-status').modal('show');
-      });
-    </script>
-  @endif
 
   @yield('scripts')
 
