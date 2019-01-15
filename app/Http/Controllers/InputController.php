@@ -95,7 +95,7 @@ class InputController extends Controller
         // Send the email
         if (mail('issayev.adilet@gmail.com', $subject, $content, $headers)) {
             $status = 'alert-success';
-            $message = 'Ваша заявка принято.';
+            $message = 'Ваша заявка принята. Спасибо!';
         }
         else {
             $status = 'alert-danger';
