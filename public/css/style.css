@@ -2741,8 +2741,8 @@ h6, .h6 {
 }
 .button.style-outline.button-primary {
   background-color: transparent;
-  border-color: #45deb0;
-  color: #45deb0;
+  border-color: #49b34a;
+  color: #49b34a;
 }
 .button.style-outline.button-secondary:hover {
   color: #fff;
@@ -2750,7 +2750,7 @@ h6, .h6 {
 }
 .button.style-outline.button-primary:hover {
   color: #fff;
-  background-color: #45deb0;
+  background-color: #49b34a;
 }
 .button.button-white {
   min-height: 55px;
