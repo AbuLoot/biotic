@@ -52,7 +52,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto text-center">
               <li class="nav-item active">
-                <a class="nav-link text-uppercase" href="/">Главная <span class="sr-only">(current)</span></a>
+                <a class="nav-link- white text-uppercase" href="/">Главная <span class="sr-only">(current)</span></a>
               </li>
             </ul>
             <div class="header-social-networks  text-center-sm ml-auto fz-22">
