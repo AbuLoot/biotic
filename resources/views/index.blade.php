@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title_description', '')
+@section('title_description', 'Biotic - Натуральные продукты')
 
-@section('meta_description', '')
+@section('meta_description', 'Торговая компания “Biotic” специализируется на продаже высококачественных, натуральных продуктов для здоровья и красоты. Оптово-розничные продажи БАДов, витаминов, трав, спортивного питания, натуральной пищи, ароматов, средств для гигиены и ухода.')
 
 @section('head')
   <link rel="stylesheet" href="/css/style.css" type="text/css" media="all"/>
