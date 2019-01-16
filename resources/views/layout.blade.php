@@ -39,7 +39,7 @@
   <div class="site">
     <main id="main">
 
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
           <a  class="navbar-brand biotic-logo" href="/">
             <img src="/img/logo.png" alt="Biotic">
@@ -91,13 +91,13 @@
       </div>
     </main>
 
-    <footer class="footer bg-black">
+    <footer class="footer bg-gray dark">
       <div class="footer-inner">
         <div class="container">
           <div class="row  pb-6">
             <div class="col-md-12">
               <div class="text-center">
-                <h2 class="text-uppercase white">Свяжитесь с нами</h2>
+                <h2 class="text-uppercase white-">Свяжитесь с нами</h2>
                 <div class="mb-2"></div>
                 <div class="branding__logo">
                   <a href="./"><img src="/img/logo.png" alt="Biotic" class="main-logo" /></a>
@@ -107,7 +107,7 @@
             </div>
             <div class="col-sm-4">
               <div class="text-center-xs">
-                <h4 class="white mt-3"> Адрес</h4>
+                <h4 class="white- mt-3"> Адрес</h4>
                 <div class="mb-3"></div>
                 <p class="fz-22">Республика Казахстан, город Алматы, улица Толе би 286/2, офис 401.</p>
                 <p class="heading fz-22 fw-normal"> <a class="primary-color" href="mailto:info@biotic.com">info@biotic.kz</a></p>
@@ -115,7 +115,7 @@
             </div>
             <div class="col-sm-4">
               <div class="text-center-xs">
-                <h4 class="white mt-3"> Реквизиты</h4>
+                <h4 class="white- mt-3"> Реквизиты</h4>
                 <div class="mb-3"></div>
                 <p class="fz-22">Компания ТОО &laquo;Biotic&raquo;</p>
                 <p>БИН: 170 440 007 536</p>
@@ -126,7 +126,7 @@
             </div>
             <div class="col-sm-4">
               <div class="text-center-xs">
-                <h4 class="white mt-3"> Номера телефонов</h4>
+                <h4 class="white- mt-3"> Номера телефонов</h4>
                 <div class="mb-3"></div>
                 <div class="phones mx-auto">
                   <a href="tel:+77759557171" target="_top" data-attr="phone"><i class="fa fa-phone"></i> 8 (775) 955 71 71</a>
