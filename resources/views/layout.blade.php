@@ -6,6 +6,7 @@
   <link rel="shortcut icon" href="img/favicon.png"/>
   <title>@yield('title_description', 'Biotic - Натуральные продукты')</title>
   <meta name="description" content="@yield('meta_description', 'Торговая компания “Biotic” специализируется на продаже высококачественных, натуральных продуктов для здоровья и красоты. Оптово-розничные продажи БАДов, витаминов, трав, спортивного питания, натуральной пищи, ароматов, средств для гигиены и ухода.')">
+  <meta name="yandex-verification" content="d2620ce1d90694d6" />
 
   <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" media="all"/>
   <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css" media="all" />
@@ -175,6 +176,25 @@
   </div>
 
   <a id="backtotop" class="scrollup scrollup--fixed"><i class="fa fa-angle-up"></i></a>
+  <!-- Facebook Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window,document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+   fbq('init', '740059156373187'); 
+  fbq('track', 'PageView');
+  </script>
+  <noscript>
+   <img height="1" width="1" 
+  src="https://www.facebook.com/tr?id=740059156373187&ev=PageView
+  &noscript=1"/>
+  </noscript>
+  <!-- End Facebook Pixel Code -->
 
   <!-- Yandex.Metrika counter -->
   <script type="text/javascript" >

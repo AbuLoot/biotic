@@ -795,7 +795,7 @@
                       <input type="tel" name="phone" placeholder="Введите номер телефона*" minlength="5" maxlength="20" value="" required>
                     </div>
                     <div class="col-md-12">
-                      <button type="submit" class="button style-flat button-primary fullwidth mt-3">Отправить</button>
+                      <button type="submit" onclick="fbq('track', 'Lead');" class="button style-flat button-primary fullwidth mt-3">Отправить</button>
                     </div>
                   </div>
                 </form>
@@ -845,7 +845,7 @@
                     <input type="tel" name="phone" placeholder="Введите номер телефона*" minlength="5" maxlength="20" value="" required>
                   </div>
                   <div class="col-md-12">
-                    <button type="submit" class="btn-app mt-3" data-toggle="modal" data-target="#appModal">Отправить</button>
+                    <button type="submit" onclick="fbq('track', 'Lead');" class="btn-app mt-3" data-toggle="modal" data-target="#appModal">Отправить</button>
                   </div>
                 </div>
               </form>
