@@ -34,7 +34,7 @@
                 <p class="primary-color- white fz-28 lh-28 ls-1 ts-1">Протеин полученный из натурального говяжьего белка, для набора мышечной массы, для укрепления суставов и связок.</p>
               </div>
             </div>
-            <h3 class="heading primary-color header-price fz-60 "> 11900〒</h3>
+            <h3 class="heading primary-color header-price fz-60 "> 9500〒</h3>
           </div>
           <div class="col-sm-5">
             <!-- <img src="/img/collagen/banka1.png" class="banka1"> -->
@@ -68,7 +68,7 @@
             </div>
             <div class="product-info">
               <h2 class="product-title">Коллаген в пластмассовой таре<br> 1 кг.</h2>
-              <span class="price">11900〒</span>
+              <span class="price">9500〒</span>
             </div>
           </div>
         </div>
@@ -85,7 +85,7 @@
             </div>
             <div class="product-info">
               <h2 class="product-title">Коллаген в зип пакете 1 кг.</h2>
-              <span class="price">10900〒</span>
+              <span class="price">8500〒</span>
             </div>
           </div>
         </div>
@@ -102,7 +102,7 @@
             </div>
             <div class="product-info">
               <h2 class="product-title">Коллаген в зип пакете 1 кг.</h2>
-              <span class="price">10900〒</span>
+              <span class="price">8500〒</span>
             </div>
           </div>
         </div>
@@ -119,7 +119,7 @@
             </div>
             <div class="product-info">
               <h2 class="product-title">Коллаген в капсулах</h2>
-              <span class="price">7900〒</span>
+              <span class="price">6500〒</span>
             </div>
           </div>
         </div>

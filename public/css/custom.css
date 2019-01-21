@@ -28,6 +28,7 @@ Theme Name: Moody
 .fsi { font-style: italic !important; }
 
 /* Width */
+.mw-150 {max-width: 150px; }
 .mw-270 {max-width: 270px; }
 .mw-500 {max-width: 500px; }
 .mw-560 {max-width: 560px; }

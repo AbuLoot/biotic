@@ -24,6 +24,11 @@ class PageController extends Controller
         return view('index');
     }
 
+    public function market()
+    {
+        return view('market');
+    }
+
     public function epimedium()
     {
         $project = Project::where('name', 'epimedium')->first();

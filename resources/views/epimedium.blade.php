@@ -18,10 +18,10 @@
           <div class="col-sm-4">
             <div class="branding__logo">
               <a href="/">
-                <!-- <img src="/img/sidra/logo.png" alt="Sidra" class="main-logo"> -->
+                <img src="/img/sidra/logo.png" alt="Sidra" class="mw-150">
                 <!-- <img src="img/logo.png" alt="Biotic"> -->
               </a>
-              <h3 class="heading small fz-26 white ts-1 mt-2"> Натуральный продукт</h3>
+              <h3 class="heading small fz-26 white ts-1"> Натуральный продукт</h3>
             </div>
           </div>
           <div class="col-sm-4">
@@ -141,7 +141,7 @@
                         <i class="fa fa-check"></i>
                       </div>
                       <div class="moody-list__heading">
-                        <p class="moody-list__title fz-18 white">Усиливает сексуальное желание и наслаждение</p>
+                        <p class="moody-list__title fz-18 white">Усиливает наслаждение и желание</p>
                       </div>
                     </div>
                   </li>
@@ -151,7 +151,7 @@
                         <i class="fa fa-check"></i>
                       </div>
                       <div class="moody-list__heading">
-                        <p class="moody-list__title fz-18 white">Увеличивает количество сперматозоидов, увеличивает их подвижность и плостность спермы</p>
+                        <p class="moody-list__title fz-18 white">Увеличивает количество сперматозоидов, увеличивает их подвижность и плостность</p>
                       </div>
                     </div>
                   </li>
@@ -170,8 +170,9 @@
             </div>
 
             <div class="text-center-">
-              <h3 class="white">Цена 7900<span class="fz-25">〒</span>. Доставка включена!</h3>
-              <p class="white">Доставка <span class="fz-24 badge badge-warning">2-3 дня</span> во все регионы Казахстана</p>
+              <h3 class="white">Цена 5900<span class="fz-25">〒</span></h3>
+              <div class="bg-warning">Отпускается без рецепта врача, не является лекарственным средством</div>
+              <!-- <p class="white">Доставка <span class="fz-24 badge badge-warning">2-3 дня</span> во все регионы Казахстана</p> -->
               <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Заказать</a>
             </div>
           </div>
@@ -198,7 +199,7 @@
                         <i class="fa fa-check"></i>
                       </div>
                       <div class="moody-list__heading">
-                        <p class="moody-list__title fz-18 dark">Усиливает сексуальное желание и наслаждение</p>
+                        <p class="moody-list__title fz-18 dark">Усиливает наслаждение и желание</p>
                       </div>
                     </div>
                   </li>
@@ -291,8 +292,8 @@
               </div>
 
               <div class="text-center">
-                <h3>Цена 7900<span class="fz-25">〒</span></h3>
-                <p class="fz-18 dark">Доставка <span class="fz-24 badge badge-warning">2-3 дня</span> по Казахстану</p>
+                <h3>Цена 5900<span class="fz-25">〒</span></h3>
+                <!-- <p class="fz-18 dark">Доставка <span class="fz-24 badge badge-warning">2-3 дня</span> по Казахстану</p> -->
                 <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Доставить</a>
               </div>
             </div>
@@ -601,35 +602,30 @@
                 <div class="list__heading">Перед каждым употреблением обязательно перемешивать содержимое в банке. Рекомендуется использовать деревянную или пластиковую ложку. Желательно употреблять через час после еды.</div>
               </div>
             </li>
-
             <li class="list__item">
               <div class="list__header">
                 <div class="list__marker primary-color"></div>
                 <div class="list__heading">Для общего укрепления организма принимать один раз в день 1/3 чайной ложки.</div>
               </div>
             </li>
-
             <li class="list__item">
               <div class="list__header">
                 <div class="list__marker primary-color"></div>
                 <div class="list__heading">Для тех, кто проводит курс лечения принимать ежедневно 1/3 чайной ложки два раза в день.</div>
               </div>
             </li>
-          
             <li class="list__item">
               <div class="list__header">
                 <div class="list__marker primary-color"></div>
                 <div class="list__heading">Для повышения сексуального либидо принимать 1/3 чайной ложки за 30-40 минут до полового акта.</div>
               </div>
             </li>
-          
             <li class="list__item">
               <div class="list__header">
                 <div class="list__marker primary-color"></div>
                 <div class="list__heading">Для занятия спортом принимать 1/3 чайной ложки за 30-40 минут перед тренировкой.</div>
               </div>
             </li>
-          
             <li class="list__item">
               <div class="list__header">
                 <div class="list__marker primary-color"></div>
@@ -642,8 +638,8 @@
           <h3 class="heading fz-30 mb-3">Побочные эффекты</h3>
           <p>Возможна головная боль при первых приёмах у тех, кто страдает вегето-сосудистой дистонией. На четвертый, или пятый день приёма пасты головная боль проходит, так как паста улучшает кровообращение, что способствует нормальной работе сосудов головного мозга.</p>
           <h3 class="heading fz-30 mt-3 mb-3">Противопоказания</h3>
-          <p>Индивидуальная непереносимость ингредиентов. Не совместима с алкоголем.</p>
-          <p>Не рекомендуется использовать продукт лицам, беременным, кормящим, а также у кого сахарный диабет и болезни сердца, необходимо проконсультироваться с врачом.</p>
+          <!-- <p>Индивидуальная непереносимость ингредиентов. Не совместима с алкоголем.</p> -->
+          <p>Не рекомендуется использовать продукт беременным, кормящим, а также у кого сахарный диабет и болезни сердца, необходимо проконсультироваться с врачом.</p>
         </div>
       </div>
     </div>
@@ -690,8 +686,8 @@
             <li><i class="fa fa-check  primary-color"></i> <span class="m-1">Лучшая Цена</span></li>
             <li><i class="fa fa-check  primary-color"></i> <span class="m-1">Оригинальный продукт</span></li>
           </ul> -->
-          <h3>Цена 7900<span class="fz-25">〒</span><br> Доставка включена!</h3>
-          <p class="fz-18">Доставка <span class="fz-24 badge badge-warning">2-3 дня</span> по Казахстану</p>
+          <h3>Цена 5900<span class="fz-25">〒</span></h3>
+          <!-- <p class="fz-18">Доставка <span class="fz-24 badge badge-warning">2-3 дня</span> по Казахстану</p> -->
           <div class="text-center-">
             <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Заказать</a>
           </div>
