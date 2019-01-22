@@ -41,7 +41,7 @@
           <div class="col-sm-6">
             <h3 class="heading white text-uppercase header-title"> Эпимедиумная<br> Паста</h3>
             <p class="white fz-20 lh-24 ls-1 mt-2" style="text-shadow: 1px 1px 20px #000;">Уникальный рецепт половой силы и здоровья для мужчин и женщин из Турции</p>
-            <br>
+            <!-- <br> -->
             <!-- <h3 class="heading white header-price fz-60 "> <s class="fz-50 red">6900〒</s> &nbsp;</h3> -->
           </div>
           <div class="col-sm-6">
@@ -171,7 +171,7 @@
 
             <div class="text-center-">
               <h3 class="white">Цена 5900<span class="fz-25">〒</span></h3>
-              <div class="bg-gradient p-1 white">Отпускается без рецепта врача, не является лекарственным средством</div>
+              <div class="bg-dark p-1 white">Отпускается без рецепта врача, не является лекарственным средством</div>
               <!-- <p class="white">Доставка <span class="fz-24 badge badge-warning">2-3 дня</span> во все регионы Казахстана</p> -->
               <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Заказать</a>
             </div>
