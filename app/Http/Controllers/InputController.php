@@ -68,13 +68,13 @@ class InputController extends Controller
 
         $project = Project::where('name', $request->project)->first();
 
-        // $app = new App;
-        // $app->project_id = $project->id;
-        // $app->name = $request->name;
-        // $app->email = $request->email;
-        // $app->phone = $request->phone;
-        // $app->message = $request->message;
-        // $app->save();
+        $app = new App;
+        $app->project_id = $project->id;
+        $app->name = $request->name;
+        $app->email = $request->email;
+        $app->phone = $request->phone;
+        $app->message = $request->message;
+        $app->save();
 
         // Email subject
         $subject = "Biotic - " . $project->name . " Новая заявка от $request->name";

@@ -21,8 +21,8 @@
           <div class="col-sm-4"></div>
           <div class="col-sm-4">
             <div class="phones">
-              <a href="tel:+77759557171" target="_top" data-attr="phone"><i class="fa fa-phone"></i> 8 (775) 955 71 71</a>
-              <a href="whatsapp://send?phone=+77759557171" target="_top" data-attr="whatsapp_call"><i class="fa fa-whatsapp"></i> 8 (775) 955 71 71</a>
+              <a onclick="fbq('track', 'Contact');" href="tel:+77759557171" target="_top" data-attr="phone"><i class="fa fa-phone"></i> 8 (775) 955 71 71</a>
+              <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77759557171" target="_top" data-attr="whatsapp_call"><i class="fa fa-whatsapp"></i> 8 (775) 955 71 71</a>
             </div>
           </div>
         </div>
@@ -45,12 +45,45 @@
     </div>
   </header>
 
+  <!-- STANDARTS -->
+  <section class="section bg-black pt-7 pb-2">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <ul class="nav nav-pills nav-fill">
+            <li class="nav-item mb-2">
+              <img src="/img/standarts/eac2.png" class="img-responsive">
+            </li>
+            <li class="nav-item mb-2">
+              <img src="/img/standarts/eco2.png" class="img-responsive">
+            </li>
+            <!-- <li class="nav-item mb-2">
+              <img src="/img/standarts/haccp2.png" class="img-responsive">
+            </li> -->
+            <li class="nav-item mb-2">
+              <img src="/img/standarts/kap2.png" class="img-responsive">
+            </li>
+            <li class="nav-item mb-2">
+              <img src="/img/standarts/gmo2.png" class="img-responsive">
+            </li>
+            <li class="nav-item mb-2">
+              <img src="/img/standarts/madeinkz2.png" class="img-responsive">
+            </li>
+            <li class="nav-item">
+              <img src="/img/standarts/halal2.png" class="img-responsive">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- OUR PRODUCTS -->
   <section class="section pt-8 pb-8">
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-8 offset-sm-2">
-          <h4 class="text-center text-uppercase"> Они говорят что мы лучшие</h4>
+          <!-- <h4 class="text-center text-uppercase"> Они говорят что мы лучшие</h4> -->
           <h2 class="text-center text-uppercase mb-5"> Наши продукты</h2>
         </div>
       </div>
@@ -144,38 +177,6 @@
     </div>
   </section> -->
 
-  <!-- STANDARTS -->
-  <section class="section bg-black pt-7 pb-2">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12">
-          <ul class="nav nav-pills nav-fill">
-            <li class="nav-item mb-2">
-              <img src="/img/standarts/eac2.png" class="img-responsive">
-            </li>
-            <li class="nav-item mb-2">
-              <img src="/img/standarts/eco2.png" class="img-responsive">
-            </li>
-            <!-- <li class="nav-item mb-2">
-              <img src="/img/standarts/haccp2.png" class="img-responsive">
-            </li> -->
-            <li class="nav-item mb-2">
-              <img src="/img/standarts/kap2.png" class="img-responsive">
-            </li>
-            <li class="nav-item mb-2">
-              <img src="/img/standarts/gmo2.png" class="img-responsive">
-            </li>
-            <li class="nav-item mb-2">
-              <img src="/img/standarts/madeinkz2.png" class="img-responsive">
-            </li>
-            <li class="nav-item">
-              <img src="/img/standarts/halal2.png" class="img-responsive">
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- WHY YOU DO YOU NEED COLLAGEN? -->
   <section class="section pt-8 pb-8 bg-black">
@@ -572,12 +573,12 @@
 
   <!-- CONTACT BUTTONS -->
   <div class="fixed-button">
-    <a href="whatsapp://send?phone=+77759557171" target="_top" data-attr="whatsapp_call">
+    <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77759557171" target="_top" data-attr="whatsapp_call">
       <img src="/img/whatsapp-logo.png">
     </a>
   </div>
   <div class="fixed-button2">
-    <a href="tel:+77759557171" target="_top" data-attr="phone">
+    <a onclick="fbq('track', 'Contact');" href="tel:+77759557171" target="_top" data-attr="phone">
       <img src="/img/phone-receiver.png">
     </a>
   </div>

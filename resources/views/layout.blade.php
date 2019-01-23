@@ -80,16 +80,16 @@
       @yield('content')
 
       <!-- CONTACT BUTTONS -->
-      <div class="fixed-button">
-        <a href="whatsapp://send?phone=+77759557171" target="_top" data-attr="whatsapp_call">
+      <!-- <div class="fixed-button">
+        <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77759557171" target="_top" data-attr="whatsapp_call">
           <img src="/img/whatsapp-logo.png">
         </a>
       </div>
       <div class="fixed-button2">
-        <a href="tel:+77759557171" target="_top" data-attr="phone">
+        <a onclick="fbq('track', 'Contact');" href="tel:+77759557171" target="_top" data-attr="phone">
           <img src="/img/phone-receiver.png">
         </a>
-      </div>
+      </div> -->
     </main>
 
     <footer class="footer bg-gray dark">
@@ -130,8 +130,8 @@
                 <h4 class="white- mt-3"> Номера телефонов</h4>
                 <div class="mb-3"></div>
                 <div class="phones mx-auto">
-                  <a href="tel:+77759557171" target="_top" data-attr="phone"><i class="fa fa-phone"></i> 8 (775) 955 71 71</a>
-                  <a href="whatsapp://send?phone=+77759557171" target="_top" data-attr="whatsapp_call"><i class="fa fa-whatsapp"></i> 8 (775) 955 71 71</a>
+                  <a onclick="fbq('track', 'Contact');" href="tel:+77759557171" target="_top" data-attr="phone"><i class="fa fa-phone"></i> 8 (775) 955 71 71</a>
+                  <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77759557171" target="_top" data-attr="whatsapp_call"><i class="fa fa-whatsapp"></i> 8 (775) 955 71 71</a>
                 </div>
               </div>
             </div>
