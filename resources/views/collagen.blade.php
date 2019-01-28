@@ -46,7 +46,7 @@
   </header>
 
   <!-- STANDARTS -->
-  <section class="section bg-black pt-7 pb-2">
+  <section class="section bg-black pt-5 pb-2">
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-12">
@@ -92,7 +92,24 @@
           <div class="product-item">
             <div class="product-thumbnail">
               <a href="#">
-                <img class="img-responsive" src="/img/collagen/banka2.png" alt="" />
+                <img class="img-responsive" src="/img/collagen/banka-3kg.png" alt="" />
+              </a>
+              <!-- <div class="actions"> <div class="action action-view-detail"> </div> <div class="action action-add-to-cart"> <a href="#" class="button-add-to-cart" data-toggle="modal" data-target="#appModal">Заказать</a> </div> </div> -->
+              <div class="text-center">
+                <button type="button" class="btn-app mt-2" data-toggle="modal" data-target="#appModal">Заказать</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h2 class="product-title">Коллаген в пластмассовой таре<br> 3 кг.</h2>
+              <span class="price">22000〒</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="product-item">
+            <div class="product-thumbnail">
+              <a href="#">
+                <img class="img-responsive" src="/img/collagen/banka-1kg.png" alt="" />
               </a>
               <!-- <div class="actions"> <div class="action action-view-detail"> </div> <div class="action action-add-to-cart"> <a href="#" class="button-add-to-cart" data-toggle="modal" data-target="#appModal">Заказать</a> </div> </div> -->
               <div class="text-center">
@@ -109,24 +126,7 @@
           <div class="product-item">
             <div class="product-thumbnail">
               <a href="#">
-                <img class="img-responsive" src="/img/collagen/paper-package2.png" alt="" />
-              </a>
-              <!-- <div class="actions"> <div class="action action-view-detail"> </div> <div class="action action-add-to-cart"> <a href="#" class="button-add-to-cart" data-toggle="modal" data-target="#appModal">Заказать</a> </div> </div> -->
-              <div class="text-center">
-                <button type="button" class="btn-app mt-2" data-toggle="modal" data-target="#appModal">Заказать</button>
-              </div>
-            </div>
-            <div class="product-info">
-              <h2 class="product-title">Коллаген в зип пакете 1 кг.</h2>
-              <span class="price">8500〒</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="product-item">
-            <div class="product-thumbnail">
-              <a href="#">
-                <img class="img-responsive" src="/img/collagen/silver-package.png" alt="" />
+                <img class="img-responsive" src="/img/collagen/paper-package.png" alt="" />
               </a>
               <!-- <div class="actions"> <div class="action action-view-detail"> </div> <div class="action action-add-to-cart"> <a href="#" class="button-add-to-cart" data-toggle="modal" data-target="#appModal">Заказать</a> </div> </div> -->
               <div class="text-center">
@@ -298,7 +298,7 @@
           </ul>
         </div>
         <div class="col-sm-12 col-lg-4">
-          <img class="d-block mt-10 mx-auto" src="/img/collagen/banka2.png" alt="">
+          <img class="d-block mt-10 mx-auto" src="/img/collagen/banka-3kg.png" alt="">
           <div class="text-center">
             <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Заказать</a>
           </div>

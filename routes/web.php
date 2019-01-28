@@ -80,7 +80,7 @@ Route::get('toggle-favorite/{id}', 'FavoriteController@toggleFavorite');
 
 // Pages
 Route::get('/', 'PageController@index');
-Route::get('market', 'PageController@market');
+Route::get('shop', 'PageController@shop');
 Route::get('/epimediumnaya-pasta', 'PageController@epimedium');
 Route::get('/protein', 'PageController@collagen');
 Route::get('catalog', 'PageController@catalog');

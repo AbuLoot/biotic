@@ -24,9 +24,9 @@ class PageController extends Controller
         return view('index');
     }
 
-    public function market()
+    public function shop()
     {
-        return view('market');
+        return view('shop');
     }
 
     public function epimedium()

@@ -221,14 +221,14 @@ h6, .h6 {
 }
 .branding__logo img, .maintenance-header img {
   /*max-width: 160px;*/
-  margin: 10px 0;
+  /*margin: 10px 0;*/
 }
-/*.branding__logo img {
-  padding-top: 20px;
+.branding__logo img {
+  padding-top: 10px;
   padding-right: 0px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   padding-left: 0px;
-}*/
+}
 .dark-logo {
   display: none;
 }
@@ -1429,13 +1429,13 @@ h6, .h6 {
 
 /* === 2.1. HEADER === */
 .header-top {
-  padding-top: 0px;
+  padding-top: 30px;
   padding-bottom: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
   color: #aaa;
   z-index: 99999;
-  border-bottom: 1px solid #eee;
+  /*border-bottom: 1px solid #eee;*/
 }
 .header-top, .header-top a {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
@@ -1504,7 +1504,7 @@ h6, .h6 {
   font-size: 16px;
 }
 .header-desktop {
-  height: 80px;
+  min-height: 60px;
   position: absolute;
   top: 0;
   left: 0;
@@ -1573,7 +1573,7 @@ h6, .h6 {
   flex-grow: 1;
 }
 .headroom.headroom--not-top {
-  height: 79px;
+  min-height: 60px;
   padding-top: 0px;
   padding-bottom: 0px;
   background: rgba( 255, 255, 255, 1 );
@@ -7012,7 +7012,7 @@ body[data-row-skin=dark] .page-open-main-menu i {
   display: -ms-flexbox;
   display: flex;
   padding: 0 30px;
-  height: 85px;
+  height: 60px;
   background: #fff;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -7026,7 +7026,7 @@ body[data-row-skin=dark] .page-open-main-menu i {
   flex-grow: 1;
 }
 .page-mobile-menu-logo img {
-  width: 60px;
+  /*width: 60px;*/
 }
 .page-close-mobile-menu {
   display: -webkit-box;
@@ -8120,7 +8120,7 @@ table.shop-cart tbody tr td.actions input {
     width: 108px;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
   #main {
     margin-bottom: 0 !important;
   }
