@@ -100,7 +100,7 @@
               </div>
             </div>
             <div class="product-info">
-              <h2 class="product-title">Коллаген в пластмассовой таре<br> 3 кг.</h2>
+              <h2 class="product-title">Протеин в пластмассовой таре<br> 3 кг.</h2>
               <span class="price">22000〒</span>
             </div>
           </div>
@@ -117,7 +117,7 @@
               </div>
             </div>
             <div class="product-info">
-              <h2 class="product-title">Коллаген в пластмассовой таре<br> 1 кг.</h2>
+              <h2 class="product-title">Протеин в пластмассовой таре<br> 1 кг.</h2>
               <span class="price">9500〒</span>
             </div>
           </div>
@@ -134,7 +134,7 @@
               </div>
             </div>
             <div class="product-info">
-              <h2 class="product-title">Коллаген в зип пакете 1 кг.</h2>
+              <h2 class="product-title">Протеин в зип пакете 1 кг.</h2>
               <span class="price">8500〒</span>
             </div>
           </div>
@@ -181,15 +181,15 @@
   <!-- WHY YOU DO YOU NEED COLLAGEN? -->
   <section class="section pt-8 pb-8 bg-black">
     <div class="container">
-      <h2 class="text-uppercase fz-50- text-center mb-5 primary-color">Чем полезен коллаген?</h2>
+      <h2 class="text-uppercase fz-50- text-center mb-5 primary-color">Чем полезен Протеин?</h2>
       <div class="row">
         <div class="col-sm-6 col-lg-4">
           <div class="box-icon style-1 text-center">
             <div class="content-wrap">
               <div class="image">
-                <img class="rounded" src="/img/collagen/muscules-org.jpg" alt="Коллаген помогает эффективно набрать мышечную массу">
+                <img class="rounded" src="/img/collagen/muscules-org.jpg" alt="Протеин помогает эффективно набрать мышечную массу">
               </div>
-              <h4 class="white"><i class="primary-color fa fa-check"></i> Коллаген помогает эффективно набрать мышечную массу и укрепить суставы</h4>
+              <h4 class="white"><i class="primary-color fa fa-check"></i> Протеин помогает эффективно набрать мышечную массу и укрепить суставы</h4>
             </div>
           </div>
         </div>
@@ -214,8 +214,8 @@
           </div>
         </div>
         <div class="offset-sm-3 col-sm-6 col-lg-6 text-center">
-          <!-- <p class="white">Коллаген представляет собой основной белок, который обеспечивает прочность хрящей, связывающих ткани и стенки сосудов. Благодаря содержанию в своем складе специальных аминокислот ― оксилизина и оксипролина ― его невозможно заменить любым другим белком. Как показали исследования американских медиков, регулярный и своевременный прием коллагена может помочь остановить развитие даже таких болезней, как артрит и целлюлит.</p> -->
-          <p class="white">БАД к пище "Коллаген" представляет собой полноценный животный белок, содержайщий полный набор незаменимых аминокислот. Обогащение питания гидролизатом коллагена помогает восстановить его баланс в организме, который может нарушаться с возрастом а также при повышенных физических нагрузках. Препараты, созданные на основе гидролизованного коллагена, восстанавливают соединительные ткани при значительных физических нагрузках, повышают иммунитет, замедляют старение кожи.</p>
+          <!-- <p class="white">Протеин представляет собой основной белок, который обеспечивает прочность хрящей, связывающих ткани и стенки сосудов. Благодаря содержанию в своем складе специальных аминокислот ― оксилизина и оксипролина ― его невозможно заменить любым другим белком. Как показали исследования американских медиков, регулярный и своевременный прием Протеина может помочь остановить развитие даже таких болезней, как артрит и целлюлит.</p> -->
+          <p class="white">БАД к пище "Протеин" представляет собой полноценный животный белок, содержайщий полный набор незаменимых аминокислот. Обогащение питания гидролизатом коллагена помогает восстановить его баланс в организме, который может нарушаться с возрастом а также при повышенных физических нагрузках. Препараты, созданные на основе гидролизованного коллагена, восстанавливают соединительные ткани при значительных физических нагрузках, повышают иммунитет, замедляют старение кожи.</p>
           <!-- <p class="white">Многочисленные исследования неоднократно показали эффективность коллагена. Среди наиболее значимых работ можно выделить экспериментальные исследования доктора Д. Пирсона, исследовательской группы К. Вея (в частности – их фундаментальная резюмирующая работа «Идентификация пищевых продуктов-производных коллагеновых пептидов в крови человека после перорального приема гидролизата коллагена»), а также труды М. Барнетта и Х. Матсумото.</p> -->
         </div>
         <!-- <div class="col-sm-6 col-lg-4">
@@ -284,17 +284,17 @@
     <div class="container">
       <div class="row pt-8 pb-8">
         <div class="col-sm-12 col-lg-8">
-          <h2 class="text-uppercase fz-50- primary-color"> Для кого нужен коллаген?</h2>
+          <h2 class="text-uppercase fz-50- primary-color"> Для кого нужен протеин?</h2>
           <ul class="list-who-needs">
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Говяжий коллаген предназначен в первую очередь для регулировки режима питания <span class="primary-color">спортсменов</span> при сильных нагрузках на связки и суставы, при которых наблюдается ускорение процессов обмена веществ</li>
+            <li><span class="primary-color"><i class="fa fa-check"></i></span> Говяжий протеин предназначен в первую очередь для регулировки режима питания <span class="primary-color">спортсменов</span> при сильных нагрузках на связки и суставы, при которых наблюдается ускорение процессов обмена веществ</li>
             <li><span class="primary-color"><i class="fa fa-check"></i></span> Способствует естественному сбросу лишнего веса при дозеровке от 25 гр. с небольшой физ. нагрузкой</li>
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Коллаген будет полезен людям получившим травму или перенесшие операцию в период реабилитации</li>
+            <li><span class="primary-color"><i class="fa fa-check"></i></span> Протеин будет полезен людям получившим травму или перенесшие операцию в период реабилитации</li>
             <li><span class="primary-color"><i class="fa fa-check"></i></span> Для людей занимающихся тяжелым физическим трудом, чтобы заряжаться <span class="primary-color">силой и энергией</span></li>
             <li><span class="primary-color"><i class="fa fa-check"></i></span> Для тех кто хочет сохранить <span class="primary-color">молодость</span> и избавиться от дряблости кожи</li>
             <li><span class="primary-color"><i class="fa fa-check"></i></span> Для <span class="primary-color">беременных и кормящих</span>, для полноценного питания организма</li>
             <!-- <li><span class="primary-color"><i class="fa fa-check"></i></span> Для постящихся которые сильно истощаются от голода</li> -->
             <!-- <li><span class="primary-color"><i class="fa fa-check"></i></span> Для тех чей ежедневный рацион питания не может удовлетворить рекомендуемую суточную норму белка</li> -->
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Если ваш <span class="primary-color">ребенок</span> занимается спортом или ненормированно питается Наш коллаген лучшее решения так как производится из натурального говяжьего белка и в составе имеет все необходимые витамины для укрепления роста мышц и суставов</li>
+            <li><span class="primary-color"><i class="fa fa-check"></i></span> Если ваш <span class="primary-color">ребенок</span> занимается спортом или ненормированно питается Наш протеин лучшее решения так как производится из натурального говяжьего белка и в составе имеет все необходимые витамины для укрепления роста мышц и суставов</li>
           </ul>
         </div>
         <div class="col-sm-12 col-lg-4">
@@ -416,7 +416,7 @@
   </section>
 
   <!-- WHY IS IT PROFITABLE TO BUY FROM US? -->
-  <section class="section bg-black pt-8 pb-8">
+  <!-- <section class="section bg-black pt-8 pb-8">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-lg-12">
@@ -474,68 +474,102 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- FAQ -->
   <section class="section pt-10 pb-6">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-6">
-          <h3 class="text-uppercase heading fw-normal fz-40 mb-8"> Часто задаваемые вопросы</h3>
+          <h3 class="text-uppercase heading fw-normal fz-40 mb-2"> Часто задаваемые вопросы</h3>
           <div id="accordion" class="accordion">
             <div class="accordion-section">
               <div class="accordion-header" id="headingZero">
                 <h6 class="accordion-title">
-                  <div data-toggle="collapse" data-target="#collapseZero" aria-expanded="true" aria-controls="collapseZero">Какие есть вкусы?</div>
+                  <div data-toggle="collapse" data-target="#collapseZero" aria-expanded="true" aria-controls="collapseZero">На сколько хватает 1 кг?</div>
                   <span class="accordion-icon"></span>
                 </h6>
               </div>
               <div id="collapseZero" class="collapse show" aria-labelledby="headingZero" data-parent="#accordion">
-                <div class="accordion-content">
-                  <ul>
-                    <li>Ванильный</li>
-                    <li>Шоколадный</li>
-                    <li>Банановый</li>
-                    <li>Клубничный</li>
-                  </ul>
-                </div>
+                <div class="accordion-content">В одном килограмме протеина на 40 порций по 25 гр. Если вы будете принимать по 2 раза в день вам хватит на 20 дней. Соответственно в 3 кг 120 порции.</div>
               </div>
             </div>
             <div class="accordion-section">
               <div class="accordion-header" id="headingOne">
                 <h6 class="accordion-title">
-                  <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Продолжительность курса приема</div>
+                  <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Сколько раз в день надо принимать?</div>
                   <span class="accordion-icon"></span>
                 </h6>
               </div>
               <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="accordion-content">Продолжительность курса составляет не менее 3 месяцев.
-                Кожа. Ногти. Волосы. Ожоги. Восстановление после операций. Продолжительность курса должна быть такова, чтобы клетки этих тканей успели смениться новыми.
-                Хрящевая ткань одна из самых медленно возобновляемых. Это объясняется тем, что хрящи не имеют прямого капиллярного питания из кровотока. Хрящи получают питательные вещества только посредством осмоса и диффузии при омовения его синовиальной жидкостью. Омовения происходит при движении сустава, поэтому для нормальной регенерации хрящей и восстановление всего сустава обязательно нужна умеренная физическая активность.
-                Если вы принимаете коллаген вместе с препаратами глюкозамина / хондроитина, в приеме последних необходимо делать перерыв после каждых 2-3 месяцев, но в приеме коллагена перерыва делать не рекомендуется.
+                <div class="accordion-content">
+                  Давайте рассмотрим два варианта:<br>
+                  1) нужно набрать мышечную массу.<br>
+                  В сутки необходимо употреблять 2 г белка на каждый килограмм веса. Если вы весите 60 кг нужно 120 г белка за день. Необходимо будет примерно посчитать сколько белка вы употребляете за день с едой.
+                  <br>Яйца *3шт  = 18гр<br>
+                  Рис 300гр  = 21гр<br>
+                  Говядина 100гр = 19гр<br>
+                  Творог 100гр = 15гр<br>
+                  Итак вы выяснили за день вы употребляйте 73 г белка. Остальные 50 г нужно будет восполнить протеином это два раза по 25 гр в день.
+                  <br>2) для сжигания жира, повышение иммунитета, укрепление суставов или просто для соблюдения суточной нормы белка из-за недостаточности белка в дневном рационе и прочие цели.
+                  в данном случае вам нужно будет употреблять 1 г белка на каждый килограмм веса ежедневно. Нужно посчитать аналогично первому варианту и определить для себя приемы протеина.
 
-                Более эффективным будет более длительный курс приема только коллагена, чем более короткий курс приема коллагена вместе с препаратами хондроитина и глюкозамина.
-
-                Длительность курса приема коллагена бывает от трех месяцев до нескольких лет, а в тяжелых случаях и всю жизнь, курсами. Восстановление хрящевых тканей, к сожалению, требует долгого времени.</div>
+                </div>
               </div>
             </div>
             <div class="accordion-section">
               <div class="accordion-header" id="headingTwo">
                 <h6 class="accordion-title">
-                  <div class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Рекомендации по питанию</div>
+                  <div class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">За сколько времени можно получить результат?</div>
                   <span class="accordion-icon"></span>
                 </h6>
               </div>
               <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="accordion-content">Оптимальная дозировка по коллагена составляет примерно 0,2 г / кг тела / сутки. Рассчитывается как 25- 30% от общего количества употребляемого человеком в сутки белка. Которая, в свою очередь составляет 0.8-1.5 г / кг тела / сут.
-
-                А для спортсменов, людей, занимающихся физическим трудом или используют диеты для уменьшения жировой прослойки, количество употребляемого с пищей белка несколько выше: 1.5-2 г / кг тела / сут.
-
-                Если организм не будет получать необходимое ему количество аминокислот в виде употребляемого с пищей белка, и еще хуже, когда это происходит хронически, то употребляемый коллаген может быть использован организмом не для восстановления ваших проблемных мест — суставов или кожи, а на выполнение более важных для организма процессов, для которых ощущается нехватка именно этих необходимых элементов.
-
-                Поэтому, полноценное питание — сверхважная составляющая процесса питания и восстановления коллагеновых тканей организма.
-
-                Кроме белка, нужно стараться обеспечить в рационе питания достаточное количество витаминов, ( в особенности, витамина С), минералов (в особенности. железа), Омега-3 и пить достаточно жидкости.</div>
+                <div class="accordion-content">Результат заметен примерно через 10 дней. Но многое зависит от комплекса мер которые вы предпринимаете. Если цель набор массы например тогда зависит от того как вы питаетесь, тренируетесь и спите.</div>
+              </div>
+            </div>
+            <div class="accordion-section">
+              <div class="accordion-header" id="headingThree">
+                <h6 class="accordion-title">
+                  <div class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Можно ли пить протеин без тренировок. </div>
+                  <span class="accordion-icon"></span>
+                </h6>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="accordion-content">Да можно и нужно. Для правильного функционирования организма человек должен употреблять с едой 1 г белка на каждый килограмм веса, в независимости тренируется он или нет. В связи с разными проблемами здоровья врачи часто назначают белок. Протеин пьют разных целях.</div>
+              </div>
+            </div>
+            <div class="accordion-section">
+              <div class="accordion-header" id="headingFour">
+                <h6 class="accordion-title">
+                  <div class="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Можно ли набрать массу без тренировок употребляя протеин.</div>
+                  <span class="accordion-icon"></span>
+                </h6>
+              </div>
+              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                <div class="accordion-content">Да массу можно набрать, но максимальная эффективность достигается при принятии всех мер, какой хорошо питаться, принимать протеин, тренироваться и вовремя спать.</div>
+              </div>
+            </div>
+            <div class="accordion-section">
+              <div class="accordion-header" id="headingFive">
+                <h6 class="accordion-title">
+                  <div class="collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Вреден ли протеин для здоровья?</div>
+                  <span class="accordion-icon"></span>
+                </h6>
+              </div>
+              <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                <div class="accordion-content">Уместно сказать что наш протеин вреден ровно настолько, насколько и мясо. Некоторые люди ошибочно полагает, что протеин это что-то химическое. Протеин в переводе с английского означает белок. То есть это тот самый необходимый строительный материал нашего организма. Порой по различным причинам бывает сложно получать нужное количество белка от еды. Но как правило эту недостачу замечают люди у которых организм дает сбой или люди которые используют свое тело в полной мере - спортсмены. Многие производители для увеличения эффекта от некачественного продукта, добавляют разные добавки которые вредят репродуктивной системе или в целом здоровью.</div>
+              </div>
+            </div>
+            <div class="accordion-section">
+              <div class="accordion-header" id="headingSix">
+                <h6 class="accordion-title">
+                  <div class="collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Чем отличается ваш протеин от других?</div>
+                  <span class="accordion-icon"></span>
+                </h6>
+              </div>
+              <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                <div class="accordion-content">На рынке есть очень большое количество производители спортивного питания. Все они зарубежные компании. Во многом чтобы удешевить стоимость протеина используются разные бюджетные методы, протеин делается из сыворотки или яичного белка. Тут нужно просто задуматься, чтобы нарастить мясо, то есть мышцы эффективнее есть мясо или яйцо? В силу того что в нашей стране пока мясо стоит не так дорого мы предоставляем качественный продукт за доступную цену. Мы используем современное немецкое оборудование.</div>
               </div>
             </div>
           </div>
