@@ -42,6 +42,8 @@ Theme Name: Moody
 
 .ts-1 { text-shadow: 0px 0px 6px #000; }
 
+.bb-1 { border-bottom: 1px solid #eee;  }
+
 /* Font weight */
 .fw-lightest { font-weight: 100 !important; }
 

@@ -72,27 +72,29 @@
 				}
 			});
 		}
-		
+
 		//rotate box background image
 		$('.rotate-box.style-1').each(function() {
 			if($(this).find(".front").attr("data-image") != "") {
 				$(this).find(".front").css('background-image', 'url("' + $(this).find(".front").attr("data-image") + '")');	
 			}
 		});
-		
+
 		//Owl Carousel
 		OwlCarousel();
-		
+
 		//Headroom Menu
-		if($(".left-menu-content").length == 0) {
-			$(".header").headroom();
+		if ($(window).width() <= 768) {
+			if($(".left-menu-content").length == 0) {
+				$(".header").headroom();
+			}
 		}
 
 		//toggle mini cart
 		$('#mini-cart').on('click', function() {
 			$(this).toggleClass("open");
 		});
-		
+
 		//search button
 		$('.btn-open-popup-search').on('click',function(){
 			$(this).toggleClass("show-search");

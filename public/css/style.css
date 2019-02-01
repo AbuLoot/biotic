@@ -149,7 +149,7 @@ input:focus, textarea:focus {
   border-bottom: 1px solid #1a237e;
 }
 input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=range], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select {
-  padding: 3px 0;
+  padding: 3px 20px;
   height: 57px;
   -webkit-transition: all .1s cubic-bezier(.645,.045,.355,1);
   transition: all .1s cubic-bezier(.645,.045,.355,1);
@@ -1238,7 +1238,7 @@ h6, .h6 {
 .widget_search .search-submit {
   position: absolute;
   top: 50%;
-  right: 0;
+  right: 20px;
   padding: 0;
   width: 16px;
   height: 16px;
@@ -1429,7 +1429,7 @@ h6, .h6 {
 
 /* === 2.1. HEADER === */
 .header-top {
-  padding-top: 30px;
+  padding-top: 0px;
   padding-bottom: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -1460,7 +1460,7 @@ h6, .h6 {
   display: inline-block;
   height: 40px;
   line-height: 40px;
-  padding: 0 15px;
+  padding: 0 15px 0 0;
   border-left: 1px solid #eee;
   margin-right: 0;
 }
@@ -7011,7 +7011,7 @@ body[data-row-skin=dark] .page-open-main-menu i {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 30px;
+  padding: 0 20px;
   height: 60px;
   background: #fff;
   -webkit-box-align: center;
@@ -7334,7 +7334,7 @@ body[data-row-skin=dark] .page-open-main-menu i {
 .product-item .product-thumbnail {
   position: relative;
   overflow: hidden;
-  margin-bottom: 26px;
+  margin-bottom: 10px;
   padding-top: 25px;
 }
 .product-item .product-thumbnail > a > img {
@@ -7385,7 +7385,8 @@ body[data-row-skin=dark] .page-open-main-menu i {
   font-weight: bold;
 }
 .product-item .product-thumbnail .actions .action-add-to-cart {
-  width: calc(100% - 55px);
+  width: 100%;
+  /*width: calc(100% - 55px);*/
 }
 .product-item .product-thumbnail .actions .button-add-to-cart {
   position: relative;
@@ -8297,8 +8298,8 @@ table.shop-cart tbody tr td.actions input {
     max-width: 100%;
   }
   .header-desktop .container-fluid {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .header-desktop.style-1 .header-right,
   .header-desktop.style-3 .header-right,
