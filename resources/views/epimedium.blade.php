@@ -32,8 +32,8 @@
           </div>
           <div class="col-sm-4">
             <div class="phones">
-              <a onclick="fbq('track', 'Contact');" href="tel:+77078875631" target="_top" data-attr="phone"><i class="fa fa-phone"></i> 8 (775) 955 71 71</a>
-              <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77078875631" target="_top" data-attr="whatsapp_call"><i class="fa fa-whatsapp"></i> 8 (775) 955 71 71</a>
+              <a onclick="fbq('track', 'Contact');" href="tel:+77078875631" target="_top" data-attr="phone"><i class="fa fa-phone"></i> 8 (707) 887 5631</a>
+              <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77078875631" target="_top" data-attr="whatsapp_call"><i class="fa fa-whatsapp"></i> 8 (707) 887 5631</a>
             </div>
           </div>
         </div>
