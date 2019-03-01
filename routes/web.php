@@ -1,9 +1,9 @@
 <?php
 
-Auth::routes();
+// Auth::routes();
 
 // Authentication routes...
-Route::get('login-or-reg', 'Auth\AuthCustomController@getLogin');
+Route::get('login', 'Auth\AuthCustomController@getLogin');
 // Route::post('login', 'Auth\AuthCustomController@postLogin');
 Route::get('logout', 'Auth\AuthCustomController@getLogout');
 
@@ -64,6 +64,18 @@ Route::post('filter-products', 'InputController@filterProducts');
 Route::post('send-app', 'InputController@sendApp');
 
 
+// Shop
+Route::get('/shop', 'ShopController@index');
+Route::get('catalog', 'ShopController@catalog');
+Route::get('cart', 'ShopController@cart');
+Route::get('catalog/all/{category}', 'ShopController@allCategoryProducts');
+Route::get('catalog/{category}', 'ShopController@categoryProducts');
+Route::get('goods/{id}-{product}', 'ShopController@product');
+Route::get('detail', 'ShopController@detail');
+Route::post('comment-product', 'ShopController@saveComment');
+Route::get('catalog/brand/{company}', 'ShopController@brandProducts');
+
+
 // Basket Actions
 Route::get('add-to-basket/{id}', 'BasketController@addToBasket');
 Route::get('remove-from-basket/{id}', 'BasketController@removeFromBasket');
@@ -72,26 +84,25 @@ Route::get('basket', 'BasketController@basket');
 Route::get('basket/{id}', 'BasketController@destroy');
 Route::post('store-order', 'BasketController@storeOrder');
 
-
 // Favorite Actions
 Route::get('favorites', 'FavoriteController@getFavorites');
 Route::get('toggle-favorite/{id}', 'FavoriteController@toggleFavorite');
 
 
-// Pages
-Route::get('/', 'PageController@index');
-Route::get('shop', 'PageController@shop');
-Route::get('/epimediumnaya-pasta', 'PageController@epimedium');
-Route::get('/protein', 'PageController@collagen');
-Route::get('catalog', 'PageController@catalog');
-Route::get('catalog/all/{category}', 'PageController@allCategoryProducts');
-Route::get('catalog/{category}', 'PageController@categoryProducts');
-Route::get('goods/{id}-{product}', 'PageController@product');
-Route::post('comment-product', 'PageController@saveComment');
-Route::get('catalog/brand/{company}', 'PageController@brandProducts');
+// Promo
+Route::get('/', 'PromoController@index');
+Route::get('/epimediumnaya-pasta', 'PromoController@epimedium');
+Route::get('/protein', 'PromoController@collagen');
+
+
+// News
 Route::get('news', 'NewsController@news');
 Route::get('news-category/{page}', 'NewsController@newsCategory');
 Route::get('news/{page}', 'NewsController@newsSingle');
 Route::post('comment-news', 'NewsController@saveComment');
-Route::get('kontakty', 'PageController@contacts');
+
+
+// Pages
+Route::get('contacts', 'PageController@contacts');
 Route::get('{page}', 'PageController@page');
+

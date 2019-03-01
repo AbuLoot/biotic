@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layout-promo')
 
 @section('title_description', $project->title)
 
@@ -9,7 +9,7 @@
 @endsection
 
 @section('content')
-  <header class="bg-header mt-5 pt-3">
+  <header class="bg-header pt-3">
     <div class="section">
       <div class="container">
         <div class="row">
@@ -34,11 +34,11 @@
                 <p class="primary-color- white fz-28 lh-28 ls-1 ts-1">Протеин полученный из натурального говяжьего белка, для набора мышечной массы, для укрепления суставов и связок.</p>
               </div>
             </div>
-            <h3 class="heading primary-color header-price fz-60 "> 9500〒</h3>
+            <!-- <h3 class="heading primary-color header-price fz-60 "> 9500〒</h3> -->
           </div>
           <div class="col-sm-5">
-            <!-- <img src="/img/collagen/banka1.png" class="banka1"> -->
-            <img src="/img/collagen/collagen-products.png" class="float-sm-right">
+            <!-- <img src="/img/promo/collagen/banka1.png" class="banka1"> -->
+            <img src="/img/promo/collagen/collagen-products.png" class="float-sm-right">
           </div>
         </div>
       </div>
@@ -92,7 +92,7 @@
           <div class="product-item">
             <div class="product-thumbnail">
               <a href="#">
-                <img class="img-responsive" src="/img/collagen/banka-3kg.png" alt="" />
+                <img class="img-responsive" src="/img/promo/collagen/banka-3kg.png" alt="" />
               </a>
               <!-- <div class="actions"> <div class="action action-view-detail"> </div> <div class="action action-add-to-cart"> <a href="#" class="button-add-to-cart" data-toggle="modal" data-target="#appModal">Заказать</a> </div> </div> -->
               <div class="text-center">
@@ -101,7 +101,7 @@
             </div>
             <div class="product-info">
               <h2 class="product-title">Протеин в пластмассовой таре<br> 3 кг.</h2>
-              <span class="price">22000〒</span>
+              <span class="price">23000〒</span>
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@
           <div class="product-item">
             <div class="product-thumbnail">
               <a href="#">
-                <img class="img-responsive" src="/img/collagen/banka-1kg.png" alt="" />
+                <img class="img-responsive" src="/img/promo/collagen/banka-1kg.png" alt="" />
               </a>
               <!-- <div class="actions"> <div class="action action-view-detail"> </div> <div class="action action-add-to-cart"> <a href="#" class="button-add-to-cart" data-toggle="modal" data-target="#appModal">Заказать</a> </div> </div> -->
               <div class="text-center">
@@ -126,7 +126,7 @@
           <div class="product-item">
             <div class="product-thumbnail">
               <a href="#">
-                <img class="img-responsive" src="/img/collagen/paper-package.png" alt="" />
+                <img class="img-responsive" src="/img/promo/collagen/paper-package.png" alt="" />
               </a>
               <!-- <div class="actions"> <div class="action action-view-detail"> </div> <div class="action action-add-to-cart"> <a href="#" class="button-add-to-cart" data-toggle="modal" data-target="#appModal">Заказать</a> </div> </div> -->
               <div class="text-center">
@@ -143,7 +143,7 @@
           <div class="product-item">
             <div class="product-thumbnail">
               <a href="#">
-                <img class="img-responsive" src="/img/collagen/capsule.png" alt="" />
+                <img class="img-responsive" src="/img/promo/collagen/capsule.png" alt="" />
               </a>
               <!-- <div class="actions"> <div class="action action-view-detail"> </div> <div class="action action-add-to-cart"> <a href="#" class="button-add-to-cart" data-toggle="modal" data-target="#appModal">Заказать</a> </div> </div> -->
               <div class="text-center">
@@ -165,7 +165,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <img src="/img/collagen/products.jpg"  class="img-responsive rounded" alt="" />
+          <img src="/img/promo/collagen/products.jpg"  class="img-responsive rounded" alt="" />
         </div>
         <div class="col-sm-5"> -->
           <!-- <h2 class="mt-5 fz-60">О компании</h2> -->
@@ -187,7 +187,7 @@
           <div class="box-icon style-1 text-center">
             <div class="content-wrap">
               <div class="image">
-                <img class="rounded" src="/img/collagen/muscules-org.jpg" alt="Протеин помогает эффективно набрать мышечную массу">
+                <img class="rounded" src="/img/promo/collagen/muscules-org.jpg" alt="Протеин помогает эффективно набрать мышечную массу">
               </div>
               <h4 class="white"><i class="primary-color fa fa-check"></i> Протеин помогает эффективно набрать мышечную массу и укрепить суставы</h4>
             </div>
@@ -197,7 +197,7 @@
           <div class="box-icon style-1 text-center">
             <div class="content-wrap">
               <div class="image">
-                <img class="rounded" src="/img/collagen/orthopaedics1-org.jpg" alt="Восстанавливает целостность структуры хрящевой ткани и тканей сухожилий">
+                <img class="rounded" src="/img/promo/collagen/orthopaedics1-org.jpg" alt="Восстанавливает целостность структуры хрящевой ткани и тканей сухожилий">
               </div>
               <h4 class="white"><i class="primary-color fa fa-check"></i> Восстанавливает целостность структуры хрящевой ткани и тканей сухожилий</h4>
             </div>
@@ -207,7 +207,7 @@
           <div class="box-icon style-1 text-center">
             <div class="content-wrap">
               <div class="image">
-                <img class="rounded" src="/img/collagen/shoulder_impingement2-org.jpg" alt="Его употребление приводит к повышению прочности и износостойкости костей">
+                <img class="rounded" src="/img/promo/collagen/shoulder_impingement2-org.jpg" alt="Его употребление приводит к повышению прочности и износостойкости костей">
               </div>
               <h4 class="white"><i class="primary-color fa fa-check"></i> Его употребление приводит к повышению прочности и износостойкости костей</h4>
             </div>
@@ -242,35 +242,35 @@
         <div class="col-lg-9 mx-auto">
           <div class="row">
             <div class="col-6 col-sm-4">
-              <a target="_blank" href="/img/sertificates-collagen/Svidetelstvo-sport-pit.jpg">
-                <img class="img-responsive" src="/img/sertificates-collagen/Svidetelstvo-sport-pit-mini.jpg">
+              <a target="_blank" href="/img/promo/collagen/sertificates/Svidetelstvo-sport-pit.jpg">
+                <img class="img-responsive" src="/img/promo/collagen/sertificates/Svidetelstvo-sport-pit-mini.jpg">
               </a>
             </div>
             <div class="col-6 col-sm-4">
-              <a target="_blank" href="/img/sertificates-collagen/Svidetelstvo-sport-pit-1.jpg">
-                <img class="img-responsive" src="/img/sertificates-collagen/Svidetelstvo-sport-pit-1-mini.jpg"><br><br>
+              <a target="_blank" href="/img/promo/collagen/sertificates/Svidetelstvo-sport-pit-1.jpg">
+                <img class="img-responsive" src="/img/promo/collagen/sertificates/Svidetelstvo-sport-pit-1-mini.jpg"><br><br>
               </a>
             </div>
             <div class="col-6 col-sm-4">
-              <a target="_blank" href="/img/sertificates-collagen/Декларация-о-соответствии-товара.jpg">
-                <img class="img-responsive" src="/img/sertificates-collagen/Декларация-о-соответствии-товара-mini.jpg"><br>
+              <a target="_blank" href="/img/promo/collagen/sertificates/Декларация-о-соответствии-товара.jpg">
+                <img class="img-responsive" src="/img/promo/collagen/sertificates/Декларация-о-соответствии-товара-mini.jpg"><br>
               </a>
             </div>
             <div class="col-6 col-sm-4">
-              <a target="_blank" href="/img/sertificates-collagen/Сертификат-качества.jpg">
-                <img class="img-responsive" src="/img/sertificates-collagen/Сертификат-качества-mini.jpg">
+              <a target="_blank" href="/img/promo/collagen/sertificates/Сертификат-качества.jpg">
+                <img class="img-responsive" src="/img/promo/collagen/sertificates/Сертификат-качества-mini.jpg">
               </a><br>
             </div>
             <!-- </div>
             <div class="row"> -->
             <div class="col-6 col-sm-4">
-              <a target="_blank" href="/img/sertificates-collagen/Сертификат-Халал.jpg">
-                <img class="img-responsive" src="/img/sertificates-collagen/Сертификат-Халал-mini.jpg">
+              <a target="_blank" href="/img/promo/collagen/sertificates/Сертификат-Халал.jpg">
+                <img class="img-responsive" src="/img/promo/collagen/sertificates/Сертификат-Халал-mini.jpg">
               </a>
             </div>
             <div class="col-6 col-sm-4">
-              <a target="_blank" href="/img/sertificates-collagen/Сертификат-Халал-на-Анг.яз.-2017.jpg">
-                <img class="img-responsive" src="/img/sertificates-collagen/Сертификат-Халал-на-Анг.яз.-2017-mini.jpg">
+              <a target="_blank" href="/img/promo/collagen/sertificates/Сертификат-Халал-на-Анг.яз.-2017.jpg">
+                <img class="img-responsive" src="/img/promo/collagen/sertificates/Сертификат-Халал-на-Анг.яз.-2017-mini.jpg">
               </a>
             </div>
           </div>
@@ -298,7 +298,7 @@
           </ul>
         </div>
         <div class="col-sm-12 col-lg-4">
-          <img class="d-block mt-10 mx-auto" src="/img/collagen/banka-3kg.png" alt="">
+          <img class="d-block mt-10 mx-auto" src="/img/promo/collagen/banka-3kg.png" alt="">
           <div class="text-center">
             <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Заказать</a>
           </div>
@@ -311,7 +311,7 @@
     <div class="container">
       <div class="row pt-8 pb-8">
         <div class="order-xs-2 col-sm-12 col-lg-6">
-          <img class="d-block mt-5 mx-auto" src="/img/collagen/collagen-products.png" alt="">
+          <img class="d-block mt-5 mx-auto" src="/img/promo/collagen/collagen-products.png" alt="">
           <div class="text-center">
             <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Заказать</a>
           </div>
@@ -651,7 +651,7 @@
           </div>
           <div class="col-lg-6">
             <br>
-            <img src="/img/collagen/collagen-products.png" class="d-block mx-auto">
+            <img src="/img/promo/collagen/collagen-products.png" class="d-block mx-auto">
           </div>
         </div>
       </div>

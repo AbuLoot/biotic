@@ -1,3 +1,20 @@
 .main-logo {
 	max-width: 140px;
 }
+@media (max-width: 479px) {
+	.custom_search .search-field {
+	  padding-left: 20px;
+	  /*padding-right: 20px;*/
+	}
+	.custom_search .search-submit {
+	  right: 20px;
+	}
+  .order-xs-1 {
+    -ms-flex-order:1;
+    order:1
+  }
+  .order-xs-2 {
+    -ms-flex-order:2;
+    order:2
+  }
+}

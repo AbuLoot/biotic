@@ -46,7 +46,7 @@
   color: #fff;
 }
 .presentation-epimedium {
-  background-image: url(../img/epimedium-2000x1600.jpg);
+  background-image: url(../img/promo/epimedium-2000x1600.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -54,7 +54,7 @@
   padding: 50px;
 }
 .presentation-collagen {
-  background-image: url(../img/collagen-2000x1600.jpg);
+  background-image: url(../img/promo/collagen-2000x1600.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -63,12 +63,12 @@
 }
 @media (max-width: 479px) {
   .presentation-epimedium {
-    background-image: url(../img/epimedium-mobile.png);
+    background-image: url(../img/promo/epimedium-mobile.png);
     /*background-size: 240%;*/
     padding: 50px 15px;
   }
   .presentation-collagen {
-    background-image: url(../img/collagen-mobile.png);
+    background-image: url(../img/promo/collagen-mobile.png);
     /*background-size: 240%;*/
     /*background-position: 42% center;*/
     padding: 50px 15px;

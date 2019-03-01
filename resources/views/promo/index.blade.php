@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layout-promo')
 
 @section('title_description', 'Biotic - Натуральные продукты')
 
@@ -11,7 +11,7 @@
 
 
 @section('content')
-  <section class="container-fluid mt-5">
+  <section class="container-fluid">
     <div class="row">
       <!-- <a href="/epimediumnaya-pasta"> -->
         <div class="col-md-6 presentation-epimedium pt-7">

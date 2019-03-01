@@ -5,7 +5,7 @@
 }
 .bg-header {
   background-color: #151515;
-  background-image: url(../../img/collagen/bodybuilder-new.jpg);
+  background-image: url(../../img/promo/collagen/bodybuilder-new.jpg);
   background-repeat: no-repeat;
   /*background-position:  -150px top;*/
   background-position: center;
@@ -135,7 +135,7 @@
 /* WHO NEEDS COLLAGEN */
 .bg-who-needs {
   background-color: #111;
-  background-image: url(../../img/collagen/body2.jpg);
+  background-image: url(../../img/promo/collagen/body2.jpg);
   background-repeat: no-repeat;
   background-position: center right;
 }
@@ -156,7 +156,7 @@
 /* BENEFITS OF COLLAGEN */
 .bg-benefits {
   background-color: #0e0e0e;
-  background-image: url(../../img/collagen/hall5.jpg);
+  background-image: url(../../img/promo/collagen/hall5.jpg);
   background-repeat: no-repeat;
   background-position: center left;
 }
@@ -176,7 +176,7 @@
 
 .reviews {
   background-color: #111;
-  background-image: url(../../img/collagen/body2.jpg);
+  background-image: url(../../img/promo/collagen/body2.jpg);
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -234,13 +234,13 @@
   }
   .bg-who-needs {
     background-color: #111;
-    background-image: url(../../img/collagen/body2.jpg);
+    background-image: url(../../img/promo/collagen/body2.jpg);
     background-repeat: no-repeat;
     background-position: center;
   }
   .bg-benefits {
     background-color: #0e0e0e;
-    background-image: url(../../img/collagen/hall5.jpg);
+    background-image: url(../../img/promo/collagen/hall5.jpg);
     background-repeat: no-repeat;
     background-position: right;
     text-align: right;

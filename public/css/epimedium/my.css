@@ -4,8 +4,8 @@
   }
 }
 .bg-header {
-  /*background-image: url(../../img/sidra/bg-header.png);*/
-  background-image: url(../../img/sidra/background-1900.jpg);
+  /*background-image: url(../../img/promo/sidra/bg-header.png);*/
+  background-image: url(../../img/promo/sidra/background-1900.jpg);
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .section-bg-man {
   background-color: rgb(21,14,25);
-  background-image: url(../../img/sidra/sidra-man.jpg);
+  background-image: url(../../img/promo/sidra/sidra-man.jpg);
   background-repeat: no-repeat;
   background-position: center right;
   background-size: 90%;
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   /*background: linear-gradient(90deg, rgba(21,14,25,0.8827906162464986) 0%, rgba(211, 47, 32, 0.7) 40%, rgba(218,59,0,0) 90%);*/
 }
 .section-bg-woman {
-  background-image: url(../../img/sidra/flowers.jpg);
+  background-image: url(../../img/promo/sidra/flowers.jpg);
   background-repeat: no-repeat;
   background-position: top left;
   background-size: 90%;
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   box-shadow: 0 0 30px rgba(170, 170, 170, 0.2);
 }
 .composition {
-  background-image: url(../../img/sidra/spoon-paste.png);
+  background-image: url(../../img/promo/sidra/spoon-paste.png);
   background-repeat: no-repeat;
   /*background-size: cover;*/
   background-position: top right;
@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #000;
   padding: 0px 0 50px;
   background-color: #1b6736;
-  background-image: url(../../img/sidra/background-1900.jpg);
+  background-image: url(../../img/promo/sidra/background-1900.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -242,12 +242,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding: 270px 0 0;
   }
   .section-bg-man {
-    background-image: url(../../img/sidra/sidra-man-mobile.jpg);
+    background-image: url(../../img/promo/sidra/sidra-man-mobile.jpg);
     background-position: center left;
     background-size: 150%;
   }
   .section-bg-woman {
-    background-image: url(../../img/sidra/flowers-mobile.jpg);
+    background-image: url(../../img/promo/sidra/flowers-mobile.jpg);
     background-position:  center right;
     background-size: 150%;
   }
@@ -280,12 +280,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-top: 30px;
   }
   .section-bg-man {
-    background-image: url(../../img/sidra/sidra-man-mobile.jpg);
+    background-image: url(../../img/promo/sidra/sidra-man-mobile.jpg);
     background-position: center 480px;
     background-size: 150%;
   }
   .section-bg-woman {
-    background-image: url(../../img/sidra/flowers-mobile.jpg);
+    background-image: url(../../img/promo/sidra/flowers-mobile.jpg);
     background-position:  center 300px;
     background-size: 200%;
   }

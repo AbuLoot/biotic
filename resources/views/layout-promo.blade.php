@@ -40,7 +40,7 @@
   <div class="site">
     <main id="main">
 
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar fixed-top- navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
           <a  class="navbar-brand biotic-logo" href="/">
             <img src="/img/logo.png" alt="Biotic">

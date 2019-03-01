@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layout-promo')
 
 @section('title_description', $project->title)
 
@@ -9,17 +9,16 @@
   <link rel="stylesheet" href="/css/epimedium/my.css" type="text/css" media="all"/>
 @endsection
 
-
 @section('content')
-  <header class="bg-header mt-5 pt-3">
+  <header class="bg-header pt-3">
     <div class="section">
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
             <div class="branding__logo">
               <a href="/">
-                <img src="/img/sidra/logo.png" alt="Sidra" class="mw-150">
-                <!-- <img src="img/logo.png" alt="Biotic"> -->
+                <img src="/img/promo/sidra/logo.png" alt="Sidra" class="mw-150">
+                <!-- <img src="img/promo/logo.png" alt="Biotic"> -->
               </a>
               <h3 class="heading small fz-26 white ts-1"> Натуральный продукт</h3>
             </div>
@@ -45,8 +44,8 @@
             <!-- <h3 class="heading white header-price fz-60 "> <s class="fz-50 red">6900〒</s> &nbsp;</h3> -->
           </div>
           <div class="col-sm-6">
-            <img src="/img/sidra/paste-bank.png" class="paste-bank">
-            <img src="/img/sidra/made-in-turkey2.png" class="made-in-turkey">
+            <img src="/img/promo/sidra/paste-bank.png" class="paste-bank">
+            <img src="/img/promo/sidra/made-in-turkey2.png" class="made-in-turkey">
           </div>
         </div>
       </div>
@@ -58,7 +57,7 @@
     <div class="container">
       <div class="row">
         <div class="offset-sm-1 col-sm-5">
-          <img src="/img/sidra/spoon-epimedyum-text.jpg"  class="img-responsive rounded" alt="" />
+          <img src="/img/promo/sidra/spoon-epimedyum-text.jpg"  class="img-responsive rounded" alt="" />
         </div>
         <div class="col-sm-5">
           <h4 class="fw-normal mt-5 lh-30 fz-22">Компания SIDRA GIDA SANAYI TIC. LTD c торговой маркой «Sidra»  предлагает уникальный рецепт полового здоровья для мужчин и женщин, сохранившийся со времен рассвета Османской Империи.</h4>
@@ -316,7 +315,7 @@
       </div>
       <div class="row">
         <div class="col-sm-6">
-          <img src="/img/sidra/epimedium-ot-besplodiya-i-seksualnyh-disfunktsii.jpg" class="rounded"><br><br>
+          <img src="/img/promo/sidra/epimedium-ot-besplodiya-i-seksualnyh-disfunktsii.jpg" class="rounded"><br><br>
         </div>
         <div class="col-sm-6">
           <h3 class="fw-normal fz-30 mb-3">Общие полезные свойства:</h3>
@@ -450,7 +449,7 @@
           </ul>
         </div>
         <div class="col-sm-6 order-xs-1">
-          <img src="/img/sidra/paste-with-bg.jpeg" class="rounded"><br><br>
+          <img src="/img/promo/sidra/paste-with-bg.jpeg" class="rounded"><br><br>
         </div>
       </div>
     </div>
@@ -656,16 +655,16 @@
           </div>
         </div>
         <div class="col-6 col-sm-3">
-          <a href="/img/sertificates-epimedium/certificate-gmp.png"><img src="/img/sertificates-epimedium/m-certificate-gmp.png" class="img-responsive center-block"></a><br><br>
+          <a href="/img/promo/sidra/sertificates/certificate-gmp.png"><img src="/img/promo/sidra/sertificates/m-certificate-gmp.png" class="img-responsive center-block"></a><br><br>
         </div>
         <div class="col-6 col-sm-3">
-          <a href="/img/sertificates-epimedium/certificate-iso.png"><img src="/img/sertificates-epimedium/m-certificate-iso.png" class="img-responsive center-block"></a>
+          <a href="/img/promo/sidra/sertificates/certificate-iso.png"><img src="/img/promo/sidra/sertificates/m-certificate-iso.png" class="img-responsive center-block"></a>
         </div>
         <div class="col-6 col-sm-3">
-          <a href="/img/sertificates-epimedium/certificate-iso-9001.png"><img src="/img/sertificates-epimedium/m-certificate-iso-9001.png" class="img-responsive center-block"></a><br><br>
+          <a href="/img/promo/sidra/sertificates/certificate-iso-9001.png"><img src="/img/promo/sidra/sertificates/m-certificate-iso-9001.png" class="img-responsive center-block"></a><br><br>
         </div>
         <div class="col-6 col-sm-3">
-          <a href="/img/sertificates-epimedium/certificate-helal.png"><img src="/img/sertificates-epimedium/m-certificate-helal.png" class="img-responsive center-block"></a>
+          <a href="/img/promo/sidra/sertificates/certificate-helal.png"><img src="/img/promo/sidra/sertificates/m-certificate-helal.png" class="img-responsive center-block"></a>
         </div>
       </div>
     </div>
@@ -676,7 +675,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-6 order-xs-2">
-          <img src="/img/sidra/paste-bank.png" class="bank-of-paste">
+          <img src="/img/promo/sidra/paste-bank.png" class="bank-of-paste">
         </div>
         <div class="col-sm-12 col-md-4 order-xs-1">
           <h2 class="price-of-paste">Эпимедиумная паста «Sidra»</h2>
@@ -848,7 +847,7 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <img src="img/sidra/bank.png" class="d-block modal-bank-margin mx-auto">
+            <img src="img/promo/sidra/bank.png" class="d-block modal-bank-margin mx-auto">
           </div>
         </div>
       </div>
