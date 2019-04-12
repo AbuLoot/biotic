@@ -10,10 +10,9 @@ class PageController extends Controller
 {
     public function page($slug)
     {
-        // $page = Page::where('slug', $slug)->firstOrFail();
+        $page = Page::where('slug', $slug)->firstOrFail();
 
-        return view('pages.page');
-        // return view('pages.page')->with('page', $page);
+        return view('pages.page')->with('page', $page);
     }
 
     public function contacts()

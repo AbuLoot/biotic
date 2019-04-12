@@ -52,7 +52,7 @@
           </tr>
         @empty
           <tr>
-            <td colspan="8">Нет записи</td>
+            <td colspan="10">Нет записи</td>
           </tr>
         @endforelse
       </tbody>

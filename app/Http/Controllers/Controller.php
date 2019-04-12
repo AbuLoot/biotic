@@ -8,7 +8,6 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
 use App\Page;
-use App\Company;
 use App\Category;
 use App\Language;
 
@@ -19,15 +18,11 @@ class Controller extends BaseController
     public function __construct()
     {
     	$languages = Language::orderBy('sort_id')->get();
-
         $pages = Page::where('status', 1)->orderBy('sort_id')->get()->toTree();
-        $companies = Company::where('status', 1)->orderBy('sort_id')->take(5)->get();
         $categories = Category::orderBy('sort_id')->get()->toTree();
-        // $categories = Category::orderBy('sort_id')->get();
 
         view()->share([
             'pages' => $pages,
-            'companies' => $companies,
             'categories' => $categories,
             'languages' => $languages,
         ]);

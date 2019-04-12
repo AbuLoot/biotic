@@ -17,14 +17,19 @@
         <div class="row row-xs-center">
           <div class="col-md-6">
             <div class="page-title-bar-heading">
-              <h1 class="heading">Shop</h1>
+              <h1 class="heading">{{ $category->title }}</h1>
             </div>
           </div>
           <div class="col-md-6">
             <div id="page-breadcrumb" class="page-breadcrumb">
               <ul class="breadcrumb">
-                <li><a href="#">Home</a></li>
-                <li class="sub tail current">Catalog</li>
+                <li><a href="/">Главная</a></li>
+                @foreach ($category->ancestors as $ancestor)
+                  @unless($ancestor->parent_id != NULL && $ancestor->children->count() > 0)
+                    <li><a href="/catalog/{{ $ancestor->slug . '/' . $ancestor->id }}">{{ $ancestor->title }}</a></li>
+                  @endunless
+                @endforeach
+                <li class="sub tail current">{{ $category->title }}</li>
               </ul>
             </div>
           </div>
@@ -33,409 +38,204 @@
     </div>
   </section>
 
+  <?php $items = session('items'); ?>
   <section class="section pt-6 pb-6">
     <div class="container">
       <div class="row">
         <div class="col-lg-9 order-lg-last order-sm-first">
-          <div class="shop-filter row">
+          <div class="shop-filter mb-2 row">
             <div class="col-md-6">
               <form class="commerce-ordering">
-                <select name="orderby" class="orderby">
-                  <option value="">Sort by popularity</option>
-                  <option value="">Sort by average rating</option>
-                  <option value="" selected="selected">Sort by newness</option>
-                  <option value="">Sort by price: low to high</option>
-                  <option value="">Sort by price: high to low</option>
+                <select name="orderby" id="orderby">
+                  @foreach(trans('data.sort') as $key => $value)
+                    @if($key == session('action'))
+                      <option value="{{ $key }}" selected>{{ $value }}</option>
+                    @else
+                      <option value="{{ $key }}">{{ $value }}</option>
+                    @endif
+                  @endforeach
                 </select>
               </form>
             </div>
             <div class="col-md-6">
               <div class="text-right text-center-xs">
-                <p class="result-count"> Showing 1–12 of 23 results</p>
+                <!-- <p class="result-count"> Показана 1–12 из 23 результатов</p> -->
               </div>
             </div>
           </div>
-          <div class="products row">
-            <div class="col-6 col-sm-6 col-lg-4">
-              <div class="product-item shadow-sm pb-2">
-                <div class="product-thumbnail">
-                  <a href="/product">
-                    <div class="badges">
-                      <span class="sale">Sale</span>
+          <div class="products" id="products">
+            <div class="row">
+              @foreach ($products as $product)
+                <div class="col-6 col-sm-6 col-lg-4">
+                  <div class="product-item shadow-sm pb-2">
+                    <div class="product-thumbnail">
+                      <a href="/product/{{ $product->slug }}">
+                        <img src="/img/products/{{ $product->path.'/'.$product->image }}" alt="{{ $product->category->title }}">
+                      </a>
+                      <div class="offer">
+                        @foreach($product->modes as $m)
+                          @if(in_array($m->slug, ['recommend', 'novelty', 'best-price', 'stock', 'plus-gift']))
+                            <div class="offer-{{ $m->slug }}">{{ $m->title }}</div>
+                          @endif
+                        @endforeach
+                      </div>
+                      <div class="actions">
+                        @if (is_array($items) AND isset($items['products_id'][$product->id]))
+                          <a href="/cart" class="button style-flat button-xs button-secondary" data-toggle="tooltip" data-placement="top" title="Перейти в корзину">Оплатить</a>
+                        @else
+                          <button class="button style-flat button-xs button-primary" data-product-id="{{ $product->id }}" onclick="addToCart(this);" title="Добавить в корзину">В корзину</button>
+                        @endif
+                      </div>
                     </div>
-                    <img src="img/shop/paste-bank.png" alt="">
-                  </a>
-                  <div class="actions">
-                    <button type="button" onclick="addToCart(this)" data-cart-id="1" class="button style-flat button-xs button-primary">В корзину</button>
+                    <div class="product-info">
+                      <a href="/product/{{ $product->slug }}">
+                        <h2 class="product-title mb-1">{{ $product->title }}</h2>
+                        @if($product->status == 1)
+                          <div class="price">{{ $product->price }}〒</div>
+                        @else
+                          {{ trans('statuses.data.'.$product->status) }}
+                        @endif
+                      </a>
+                    </div>
                   </div>
                 </div>
-                <div class="product-info">
-                  <a class="silver fz-14" href="#">Category</a>
-                  <a href="/product">
-                    <h2 class="product-title">Lounge Chair</h2>
-                    <div class="price">7999〒</div>
-                  </a>
-                </div>
-              </div>
+              @endforeach
             </div>
-            <div class="col-6 col-sm-6 col-lg-4">
-              <div class="product-item shadow-sm pb-2">
-                <div class="product-thumbnail">
-                  <a href="/product">
-                    <div class="badges">
-                      <span class="sale">Sale</span>
-                    </div>
-                    <img src="img/shop/banka-3kg.png" alt="">
-                  </a>
-                  <div class="actions">
-                    <button type="button" onclick="addToCart(this)" data-cart-id="1" class="button style-flat button-xs button-primary">В корзину</button>
-                  </div>
-                </div>
-                <div class="product-info">
-                  <a class="silver fz-14" href="#">Category</a>
-                  <a href="/product">
-                    <h2 class="product-title">Lounge Chair</h2>
-                    <div class="price">7999〒</div>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-6 col-sm-6 col-lg-4">
-              <div class="product-item shadow-sm pb-2">
-                <div class="product-thumbnail">
-                  <a href="/product">
-                    <div class="badges">
-                      <span class="sale">Sale</span>
-                    </div>
-                    <img src="img/shop/capsule.png" alt="">
-                  </a>
-                  <div class="actions">
-                    <button type="button" onclick="addToCart(this)" data-cart-id="1" class="button style-flat button-xs button-primary">В корзину</button>
-                  </div>
-                </div>
-                <div class="product-info">
-                  <a class="silver fz-14" href="#">Category</a>
-                  <a href="/product">
-                    <h2 class="product-title">Lounge Chair</h2>
-                    <div class="price">7999〒</div>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-6 col-sm-6 col-lg-4">
-              <div class="product-item shadow-sm pb-2">
-                <div class="product-thumbnail">
-                  <a href="/product">
-                    <div class="badges">
-                      <span class="sale">Sale</span>
-                    </div>
-                    <img src="img/shop/banka-1-kg.png" alt="">
-                  </a>
-                  <div class="actions">
-                    <button type="button" onclick="addToCart(this)" data-cart-id="1" class="button style-flat button-xs button-primary">В корзину</button>
-                  </div>
-                </div>
-                <div class="product-info">
-                  <a class="silver fz-14" href="#">Category</a>
-                  <a href="/product">
-                    <h2 class="product-title">Lounge Chair</h2>
-                    <div class="price">7999〒</div>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-6 col-sm-6 col-lg-4">
-              <div class="product-item shadow-sm pb-2">
-                <div class="product-thumbnail">
-                  <a href="/product">
-                    <div class="badges">
-                      <span class="sale">Sale</span>
-                    </div>
-                    <img src="img/shop/banka-3kg.png" alt="">
-                  </a>
-                  <div class="actions">
-                    <button type="button" onclick="addToCart(this)" data-cart-id="1" class="button style-flat button-xs button-primary">В корзину</button>
-                  </div>
-                </div>
-                <div class="product-info">
-                  <a class="silver fz-14" href="#">Category</a>
-                  <a href="/product">
-                    <h2 class="product-title">Lounge Chair</h2>
-                    <div class="price">7999〒</div>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-6 col-sm-6 col-lg-4">
-              <div class="product-item shadow-sm pb-2">
-                <div class="product-thumbnail">
-                  <a href="/product">
-                    <div class="badges">
-                      <span class="sale">Sale</span>
-                    </div>
-                    <img src="img/shop/paste-bank.png" alt="">
-                  </a>
-                  <div class="actions">
-                    <button type="button" onclick="addToCart(this)" data-cart-id="1" class="button style-flat button-xs button-primary">В корзину</button>
-                  </div>
-                </div>
-                <div class="product-info">
-                  <a class="silver fz-14" href="#">Category</a>
-                  <a href="/product">
-                    <h2 class="product-title">Lounge Chair</h2>
-                    <div class="price">7999〒</div>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-6 col-sm-6 col-lg-4">
-              <div class="product-item shadow-sm pb-2">
-                <div class="product-thumbnail">
-                  <a href="/product">
-                    <div class="badges">
-                      <span class="sale">Sale</span>
-                    </div>
-                    <img src="img/shop/capsule.png" alt="">
-                  </a>
-                  <div class="actions">
-                    <button type="button" onclick="addToCart(this)" data-cart-id="1" class="button style-flat button-xs button-primary">В корзину</button>
-                  </div>
-                </div>
-                <div class="product-info">
-                  <a class="silver fz-14" href="#">Category</a>
-                  <a href="/product">
-                    <h2 class="product-title">Lounge Chair</h2>
-                    <div class="price">7999〒</div>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-6 col-sm-6 col-lg-4">
-              <div class="product-item shadow-sm pb-2">
-                <div class="product-thumbnail">
-                  <a href="/product">
-                    <div class="badges">
-                      <span class="sale">Sale</span>
-                    </div>
-                    <img src="img/shop/banka-1-kg.png" alt="">
-                  </a>
-                  <div class="actions">
-                    <button type="button" onclick="addToCart(this)" data-cart-id="1" class="button style-flat button-xs button-primary">В корзину</button>
-                  </div>
-                </div>
-                <div class="product-info">
-                  <a class="silver fz-14" href="#">Category</a>
-                  <a href="/product">
-                    <h2 class="product-title">Lounge Chair</h2>
-                    <div class="price">7999〒</div>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-6 col-sm-6 col-lg-4">
-              <div class="product-item shadow-sm pb-2">
-                <div class="product-thumbnail">
-                  <a href="/product">
-                    <div class="badges">
-                      <span class="sale">Sale</span>
-                    </div>
-                    <img src="img/shop/banka-3kg.png" alt="">
-                  </a>
-                  <div class="actions">
-                    <button type="button" onclick="addToCart(this)" data-cart-id="1" class="button style-flat button-xs button-primary">В корзину</button>
-                  </div>
-                </div>
-                <div class="product-info">
-                  <a class="silver fz-14" href="#">Category</a>
-                  <a href="/product">
-                    <h2 class="product-title">Lounge Chair</h2>
-                    <div class="price">7999〒</div>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-6 col-sm-6 col-lg-4">
-              <div class="product-item shadow-sm pb-2">
-                <div class="product-thumbnail">
-                  <a href="/product">
-                    <div class="badges">
-                      <span class="sale">Sale</span>
-                    </div>
-                    <img src="img/shop/paste-bank.png" alt="">
-                  </a>
-                  <div class="actions">
-                    <button type="button" onclick="addToCart(this)" data-cart-id="1" class="button style-flat button-xs button-primary">В корзину</button>
-                  </div>
-                </div>
-                <div class="product-info">
-                  <a class="silver fz-14" href="#">Category</a>
-                  <a href="/product">
-                    <h2 class="product-title">Lounge Chair</h2>
-                    <div class="price">7999〒</div>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-6 col-sm-6 col-lg-4">
-              <div class="product-item shadow-sm pb-2">
-                <div class="product-thumbnail">
-                  <a href="/product">
-                    <div class="badges">
-                      <span class="sale">Sale</span>
-                    </div>
-                    <img src="img/shop/capsule.png" alt="">
-                  </a>
-                  <div class="actions">
-                    <button type="button" onclick="addToCart(this)" data-cart-id="1" class="button style-flat button-xs button-primary">В корзину</button>
-                  </div>
-                </div>
-                <div class="product-info">
-                  <a class="silver fz-14" href="#">Category</a>
-                  <a href="/product">
-                    <h2 class="product-title">Lounge Chair</h2>
-                    <div class="price">7999〒</div>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-6 col-sm-6 col-lg-4">
-              <div class="product-item shadow-sm pb-2">
-                <div class="product-thumbnail">
-                  <a href="/product">
-                    <div class="badges">
-                      <span class="sale">Sale</span>
-                    </div>
-                    <img src="img/shop/banka-1-kg.png" alt="">
-                  </a>
-                  <div class="actions">
-                    <button type="button" onclick="addToCart(this)" data-cart-id="1" class="button style-flat button-xs button-primary">В корзину</button>
-                  </div>
-                </div>
-                <div class="product-info">
-                  <a class="silver fz-14" href="#">Category</a>
-                  <a href="/product">
-                    <h2 class="product-title">Lounge Chair</h2>
-                    <div class="price">7999〒</div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <!-- PAGINATION -->
-          <div class="pagination text-center">
-            <ul class="page-pagination">
-              <li><a class="prev page-numbers" href="#"><i class="fa fa-angle-double-left"></i></a></li>
-              <li><a class="page-numbers" href="#">1</a></li>
-              <li><span class="page-numbers current">2</span></li>
-              <li><a class="page-numbers" href="#">3</a></li>
-              <li><span class="page-numbers dots">…</span></li>
-              <li><a class="page-numbers" href="#">7</a></li>
-              <li><a class="next page-numbers" href="#"><i class="fa fa-angle-double-right"></i></a></li>
-            </ul>
+            <!-- Pagination -->
+            {{ $products->links('vendor.pagination.bootstrap-4') }}
           </div>
         </div>
         <div class="col-lg-3 order-lg-first order-sm-last">
-          <div class="sidebar-content">
-            <div class="widget widget_search">
+          <aside class="sidebar-content">
+            <!-- <div class="widget widget_search">
               <form class="search-form" action="">
                 <input type="search" class="search-field" placeholder="Search..." value="" name="s" />
-                <button type="submit" class="search-submit">
-                  <i class="icon-magnifier"></i>
-                </button>
+                <button type="submit" class="search-submit"> <i class="icon-magnifier"></i> </button>
+              </form>
+            </div> -->
+            <div class="widget">
+              <h2 class="widget-title">Опции</h2>
+              <form action="/catalog/{{ $category->slug }}" method="get" id="filter">
+                {{ csrf_field() }}
+                <?php $options_id = session('options'); ?>
+                @foreach ($grouped as $data => $group)
+                  <h5 class="mt-2">{{ $data }}</h5>
+                  @foreach ($group as $option)
+                    <div class="form-check">
+                      <label class="form-check-label d-block-"><input class="form-check-input" type="checkbox" name="options_id[]" value="{{ $option->id }}" @if(isset($options_id) AND in_array($option->id, $options_id)) checked @endif>{{ $option->title }}</label>
+                    </div>
+                  @endforeach
+                @endforeach
               </form>
             </div>
-            <div class="widget widget_categories">
-              <h2 class="widget-title">Product Categories</h2>
-              <ul>
-                <li class="cat-item"><a href="#">Accessories <span class="count">(3)</span></a></li>
-                <li class="cat-item"><a href="#">Bags <span class="count">(4)</span></a></li>
-                <li class="cat-item"><a href="#">Interior <span class="count">(5)</span></a></li>
-                <li class="cat-item"><a href="#">Men <span class="count">(9)</span></a></li>
-                <li class="cat-item"><a href="#">Women <span class="count">(3)</span></a></li>
-              </ul>
-            </div>
-            <div class="widget">
-              <h2 class="widget-title">Options</h2>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="1" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">Default checkbox</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="2" id="defaultCheck2">
-                <label class="form-check-label" for="defaultCheck2">Default checkbox</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="3" id="defaultCheck3">
-                <label class="form-check-label" for="defaultCheck3">Default checkbox</label>
-              </div>
-            </div>
-            <div class="widget widget_posts">
+            <!-- <div class="widget widget_posts">
               <h2 class="widget-title">Lastest Products</h2>
               <ul class="product_list_widget">
                 <li>
                   <a href="/detail">
-                    <img src="img/shop/shop_80x100.jpg" alt="" />
+                    <img src="/img/shop/shop_80x100.jpg" alt="" />
                     <h6 class="product-title">Cotton Cap</h6>
                   </a>
                   <span class="amount">$9.99</span>
-                  <div class="star-rating">
-                    <span style="width:100%"></span>
-                  </div>
+                  <div class="star-rating"> <span style="width:100%"></span> </div>
                 </li>
                 <li>
                   <a href="/detail">
-                    <img src="img/shop/shop_80x100.jpg" alt="" />
+                    <img src="/img/shop/shop_80x100.jpg" alt="" />
                     <h6 class="product-title">Picture Light</h6>
                   </a>
                   <span class="amount">$69.99</span>
-                  <div class="star-rating">
-                    <span style="width:0%"></span>
-                  </div>
+                  <div class="star-rating"> <span style="width:0%"></span> </div>
                 </li>
               </ul>
-            </div>
+            </div> -->
             <div class="widget widget_tag_cloud">
-              <h2 class="widget-title">Tags</h2>
+              <h2 class="widget-title">Теги</h2>
               <div class="tagcloud">
                 <a href="#">Classic</a>, <a href="#">diary</a>, <a href="#">experience</a>, <a href="#">Flower</a>, <a href="#">Food</a>, <a href="#">happy</a>, <a href="#">home</a>, <a href="#">landing</a>, <a href="#">life</a>, <a href="#">live</a>, <a href="#">love</a>, <a href="#">outdoor</a>, <a href="#">paris</a>, <a href="#">photo</a>, <a href="#">Restaurant</a>, <a href="#">spring</a>, <a href="#">stay</a>, <a href="#">sunday</a>, <a href="#">takeoff</a>, <a href="#">trip</a>, <a href="#">view</a>, <a href="#">weekend</a>
               </div>
             </div>
-          </div>
+          </aside>
         </div>
       </div>
     </div>
   </section>
 @endsection
 
-
 @section('scripts')
   <script>
     function addToCart(i) {
-      var productId = $(i).data("cart-id");
-      $('*[data-cart-id="'+productId+'"]').replaceWith('<a href="/cart" class="button style-flat button-xs button-secondary">Go to cart</a>');
-      $('#count-items').text(2);
-      console.log(productId);
-            // alert('Товар добавлен в корзину');
-      $('#modalCart').modal('show');
-      exit();
+
+      var productId = $(i).data("product-id");
 
       if (productId != '') {
         $.ajax({
           type: "get",
-          // url: '/add-to-cart/'+productId,
+          url: '/add-to-cart/'+productId,
           dataType: "json",
           data: {},
           success: function(data) {
-            $('*[data-cart-id="'+productId+'"]').replaceWith('<a href="/cart" class="button style-flat button-xs button-secondary" href="#">Go to cart</a>');
+            $('*[data-product-id="'+productId+'"]').replaceWith('<a href="/cart" class="button style-flat button-xs button-secondary">Оплатить</a>');
             $('#count-items').text(data.countItems);
+            $('#modalCart').modal('show');
 
-            alert('Товар добавлен в корзину');
+            // alert('Товар добавлен в корзину');
           }
         });
       } else {
         alert("Ошибка сервера");
       }
     }
+
+    // Filter products
+    $('#filter').on('click', 'input', function(e) {
+
+      var optionsId = new Array();
+
+      $('input[name="options_id[]"]:checked').each(function() {
+        optionsId.push($(this).val());
+      });
+
+      var page = $(location).attr('href').split('catalog')[1];
+      var slug = page.split('?')[0];
+
+      $.ajax({
+        type: 'get',
+        url: '/catalog' + slug,
+        dataType: 'json',
+        data: {
+          'options_id': optionsId,
+        },
+        success: function(data) {
+          $('#products').html(data);
+        }
+      });
+    });
+
+    // Action of products
+    $('#actions > a').click(function() {
+
+      var action = $(this).data("action");
+      var text = $(this).text();
+
+      var page = $(location).attr('href').split('catalog')[1];
+      var slug = page.split('?')[0];
+
+      $.ajax({
+        type: "get",
+        url: '/catalog'.page,
+        dataType: "json",
+        data: {
+          "action": action
+        },
+        success: function(data) {
+          $('#products').html(data);
+          // $('#dropdownMenuButton').text(text);
+          location.reload();
+        }
+      });
+    });
+
   </script>
 @endsection

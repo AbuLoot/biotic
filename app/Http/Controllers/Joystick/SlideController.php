@@ -27,7 +27,6 @@ class SlideController extends Controller
     {    	
         $this->validate($request, [
             'title' => 'required|min:2|max:80|unique:slide',
-            'link' => 'required|min:5',
             'image' => 'required',
         ]);
 
@@ -66,7 +65,6 @@ class SlideController extends Controller
     {
         $this->validate($request, [
             'title' => 'required|min:2|max:80',
-            'link' => 'required|min:5',
         ]);
 
         $item = Slide::findOrFail($id);

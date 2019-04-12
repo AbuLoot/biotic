@@ -17,7 +17,7 @@
     </div>
     <div class="form-group">
       <label for="title_extra">Название дополнительное</label>
-      <input type="text" class="form-control" id="title_extra" name="title_extra" minlength="2" maxlength="80" value="{{ (old('title_extra')) ? old('title_extra') : $category->title_extra }}" required>
+      <input type="text" class="form-control" id="title_extra" name="title_extra" minlength="2" maxlength="80" value="{{ (old('title_extra')) ? old('title_extra') : $category->title_extra }}">
     </div>
     <div class="form-group">
       <label for="slug">Slug</label>

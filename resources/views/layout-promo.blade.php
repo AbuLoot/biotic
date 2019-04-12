@@ -3,7 +3,8 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
-  <link rel="shortcut icon" href="img/favicon.png"/>
+  <link rel="icon" href="/favicon.png" type="image/x-icon"/>
+  <link rel="shortcut icon" href="/favicon.png" type="image/x-icon"/>
   <title>@yield('title_description', 'Biotic - Натуральные продукты')</title>
   <meta name="description" content="@yield('meta_description', 'Торговая компания “Biotic” специализируется на продаже высококачественных, натуральных продуктов для здоровья и красоты. Оптово-розничные продажи БАДов, витаминов, трав, спортивного питания, натуральной пищи, ароматов, средств для гигиены и ухода.')">
   <meta name="yandex-verification" content="d2620ce1d90694d6" />
@@ -101,7 +102,7 @@
                 <h2 class="text-uppercase white-">Свяжитесь с нами</h2>
                 <div class="mb-2"></div>
                 <div class="branding__logo">
-                  <a href="./"><img src="/img/logo.png" alt="Biotic" class="main-logo" /></a>
+                  <a href="./"><img src="/img/logo-brand.png" alt="Biotic" class="main-logo" /></a>
                 </div>
                 <div class="mb-2"></div>
               </div>

@@ -11,12 +11,12 @@ trait ImageTrait {
         $frame = Image::canvas($width, $height, $color);
         $newImage = Image::make($image);
 
-        if ($newImage->width() <= $newImage->height()) {
+        if ($newImage->width() <= $newImage->height() AND $newImage->height() >= $height) {
             $newImage->resize(null, $height, function ($constraint) {
                 $constraint->aspectRatio();
             });
         }
-        else {
+        elseif ($newImage->width() >= $width) {
             $newImage->resize($width, null, function ($constraint) {
                 $constraint->aspectRatio();
             });

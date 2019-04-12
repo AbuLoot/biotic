@@ -30,7 +30,7 @@ class InputController extends Controller
             'text' => $request->text,
         ]);
 
-        return view('pages.found', compact('text', 'products'));
+        return view('shop.found', compact('text', 'products'));
     }
 
     public function searchAjax(Request $request)

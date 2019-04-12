@@ -61,7 +61,7 @@
         <div class="fileinput-preview fileinput-exists thumbnail" style="width:100%;height:auto;"></div>
         <div>
           <span class="btn btn-default btn-sm btn-file">
-            <span class="fileinput-new"><i class="glyphicon glyphicon-folder-open"></i>&nbsp; Выбрать</span>
+            <span class="fileinput-new"><i class="glyphicon glyphicon-folder-open"></i>&nbsp; Изменить</span>
             <span class="fileinput-exists"><i class="glyphicon glyphicon-folder-open"></i>&nbsp;</span>
             <input type="file" name="image" accept="image/*">
           </span>

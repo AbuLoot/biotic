@@ -77,7 +77,7 @@ body {
   font-style: normal;
   line-height: 1.8;
   letter-spacing: 0;
-  color: #999;
+  color: #555;
   font-size: 16px;
   overflow-x: hidden;
 }
@@ -140,7 +140,7 @@ input[type=color], input[type=date], input[type=datetime-local], input[type=date
   width: 100%;
   outline: none;
   border: 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #adadad;
   border-radius: 0;
   color: #878c9b;
   background: none;
@@ -1641,6 +1641,7 @@ h6, .h6 {
   /*z-index: 4;*/
   background-color: rgba(255, 255, 255, 1);
   border-bottom: 1px solid #ddd;
+  z-index: 80;
 }
 .headroom.style-5.headroom--not-top,
 .headroom.style-6.headroom--not-top {
@@ -1806,13 +1807,13 @@ h6, .h6 {
   color: #fff;
   position: relative;
   display: block;
-  white-space: nowrap;
+  /*white-space: nowrap;*/
 }
 .header-desktop .menu--primary ul > li > a {
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 22px;
-  padding-right: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .header-desktop .menu--primary a .sub-arrow {
   font-size: 0;
@@ -1867,6 +1868,10 @@ h6, .h6 {
   visibility: visible;
   z-index: 2;
   opacity: 1;
+  webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
 }
 .header-desktop .menu--primary .mega-menu .sub-menu {
   padding-top: 34px;
@@ -1897,8 +1902,8 @@ h6, .h6 {
   line-height: 1.2;
   text-transform: none;
   font-size: 15px;
-  color: #999;
-  padding: 11px 30px;
+  color: #666;
+  padding: 6px 35px;
 }
 .header-desktop .menu--primary .sub-menu a:hover {
   color: #1f1f1f;
@@ -1954,7 +1959,7 @@ h6, .h6 {
 }
 .header-desktop.style-5 .menu--primary li:hover > a .menu-item-title:after,
 .header-desktop.style-6 .menu--primary li:hover > a .menu-item-title:after {
-  background-color: #1a237e;
+  background-color: #44a737;
 }
 .header-desktop.style-6 .menu--primary {
   text-align: left; 
@@ -7453,11 +7458,15 @@ body[data-row-skin=dark] .page-open-main-menu i {
 }
 .product-item .product-thumbnail .badges .sale {
   background: #f76b6a;
-  z-index: 98;
+  z-index: 70;
 }
 .product-item .product-thumbnail .badges .new {
   background: #b9d9e9;
-  z-index: 96;
+  z-index: 70;
+}
+.product-item .product-thumbnail .badges .stock {
+  background: #b9d9e9;
+  z-index: 70;
 }
 .category-item {
   width: 100%;

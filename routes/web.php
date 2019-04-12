@@ -1,24 +1,23 @@
 <?php
 
-// Auth::routes();
+Auth::routes();
 
 // Authentication routes...
-Route::get('login', 'Auth\AuthCustomController@getLogin');
-// Route::post('login', 'Auth\AuthCustomController@postLogin');
-Route::get('logout', 'Auth\AuthCustomController@getLogout');
+Route::get('login-reg', 'Auth\AuthCustomController@getLogin');
+Route::post('login-custom', 'Auth\AuthCustomController@postLogin');
 
 // Registration routes...
 // Route::get('register', 'Auth\AuthController@getRegister');
-// Route::post('register', 'Auth\AuthCustomController@postRegister');
+// Route::post('register-custom', 'Auth\AuthCustomController@postRegister');
 // Route::get('confirm/{token}', 'Auth\AuthCustomController@confirm');
 
-// Profile
+// User Profile
 Route::group(['middleware' => 'auth', 'role:user'], function() {
 
-    Route::get('my-profile', 'ProfileController@profile');
-    Route::post('my-profile', 'ProfileController@updateProfile');
-    Route::get('my-profile/edit', 'ProfileController@editProfile');
-    Route::get('my-orders', 'ProfileController@myOrders');
+    Route::get('profile', 'ProfileController@profile');
+    Route::get('profile/edit', 'ProfileController@editProfile');
+    Route::post('profile', 'ProfileController@updateProfile');
+    Route::get('orders', 'ProfileController@orders');
 });
 
 // Joystick Administration
@@ -44,8 +43,6 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'role:admin']], func
     Route::get('products-search', 'Joystick\ProductController@search');
     Route::get('products-category/{id}', 'Joystick\ProductController@categoryProducts');
     Route::get('products-actions', 'Joystick\ProductController@actionProducts');
-    Route::get('products-price/edit', 'Joystick\ProductController@priceForm');
-    Route::post('products-price/update', 'Joystick\ProductController@priceUpdate');
 
     Route::resource('roles', 'Joystick\RoleController');
     Route::resource('users', 'Joystick\UserController');
@@ -65,24 +62,24 @@ Route::post('send-app', 'InputController@sendApp');
 
 
 // Shop
-Route::get('/shop', 'ShopController@index');
+Route::get('/', 'ShopController@index');
 Route::get('catalog', 'ShopController@catalog');
-Route::get('cart', 'ShopController@cart');
 Route::get('catalog/all/{category}', 'ShopController@allCategoryProducts');
-Route::get('catalog/{category}', 'ShopController@categoryProducts');
-Route::get('goods/{id}-{product}', 'ShopController@product');
-Route::get('detail', 'ShopController@detail');
+Route::get('catalog/{category}/{id}', 'ShopController@categoryProducts');
+Route::get('catalog/{category}/{subcategory}/{id}', 'ShopController@subCategoryProducts');
+Route::get('product/{product}', 'ShopController@product');
 Route::post('comment-product', 'ShopController@saveComment');
 Route::get('catalog/brand/{company}', 'ShopController@brandProducts');
 
 
-// Basket Actions
-Route::get('add-to-basket/{id}', 'BasketController@addToBasket');
-Route::get('remove-from-basket/{id}', 'BasketController@removeFromBasket');
-Route::get('clear-basket', 'BasketController@clearBasket');
-Route::get('basket', 'BasketController@basket');
-Route::get('basket/{id}', 'BasketController@destroy');
-Route::post('store-order', 'BasketController@storeOrder');
+// Cart Actions
+Route::get('cart', 'CartController@cart');
+Route::get('add-to-cart/{id}', 'CartController@addToCart');
+Route::get('remove-from-cart/{id}', 'CartController@removeFromCart');
+Route::get('clear-cart', 'CartController@clearCart');
+Route::post('store-order', 'CartController@storeOrder');
+Route::get('destroy-from-cart/{id}', 'CartController@destroy');
+
 
 // Favorite Actions
 Route::get('favorites', 'FavoriteController@getFavorites');
@@ -90,7 +87,7 @@ Route::get('toggle-favorite/{id}', 'FavoriteController@toggleFavorite');
 
 
 // Promo
-Route::get('/', 'PromoController@index');
+Route::get('/promo', 'PromoController@index');
 Route::get('/epimediumnaya-pasta', 'PromoController@epimedium');
 Route::get('/protein', 'PromoController@collagen');
 
@@ -105,4 +102,3 @@ Route::post('comment-news', 'NewsController@saveComment');
 // Pages
 Route::get('contacts', 'PageController@contacts');
 Route::get('{page}', 'PageController@page');
-

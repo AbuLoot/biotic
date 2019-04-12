@@ -60,6 +60,7 @@
           <td>Категория</td>
           <td>Компания</td>
           <td>Номер</td>
+          <td>Просмотры</td>
           <td>Язык</td>
           <td>Режим</td>
           <td>Статус</td>
@@ -75,6 +76,7 @@
             <td>{{ $product->category->title }}</td>
             <td>{{ (isset($product->company->title)) ? $product->company->title : '' }}</td>
             <td>{{ $product->sort_id }}</td>
+            <td>{{ $product->views }}</td>
             <td>{{ $product->lang }}</td>
             <td class="text-nowrap">
               @foreach ($product->modes as $mode)
@@ -83,7 +85,7 @@
             </td>
             <td class="text-info">{{ trans('statuses.data.'.$product->status) }}</td>
             <td class="text-right text-nowrap">
-              <a class="btn btn-link btn-xs" href="/goods/{{ $product->id.'-'.$product->slug }}" title="Просмотр товара" target="_blank"><i class="material-icons md-18">link</i></a>
+              <a class="btn btn-link btn-xs" href="/product/{{ $product->slug }}" title="Просмотр товара" target="_blank"><i class="material-icons md-18">link</i></a>
               <a class="btn btn-link btn-xs" href="{{ route('products.edit', $product->id) }}" title="Редактировать"><i class="material-icons md-18">mode_edit</i></a>
               <form class="btn-delete" method="POST" action="{{ route('products.destroy', $product->id) }}" accept-charset="UTF-8">
                 <input name="_method" type="hidden" value="DELETE">
@@ -142,34 +144,33 @@
           }
         }
       });
+    });
 
+    // submit button click
+    $("#actions > li > a").click(function() {
 
-      // submit button click
-      $("#actions > li > a").click(function() {
+      var action = $(this).data("action");
+      var productsId = new Array();
 
-        var action = $(this).data("action");
-        var productsId = new Array();
-
-        $('input[name="products_id[]"]:checked').each(function() {
-          productsId.push($(this).val());
-        });
-
-        if (productsId.length > 0) {
-          $.ajax({
-            type: "get",
-            url: '/admin/products-actions',
-            dataType: "json",
-            data: {
-              "action": action,
-              "products_id": productsId
-            },
-            success: function(data) {
-              console.log(data);
-              location.reload();
-            }
-          });
-        }
+      $('input[name="products_id[]"]:checked').each(function() {
+        productsId.push($(this).val());
       });
+
+      if (productsId.length > 0) {
+        $.ajax({
+          type: "get",
+          url: '/admin/products-actions',
+          dataType: "json",
+          data: {
+            "action": action,
+            "products_id": productsId
+          },
+          success: function(data) {
+            console.log(data);
+            location.reload();
+          }
+        });
+      }
     });
 
     function toggleCheckbox(source) {

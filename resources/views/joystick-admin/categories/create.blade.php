@@ -16,7 +16,7 @@
     </div>
     <div class="form-group">
       <label for="title_extra">Название дополнительное</label>
-      <input type="text" class="form-control" id="title_extra" name="title_extra" minlength="2" maxlength="80" value="{{ (old('title_extra')) ? old('title_extra') : '' }}" required>
+      <input type="text" class="form-control" id="title_extra" name="title_extra" minlength="2" maxlength="80" value="{{ (old('title_extra')) ? old('title_extra') : '' }}">
     </div>
     <div class="form-group">
       <label for="slug">Slug</label>
@@ -54,7 +54,6 @@
     <div class="form-group">
       <label for="lang">Язык</label>
       <select id="lang" name="lang" class="form-control" required>
-        <option value=""></option>
         @foreach($languages as $language)
           @if (old('lang') == $language->slug)
             <option value="{{ $language->slug }}" selected>{{ $language->title }}</option>

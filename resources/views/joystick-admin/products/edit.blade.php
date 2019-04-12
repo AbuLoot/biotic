@@ -67,7 +67,7 @@
     </div>
     <div class="form-group">
       <label for="barcode">Артикул</label>
-      <input type="text" class="form-control" id="barcode" name="barcode" value="{{ (old('barcode')) ? old('barcode') : $product->barcode }}" required>
+      <input type="text" class="form-control" id="barcode" name="barcode" value="{{ (old('barcode')) ? old('barcode') : $product->barcode }}">
     </div>
     <div class="form-group">
       <label for="price">Цена</label>
@@ -167,6 +167,53 @@
         @endif
       @endfor
     </div>
+    <div class="page-header">
+      <h3>Фон для продукта</h3>
+    </div>
+    <div class="form-group">
+      <label for="title_extra">Заголовок для фона (Маркетинг)</label>
+      <input type="text" class="form-control" id="title_extra" name="title_extra" minlength="2" maxlength="80" value="{{ (old('title_extra')) ? old('title_extra') : $product->title_extra }}">
+    </div>
+    <div class="row">
+      <div class="form-group col-md-6">
+        <label for="color">Цвет текста</label><br>
+        <input type="color" class="form-control" id="color" name="color" minlength="2" maxlength="80" value="{{ (old('color')) ? old('color') : $product->color }}">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="direction">Позиция текста</label><br>
+        <label class="radio-inline">
+          <input type="radio" name="direction" value="left"  @if($product->direction == 'left') checked @endif> По левой стороне
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="direction" value="center" @if($product->direction == 'center') checked @endif> По центру
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="direction" value="right" @if($product->direction == 'right') checked @endif> По правой стороне
+        </label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Фон</label><br>
+      <div class="fileinput fileinput-new" data-provides="fileinput">
+        <div class="fileinput-new thumbnail" style="width:100%;height:auto;">
+          @if($product->background == NULL)
+            <img src="/img/slide/default-bg.jpg">
+          @else
+            <img src="/{{ $product->path . '/' . $product->background }}">
+          @endif
+        </div>
+        <div class="fileinput-preview fileinput-exists thumbnail" style="width:100%;height:auto;"></div>
+        <div>
+          <span class="btn btn-default btn-sm btn-file">
+            <span class="fileinput-new"><i class="glyphicon glyphicon-folder-open"></i>&nbsp; Изменить</span>
+            <span class="fileinput-exists"><i class="glyphicon glyphicon-folder-open"></i>&nbsp;</span>
+            <input type="file" name="background" accept="image/*">
+          </span>
+          <a href="#" class="btn btn-default btn-sm fileinput-exists" data-dismiss="fileinput"><i class="glyphicon glyphicon-trash"></i> Удалить</a>
+        </div>
+      </div>
+    </div>
+    <hr>
     <div class="form-group">
       <label for="modes_id">Режим (зажмите Ctrl чтобы выбрать несколько вариантов)</label>
       <select id="modes_id" name="modes_id[]" class="form-control" size="6" multiple>

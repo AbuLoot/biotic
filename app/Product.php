@@ -3,11 +3,11 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-// use Nicolaslopezj\Searchable\SearchableTrait;
+use Nicolaslopezj\Searchable\SearchableTrait;
 
 class Product extends Model
 {
-    // use SearchableTrait;
+    use SearchableTrait;
 
     protected $table = 'products';
 
@@ -16,7 +16,7 @@ class Product extends Model
      *
      * @var array
      */
-    // protected $searchable = [
+    protected $searchable = [
         /**
          * Columns and their priority in search results.
          * Columns with higher values are more important.
@@ -24,14 +24,14 @@ class Product extends Model
          *
          * @var array
          */
-    //     'columns' => [
-    //         'products.title' => 10,
-    //         'products.description' => 10,
-    //         'products.characteristic' => 10,
-    //         'products.barcode' => 5,
-    //         'products.oem' => 5,
-    //     ]
-    // ];
+        'columns' => [
+            'products.title' => 10,
+            'products.description' => 10,
+            'products.characteristic' => 10,
+            'products.barcode' => 5,
+            // 'products.oem' => 5,
+        ]
+    ];
 
     public function category()
     {

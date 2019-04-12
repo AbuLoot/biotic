@@ -17,7 +17,21 @@ class ProfileController extends Controller
     {
         $user = Auth::user();
 
-        return view('pages.profile', compact('user'));
+        return view('shop.user.profile', compact('user'));
+    }
+
+    public function orders(Request $request)
+    {
+        $countries = Country::all();
+
+        if ($request->session()->has('items')) {
+
+            $items = $request->session()->get('items');
+            $data_id = collect($items['products_id']);
+            $products = Product::whereIn('id', $data_id->keys())->get();
+        }
+
+        return view('pages.order', compact('products', 'countries'));
     }
 
     public function myOrders()
@@ -25,7 +39,7 @@ class ProfileController extends Controller
         $user = Auth::user();
         $orders = $user->orders()->paginate(10);
 
-        return view('pages.orders', compact('user', 'orders'));
+        return view('shop.user.orders', compact('user', 'orders'));
     }
 
     public function editProfile()
@@ -36,7 +50,7 @@ class ProfileController extends Controller
         // $date = [];
         // list($date['year'], $date['month'], $date['day']) = explode('-', $user->profile->birthday);
 
-        return view('pages.profile-edit', compact('user', 'cities'));
+        return view('shop.user.profile-edit', compact('user', 'cities'));
     }
 
     public function updateProfile(Request $request)
@@ -45,8 +59,7 @@ class ProfileController extends Controller
             'surname' => 'required|min:2|max:40',
             'name' => 'required|min:2|max:40',
             'email' => 'required|email|max:255',
-            'city_id' => 'required|numeric',
-            'sex' => 'required'
+            'city_id' => 'required|numeric'
         ]);
 
         $user = Auth::user();
@@ -62,6 +75,6 @@ class ProfileController extends Controller
         $user->profile->sex = $request->sex;
         $user->profile->save();
 
-        return redirect('/my-profile')->with('status', 'Запись обновлена!');
+        return redirect('/profile')->with('status', 'Запись обновлена!');
     }
 }

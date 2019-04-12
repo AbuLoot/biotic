@@ -10,30 +10,47 @@
 
 
 @section('content')
-
-  @include('partials.breadcrumb')
+  <section class="page-title-bar">
+    <div class="page-title-bar-overlay"></div>
+    <div class="page-title-bar-inner">
+      <div class="container">
+        <div class="row row-xs-center">
+          <div class="col-md-12">
+            <div id="page-breadcrumb" class="page-breadcrumb text-left">
+              <ul class="breadcrumb">
+                <li><a href="/">Главная</a></li>
+                <li class="sub tail current">Регистрация и Аутентификация</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class="section pt-6 pb-6">
     <div class="container">
+      @include('partials.alerts')
       <div class="row">
         <div class="col-sm-6 order-xs-2">
-          <h3>Зарегистрироваться</h3>
-          <form class="commerce-form-login">
+          <h4>Зарегистрироваться</h4>
+          <form class="commerce-form-login" method="POST" action="{{ route('register') }}">
+            @csrf
             <div class="form-item">
-              <label for="username">Username <span class="required">*</span></label>
-              <input type="text" class="form-text" name="username" id="username" value="" />
+              <label for="name">Введите имя <span class="required">*</span></label>
+              <input type="text" class="form-text" name="name" id="name" placeholder="Введите имя" minlength="2" maxlength="40" value="{{ old('name') }}" required>
             </div>
             <div class="form-item">
-              <label for="email">Email address <span class="required">*</span></label>
-              <input type="email" class="form-text" name="email" id="email" value="" />
+              <label for="email">Введите email <span class="required">*</span></label>
+              <input type="email" class="form-text" name="email" id="email"placeholder="Введите Email" minlength="5" maxlength="80" value="{{ old('email') }}" required>
             </div>
             <div class="form-item">
-              <label for="password">Password <span class="required">*</span></label>
-              <input class="form-text" type="password" name="password" id="password" />
+              <label for="password">Пароль <span class="required">*</span></label>
+              <input class="form-text" type="password" name="password" id="password" minlength="6" maxlength="40" required>
             </div>
             <div class="form-item">
-              <label for="password">Re-Password <span class="required">*</span></label>
-              <input class="form-text" type="password" name="password" id="password" />
+              <label for="password-confirm">Повторите пароль <span class="required">*</span></label>
+              <input class="form-text" type="password" name="password_confirmation" id="password-confirm" minlength="6" maxlength="40" required>
             </div>
             <div class="form-item">
               <button type="submit" class="button button-primary" name="login" value="Login">Зарегистрироваться</button>
@@ -41,15 +58,16 @@
           </form>
         </div>
         <div class="col-sm-6 mb-4 order-xs-1">
-          <h3>Войти в аккаунт</h3>
-          <form class="commerce-form-login">
+          <h4>Войти в аккаунт</h4>
+          <form class="commerce-form-login" method="POST" action="{{ route('login') }}">
+            @csrf
             <div class="form-item">
-              <label for="username">Username or email address <span class="required">*</span></label>
-              <input type="text" class="form-text" name="username" id="username" value="" />
+              <label for="email">Введите email или номер телефона <span class="required">*</span></label>
+              <input type="text" class="form-text" name="email" id="email" placeholder="Введите email или номер телефона" minlength="2" maxlength="40" value="{{ old('email') }}" required>
             </div>
             <div class="form-item">
-              <label for="password">Password <span class="required">*</span></label>
-              <input class="form-text" type="password" name="password" id="password" />
+              <label for="password">Пароль <span class="required">*</span></label>
+              <input class="form-text" type="password" name="password" id="password" minlength="6" maxlength="40" required>
             </div>
             <div class="form-item">
               <button type="submit" class="button button-primary" name="login" value="Login">Войти</button>
@@ -67,5 +85,20 @@
 
 
 @section('scripts')
-
+  <script>
+    window.onload = function () {
+      document.getElementById("password").onchange = validatePassword;
+      document.getElementById("password-confirm").onchange = validatePassword;
+    }
+    function validatePassword() {
+      var pass1 = document.getElementById("password").value;
+      var pass2 = document.getElementById("password-confirm").value;
+      if (pass1 != pass2) {
+        document.getElementById("password-confirm").setCustomValidity("Пароли не совпадают");
+      } else {
+        document.getElementById("password-confirm").setCustomValidity('');
+        //empty string means no validation error
+      }
+    }
+  </script>
 @endsection

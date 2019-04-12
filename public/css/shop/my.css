@@ -1,14 +1,82 @@
 .main-logo {
-	max-width: 140px;
+  max-width: 130px;
 }
+.header-desktop .menu--primary .sub-menu b {
+  font-weight: 700;
+  font-size: 15px;
+  color: #666;
+  padding: 6px 25px;
+}
+.menu > ul > li > a:first-child {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+ul.mobile-menu > li > a:first-child {
+  text-transform: uppercase;
+}
+
+label {
+  margin-top: .5rem;
+  margin-bottom: 0;
+}
+
+.offer {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  z-index: 40;
+  text-align: center;
+}
+.offer > div {
+  color: #fff;
+  padding: 1px 5px;
+  margin-bottom: 2px;
+  font-size: 0.8em;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.offer-recommend {
+  /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #D61562), color-stop(100%, #1700C4)); background: -moz-linear-gradient(left,#D61562 0%,#1700C4 100%);
+  background: -webkit-linear-gradient(left,#D61562 0%,#1700C4 100%);
+  background: -o-linear-gradient(left,#D61562 0%,#1700C4 100%);
+  background: -ms-linear-gradient(left,#D61562 0%,#1700C4 100%);
+  background: linear-gradient(left,#D61562 0%,#1700C4 100%);*/
+  background-color: #f76b6a;
+}
+.offer-best-price { background-color: #01a106; }
+.offer-novelty {background-color: #45deb0; }
+.offer-stock {background-color: #ffbf00; }
+.offer-plus-gift {background-color: #1a237e; }
+
+@media (max-width: 768px) {
+  .btn {
+    margin-bottom: 4px;
+  }
+  .offer > div {
+    padding: 1px 5px;
+    margin-bottom: 2px;
+    font-size: 0.8em;
+  }
+}
+
+/* For Mobile */
 @media (max-width: 479px) {
-	.custom_search .search-field {
-	  padding-left: 20px;
-	  /*padding-right: 20px;*/
-	}
-	.custom_search .search-submit {
-	  right: 20px;
-	}
+  .main-logo {
+    width: 120px;
+  }
+  .custom_search .search-field {
+    padding-left: 20px;
+  }
+  .custom_search .search-submit {
+    right: 20px;
+  }
+
+  /* Carousel */
+  .carousel > .carousel-inner > .carousel-item > img {
+    width: 165%;
+    max-width: none;
+  }
+
   .order-xs-1 {
     -ms-flex-order:1;
     order:1

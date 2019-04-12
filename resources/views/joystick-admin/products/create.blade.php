@@ -108,7 +108,7 @@
     <div class="form-group">
       <label>Фотографии</label><br>
       <div class="fileinput fileinput-new" data-provides="fileinput">
-        <div class="fileinput-preview thumbnail"  style="width:300px;height:200px;" data-trigger="fileinput"></div>
+        <div class="fileinput-preview thumbnail" style="width:300px;height:200px;" data-trigger="fileinput"></div>
         <div>
           <span class="btn btn-default btn-sm btn-file">
             <span class="fileinput-new"><i class="glyphicon glyphicon-folder-open"></i>&nbsp; Выбрать</span>
@@ -119,7 +119,7 @@
         </div>
       </div>
       <div class="fileinput fileinput-new" data-provides="fileinput">
-        <div class="fileinput-preview thumbnail"  style="width:300px;height:200px;" data-trigger="fileinput"></div>
+        <div class="fileinput-preview thumbnail" style="width:300px;height:200px;" data-trigger="fileinput"></div>
         <div>
           <span class="btn btn-default btn-sm btn-file">
             <span class="fileinput-new"><i class="glyphicon glyphicon-folder-open"></i>&nbsp; Выбрать</span>
@@ -130,7 +130,7 @@
         </div>
       </div>
       <div class="fileinput fileinput-new" data-provides="fileinput">
-        <div class="fileinput-preview thumbnail"  style="width:300px;height:200px;" data-trigger="fileinput"></div>
+        <div class="fileinput-preview thumbnail" style="width:300px;height:200px;" data-trigger="fileinput"></div>
         <div>
           <span class="btn btn-default btn-sm btn-file">
             <span class="fileinput-new"><i class="glyphicon glyphicon-folder-open"></i>&nbsp; Выбрать</span>
@@ -141,7 +141,7 @@
         </div>
       </div>
       <div class="fileinput fileinput-new" data-provides="fileinput">
-        <div class="fileinput-preview thumbnail"  style="width:300px;height:200px;" data-trigger="fileinput"></div>
+        <div class="fileinput-preview thumbnail" style="width:300px;height:200px;" data-trigger="fileinput"></div>
         <div>
           <span class="btn btn-default btn-sm btn-file">
             <span class="fileinput-new"><i class="glyphicon glyphicon-folder-open"></i>&nbsp; Выбрать</span>
@@ -152,7 +152,7 @@
         </div>
       </div>
       <div class="fileinput fileinput-new" data-provides="fileinput">
-        <div class="fileinput-preview thumbnail"  style="width:300px;height:200px;" data-trigger="fileinput"></div>
+        <div class="fileinput-preview thumbnail" style="width:300px;height:200px;" data-trigger="fileinput"></div>
         <div>
           <span class="btn btn-default btn-sm btn-file">
             <span class="fileinput-new"><i class="glyphicon glyphicon-folder-open"></i>&nbsp; Выбрать</span>
@@ -163,7 +163,7 @@
         </div>
       </div>
       <div class="fileinput fileinput-new" data-provides="fileinput">
-        <div class="fileinput-preview thumbnail"  style="width:300px;height:200px;" data-trigger="fileinput"></div>
+        <div class="fileinput-preview thumbnail" style="width:300px;height:200px;" data-trigger="fileinput"></div>
         <div>
           <span class="btn btn-default btn-sm btn-file">
             <span class="fileinput-new"><i class="glyphicon glyphicon-folder-open"></i>&nbsp; Выбрать</span>
@@ -174,6 +174,48 @@
         </div>
       </div>
     </div>
+    <div class="page-header">
+      <h3>Фон для продукта</h3>
+    </div>
+    <div class="form-group">
+      <label for="title_extra">Заголовок для фона (Маркетинг)</label>
+      <input type="text" class="form-control" id="title_extra" name="title_extra" minlength="2" maxlength="80" value="{{ (old('title_extra')) ? old('title_extra') : '' }}">
+    </div>
+    <div class="row">
+      <div class="form-group col-md-6">
+        <label for="color">Цвет текста</label><br>
+        <input type="color" class="form-control" id="color" name="color" minlength="2" maxlength="80" value="{{ (old('color')) ? old('color') : '#eeeeee' }}">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="direction">Позиция текста</label><br>
+        <label class="radio-inline">
+          <input type="radio" name="direction" value="left" checked> По левой стороне
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="direction" value="center"> По центру
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="direction" value="right"> По правой стороне
+        </label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Фон</label><br>
+      <div class="fileinput fileinput-new" data-provides="fileinput">
+        <div class="fileinput-preview thumbnail" style="width:100%; height:auto;" data-trigger="fileinput">
+          <img src="/img/slide/default-bg.jpg">
+        </div>
+        <div>
+          <span class="btn btn-default btn-sm btn-file">
+            <span class="fileinput-new"><i class="glyphicon glyphicon-folder-open"></i>&nbsp; Выбрать</span>
+            <span class="fileinput-exists"><i class="glyphicon glyphicon-folder-open"></i>&nbsp;</span>
+            <input type="file" name="background" accept="image/*">
+          </span>
+          <a href="#" class="btn btn-default btn-sm fileinput-exists" data-dismiss="fileinput"><i class="glyphicon glyphicon-trash"></i> Удалить</a>
+        </div>
+      </div>
+    </div>
+    <hr>
     <div class="form-group">
       <label for="mode">Режим (зажмите Ctrl чтобы выбрать несколько вариантов)</label>
       <select id="mode" name="modes_id[]" class="form-control" size="6" multiple>
@@ -186,7 +228,6 @@
     <div class="form-group">
       <label for="lang">Язык</label>
       <select id="lang" name="lang" class="form-control" required>
-        <option value=""></option>
         @foreach($languages as $language)
           @if (old('lang') == $language->slug)
             <option value="{{ $language->slug }}" selected>{{ $language->title }}</option>
