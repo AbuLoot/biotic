@@ -168,7 +168,7 @@
               <!-- Tab panes -->
               <div class="tab-content">
                 <div class="tab-pane active fade show" id="tab-content-1">
-                  <div class="offset-md-1 col-md-10">
+                  <div class="offset-md-1- col-md-12">
                     {!! $product->description !!}
                   </div>
                 </div>

@@ -441,7 +441,7 @@
             '<li>&nbsp;&nbsp;&nbsp;Ничего не найдено.</li>'
           ],
           suggestion: function (data) {
-            return '<li class="list-group-item"><a href="/product/' + data.slug + '/' + data.id + '"><img class="list-img" src="/img/products/' + data.path + '/' + data.image + '"> ' + data.title + '</a></li>'
+            return '<li class="list-group-item"><a href="/product/' + data.slug + '"><img class="list-img" src="/img/products/' + data.path + '/' + data.image + '"> ' + data.title + '</a></li>'
           }
         }
       });
