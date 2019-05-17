@@ -51,7 +51,7 @@
   </div>
 
   <div class="table-responsive">
-    <table class="table table-striped table-condensed">
+    <table class="table table-striped table-condensed table-hover">
       <thead>
         <tr class="active">
           <td><input type="checkbox" onclick="toggleCheckbox(this)" class="checkbox-ids"></td>

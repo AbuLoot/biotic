@@ -169,9 +169,9 @@
             </div>
 
             <div class="text-center-">
-              <h3 class="white">Цена 5900<span class="fz-25">〒</span></h3>
+              <h3 class="white">Цена 7900<span class="fz-25">〒</span>. Бесплатная доставка!</h3>
+              <p class="white">Доставка <span class="fz-24 badge badge-warning">2-3 дня</span> во все регионы Казахстана</p>
               <div class="bg-dark p-1 white">Отпускается без рецепта врача, не является лекарственным средством</div>
-              <!-- <p class="white">Доставка <span class="fz-24 badge badge-warning">2-3 дня</span> во все регионы Казахстана</p> -->
               <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Заказать</a>
             </div>
           </div>
@@ -291,8 +291,8 @@
               </div>
 
               <div class="text-center">
-                <h3>Цена 5900<span class="fz-25">〒</span></h3>
-                <!-- <p class="fz-18 dark">Доставка <span class="fz-24 badge badge-warning">2-3 дня</span> по Казахстану</p> -->
+                <h3>Цена 7900<span class="fz-25">〒</span></h3>
+                <p class="fz-18 dark">Доставка <span class="fz-24 badge badge-warning">2-3 дня</span> по Казахстану</p>
                 <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Доставить</a>
               </div>
             </div>

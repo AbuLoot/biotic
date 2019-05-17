@@ -127,12 +127,10 @@ class ProductController extends Controller
         $category = Category::findOrFail($request->category_id);
         $introImage = null;
         $images = [];
-        $dirName = '';
+        $dirName = $category->id.'/'.time();
+        Storage::makeDirectory('img/products/'.$dirName);
 
         if ($request->hasFile('images')) {
-
-            $dirName = $category->id.'/'.time();
-            Storage::makeDirectory('img/products/'.$dirName);
 
             foreach ($request->file('images') as $key => $image)
             {
@@ -170,7 +168,7 @@ class ProductController extends Controller
 
             $backgroundName = $request->background->getClientOriginalName();
 
-            $request->background->storeAs($dirName, $backgroundName);
+            $request->background->storeAs('img/products/'.$dirName, $backgroundName);
         }
 
         $product = new Product;
@@ -223,6 +221,13 @@ class ProductController extends Controller
         return view('joystick-admin.products.edit', ['modes' => $modes, 'product' => $product, 'categories' => $categories, 'companies' => $companies, 'options' => $options, 'grouped' => $grouped]);
     }
 
+    public function editPage($id)
+    {
+        $product = Product::findOrFail($id);
+
+        return view('joystick-admin.products.page', ['product' => $product]);
+    }
+
     public function update(Request $request, $id)
     {
         $this->validate($request, [
@@ -234,16 +239,17 @@ class ProductController extends Controller
 
         $backgroundName = $product->background;
         $images = unserialize($product->images);
+        $dirName = $product->path;
+
+        if ( ! file_exists('img/products/'.$product->category_id) OR empty($product->path)) {
+            $dirName = $product->category->id.'/'.time();
+            Storage::makeDirectory('img/products/'.$dirName);
+            $product->path = $dirName;
+        }
 
         if ($request->hasFile('images')) {
 
             $introImage = null;
-            $dirName = $product->path;
-
-            if ( ! file_exists('img/products/'.$product->category_id) OR empty($product->path)) {
-                $dirName = $product->category->id.'/'.time();
-                Storage::makeDirectory('img/products/'.$dirName);
-            }
 
             foreach ($request->file('images') as $key => $image)
             {
@@ -295,20 +301,19 @@ class ProductController extends Controller
                 }
             }
 
-            $product->path = $dirName;
             $images = array_sort_recursive($images);
         }
 
         // Resave background
         if ($request->hasFile('background')) {
 
-            if (file_exists($product->path.'/'.$product->background)) {
-                Storage::delete($product->path.'/'.$product->background);
+            if (file_exists('img/products/'.$product->path.'/'.$product->background)) {
+                Storage::delete('img/products/'.$product->path.'/'.$product->background);
             }
 
             $backgroundName = $request->background->getClientOriginalName();
 
-            $request->background->storeAs($product->path, $backgroundName);
+            $request->background->storeAs('img/products/'.$product->path, $backgroundName);
         }
 
         // Change directory for new category

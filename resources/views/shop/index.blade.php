@@ -135,7 +135,7 @@
   <section class="pt-3 pb-3">
     <div class="container">
       <h4 class="text-uppercase text-center mb-3">Популярные продукты</h4>
-      <div class="row">
+      <div class="row no-gutters">
         @foreach($mode_top->products->where('status', 1)->take(12) as $top_product)
           <div class="col-sm-3 col-6">
             <div class="product-item shadow-sm pb-2">
@@ -176,7 +176,7 @@
   <section class="pt-3 pb-3">
     <div class="container">
       <h4 class="text-uppercase text-center mb-3">Новые продукты</h4>
-      <div class="row">
+      <div class="row no-gutters">
         @foreach($mode_new->products->where('status', 1)->take(12) as $new_product)
           <div class="col-sm-3 col-6">
             <div class="product-item shadow-sm pb-2">

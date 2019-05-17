@@ -21,7 +21,7 @@
     @include('partials.breadcrumb', [$category, 'title_current' => $product->title])
   @else
     <section class="page-title-bar page-title-bar-04">
-      <div class="page-title-bar-overlay" style="background-image: url(/{{ $product->path }}/{{ $product->background }}); background-repeat: no-repeat; background-size: cover; background-position: center;"></div>
+      <div class="page-title-bar-overlay" style="background-image: url(/img/products/{{ $product->path }}/{{ $product->background }}); background-repeat: no-repeat; background-size: cover; background-position: center;"></div>
       <div class="page-title-bar-inner">
         <div class="container">
           <div class="row row-xs-center">

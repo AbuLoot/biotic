@@ -7411,6 +7411,8 @@ body[data-row-skin=dark] .page-open-main-menu i {
 }
 .product-item .product-info {
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .product-item .product-info .product-title {
   letter-spacing: 0;

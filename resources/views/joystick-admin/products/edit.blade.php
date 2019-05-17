@@ -123,12 +123,15 @@
       <input type="text" class="form-control" id="meta_description" name="meta_description" maxlength="255" value="{{ (old('meta_description')) ? old('meta_description') : $product->meta_description }}">
     </div>
     <div class="form-group">
-      <label for="description">Описание</label>
-      <textarea class="form-control" id="description" name="description" rows="6" maxlength="2000">{{ (old('description')) ? old('description') : $product->description }}</textarea>
-    </div>
-    <div class="form-group">
       <label for="characteristic">Характеристика</label>
       <textarea class="form-control" id="characteristic" name="characteristic" rows="6" maxlength="2000">{{ (old('characteristic')) ? old('characteristic') : $product->characteristic }}</textarea>
+    </div>
+    <div class="form-group">
+      <a target="_blank" href="/admin/edit-page/{{ $product->id }}" class="btn btn-primary">Редактировать страницу</a>
+    </div>
+    <div class="form-group">
+      <label for="description">Описание</label>
+      <textarea class="form-control" id="description" name="description" rows="6" maxlength="2000">{{ (old('description')) ? old('description') : $product->description }}</textarea>
     </div>
     <div class="form-group">
       <label>Галерея</label><br>
@@ -199,7 +202,7 @@
           @if($product->background == NULL)
             <img src="/img/slide/default-bg.jpg">
           @else
-            <img src="/{{ $product->path . '/' . $product->background }}">
+            <img src="/img/products/{{ $product->path . '/' . $product->background }}">
           @endif
         </div>
         <div class="fileinput-preview fileinput-exists thumbnail" style="width:100%;height:auto;"></div>

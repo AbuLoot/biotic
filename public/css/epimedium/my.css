@@ -13,7 +13,7 @@
   /*background: linear-gradient(0deg, rgba(0, 0, 0, 0.27) 0%, rgba(0, 0, 0, 0.4) 25%, rgba(0,0,0,0.014443277310924318) 50%);*/
   background: linear-gradient(0deg, rgba(43, 21, 58, 0.62) 0%, rgb(40, 20, 53) 25%, rgba(0,0,0,0.014443277310924318) 50%);
   /*background: linear-gradient(0deg, rgba(43, 21, 58, 0.62) 0%, rgb(211, 47, 32, 0.7) 25%, rgba(0,0,0,0.014443277310924318) 50%)*/
- padding-bottom: 30px;
+ padding-bottom: 50px;
 }
 .bg-green {
   background-color: #1b6736;
@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
       left: 180px;
   }
   .section-custom-padding {
-    padding: 40px 0;
+    padding: 60px 0;
   }
   .section-about {padding: 140px 0 60px; }
 
@@ -274,7 +274,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
       left: 50%;
   }
   .section-custom-padding {
-    padding: 40px 0;
+    padding: 60px 0;
   }
   .modal-bank-margin {
     margin-top: 30px;

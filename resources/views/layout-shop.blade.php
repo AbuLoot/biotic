@@ -71,7 +71,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-lg-3 d-md-none d-lg-block col-xs-center">
-            <a href="/"><img src="/img/logo-brand-130x55.png" alt="Biotic" class="main-logo"></a>
+            <a href="/"><img src="/img/logo-brand.png" alt="Biotic" class="main-logo"></a>
           </div>
           <div class="col-sm-8 col-lg-6">
             <div class="widget widget_search">

@@ -8,7 +8,7 @@
     <a href="/admin/categories/create" class="btn btn-success btn-sm">Добавить</a>
   </p>
   <div class="table-responsive">
-    <table class="table table-condensed">
+    <table class="table table-condensed table-hover">
       <thead>
         <tr class="active">
           <td>№</td>

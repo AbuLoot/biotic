@@ -1,5 +1,9 @@
 /node_modules
 /config/database.php
+/public/img/categories
+/public/img/companies
+/public/img/slide
+/public/img/products
 /public/hot
 /public/storage
 /storage/*.key

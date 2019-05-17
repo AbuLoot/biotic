@@ -33,7 +33,7 @@
     <div class="container">
       <h3>Поиск по запросу <b>"{{ $text }}"</b></h3>
       <br>
-      <div class="row">
+      <div class="row no-gutters">
         @foreach ($products as $product)
           <div class="col-6 col-sm-6 col-lg-3">
             <div class="product-item shadow-sm pb-2">

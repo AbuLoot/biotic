@@ -64,7 +64,7 @@
             </div>
           </div>
           <div class="products" id="products">
-            <div class="row">
+            <div class="row no-gutters">
               @foreach ($products as $product)
                 <div class="col-6 col-sm-6 col-lg-4">
                   <div class="product-item shadow-sm pb-2">

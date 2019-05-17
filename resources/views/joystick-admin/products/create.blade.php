@@ -98,12 +98,12 @@
       <input type="text" class="form-control" id="meta_description" name="meta_description" maxlength="255" value="{{ (old('meta_description')) ? old('meta_description') : '' }}">
     </div>
     <div class="form-group">
-      <label for="description">Описание</label>
-      <textarea class="form-control" id="description" name="description" rows="6" maxlength="2000">{{ (old('description')) ? old('description') : '' }}</textarea>
-    </div>
-    <div class="form-group">
       <label for="characteristic">Характеристика</label>
       <textarea class="form-control" id="characteristic" name="characteristic" rows="6" maxlength="2000">{{ (old('characteristic')) ? old('characteristic') : '' }}</textarea>
+    </div>
+    <div class="form-group">
+      <label for="description">Описание</label>
+      <textarea class="form-control" id="description" name="description" rows="6" maxlength="2000">{{ (old('description')) ? old('description') : '' }}</textarea>
     </div>
     <div class="form-group">
       <label>Фотографии</label><br>
