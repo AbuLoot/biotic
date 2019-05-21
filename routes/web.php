@@ -44,6 +44,7 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'role:admin']], func
     Route::get('products-category/{id}', 'Joystick\ProductController@categoryProducts');
     Route::get('products-actions', 'Joystick\ProductController@actionProducts');
     Route::get('edit-page/{id}', 'Joystick\ProductController@editPage');
+    Route::get('save-html/{id}', 'Joystick\ProductController@saveHtml');
 
     Route::resource('roles', 'Joystick\RoleController');
     Route::resource('users', 'Joystick\UserController');
@@ -54,9 +55,14 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'role:admin']], func
     Route::delete('apps/{id}', 'Joystick\AppController@destroy');
 });
 
-Route::get('save-ajax', function(\Request $request) {
-    dd($request->all());
-});
+// Route::get('save-html/{id}', function(\Request $request, $id) {
+
+//     $product = \App\Product::find($id);
+//     $product->description = $_GET['html'];
+//     $product->save();
+
+//     return response()->json($id);
+// });
 
 // Input
 Route::get('search', 'InputController@search');

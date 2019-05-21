@@ -228,6 +228,15 @@ class ProductController extends Controller
         return view('joystick-admin.products.page', ['product' => $product]);
     }
 
+    public function saveHtml($id)
+    {
+        $product = Product::find($id);
+        $product->description = $_GET['html'];
+        $product->save();
+
+        return response()->json($product->title);
+    }
+
     public function update(Request $request, $id)
     {
         $this->validate($request, [

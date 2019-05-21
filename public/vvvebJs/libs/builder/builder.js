@@ -198,7 +198,7 @@ Vvveb.Components = {
 					return 1;
 				return 0;
 			});
-/*		 
+	/*		 
 		var output = array.reduce(function(o, cur) {
 
 		  // Get the index of the key-value pair.
@@ -222,7 +222,7 @@ Vvveb.Components = {
 
 		  return o;
 		}, newData.properties);		 
-*/
+	*/
 		
 		this.add(type, newData);
 	},
@@ -676,7 +676,7 @@ Vvveb.Builder = {
 		if (Vvveb.Builder.iframe.src != url) Vvveb.Builder.iframe.src = url;
 	},
 	
-/* iframe */
+	/* iframe */
 	_loadIframe : function(url) {	
 
 		var self = this;
@@ -829,7 +829,7 @@ Vvveb.Builder = {
 		
 	},
 
-/* iframe highlight */    
+	/* iframe highlight */    
     _initHighlight: function() {
 		
 		var self = Vvveb.Builder;
@@ -1191,7 +1191,7 @@ Vvveb.Builder = {
 		
 	},	
 
-/* drag and drop */
+	/* drag and drop */
 	_initDragdrop : function() {
 
 		var self = this;
@@ -1332,26 +1332,31 @@ Vvveb.Builder = {
 		//return self.documentFrame.html(html);
 		//return self.documentFrame.attr("srcdoc", html);
 	},
-	
+
 	saveAjax: function(fileName, startTemplateUrl, callback)
 	{
 		var data = {};
+	    var element = document.getElementById("save-btn");
+	    var dataset = element.dataset;
+
 		data["fileName"] = (fileName && fileName != "") ? fileName : Vvveb.FileManager.getCurrentUrl();
 		data["startTemplateUrl"] = startTemplateUrl;
+
 		if (!startTemplateUrl || startTemplateUrl == null)
 		{
 			data["html"] = this.getHtml();
 		}
 
+		// console.log(data);
+
 		$.ajax({
-			type: "POST",
-			url: '/admin/save-ajax',//set your server side save script url
-			data: data,
-			cache: false,
+			type: "get",
+			url: '/admin/save-html/'+dataset.id, //set your server side save script url
+          	dataType: "json",
+          	data: {"html": data["html"]},
+			// cache: false,
 			success: function (data) {
-				
 				if (callback) callback(data);
-				
 			},
 			error: function (data) {
 				alert(data.responseText);
@@ -1781,24 +1786,24 @@ Vvveb.FileManager = {
 		
 		$("[data-page='" + this.currentPage + "'] > ol", this.tree).replaceWith(html);
 	},
-	
+
 	getCurrentUrl: function() {
 		if (this.currentPage)
 		return this.pages[this.currentPage]['url'];
 	},
-	
+
 	reloadCurrentPage: function() {
 		if (this.currentPage)
 		return this.loadPage(this.currentPage);
 	},
-	
+
 	loadPage: function(name, allowedComponents = false, disableCache = true) {
 		$("[data-page]", this.tree).removeClass("active");
 		$("[data-page='" + name + "']", this.tree).addClass("active");
-		
+
 		this.currentPage = name;
 		var url = this.pages[name]['url'];
-		
+
 		Vvveb.Builder.loadUrl(url + (disableCache ? (url.indexOf('?') > -1?'&':'?') + Math.random():''), 
 			function () { 
 				Vvveb.FileManager.loadComponents(allowedComponents); 

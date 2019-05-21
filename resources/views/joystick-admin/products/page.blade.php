@@ -59,7 +59,7 @@
     </div>
     
     <div class="btn-group mr-3" role="group">
-      <button class="btn btn-light" title="Export (Ctrl + E)" id="save-btn" data-vvveb-action="saveAjax" data-vvveb-shortcut="ctrl+e">
+      <button class="btn btn-light" title="Export (Ctrl + E)" id="save-btn" data-vvveb-action="saveAjax" data-vvveb-shortcut="ctrl+e" data-id="{{ $product->id }}">
         <i class="la la-save"></i>
       </button>
       
@@ -787,7 +787,7 @@
       $(".component-properties-tab").hide();
     }
 
-    Vvveb.Builder.init('/vvvebJs/demo/narrow-jumbotron/index.html', function() {
+    Vvveb.Builder.init('/vvvebJs/demo/product/index.html', function() {
       //run code after page/iframe is loaded
     });
 
