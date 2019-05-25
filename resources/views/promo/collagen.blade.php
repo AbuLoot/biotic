@@ -5,7 +5,7 @@
 @section('meta_description', $project->meta_description)
 
 @section('head')
-  <link rel="stylesheet" href="/css/collagen/my.css" type="text/css" media="all"/>
+  <link rel="stylesheet" href="/css/promo/collagen.css" type="text/css" media="all"/>
 @endsection
 
 @section('content')
@@ -15,7 +15,7 @@
         <div class="row">
           <div class="col-sm-4">
             <div class="branding__logo">
-              <h3 class="heading small fz-24 white ts-1 mt-2"> Натуральный продукт</h3>
+              <h3 class="heading small fz-24 white ts-1 mt-2"> 100% натуральный продукт</h3>
             </div>
           </div>
           <div class="col-sm-4"></div>
@@ -28,10 +28,12 @@
         </div>
         <div class="row header-main-content">
           <div class="col-sm-7">
-            <h3 class="heading primary-color text-uppercase header-title"> 100% Говяжий Протеин</h3>
+            <!-- <h3 class="heading primary-color text-uppercase header-title">Говяжий Гидролизат Протеина</h3> -->
+            <h3 class="heading primary-color text-uppercase header-title">Коллагеновый Гидролизат Протеина</h3>
             <div class="row">
               <div class="col-sm-10">
-                <p class="primary-color- white fz-28 lh-28 ls-1 ts-1">Протеин полученный из натурального говяжьего белка, для набора мышечной массы, для укрепления суставов и связок.</p>
+                <!-- <p class="primary-color- white fz-20 lh-24 ts-1">Протеин полученный из натурального говяжьего белка, для набора мышечной массы и для укрепления суставов и связок.</p> -->
+                <p class="primary-color- white fz-20 lh-24 ts-1">Идеальный протеин для набора мышечной массы и для укрепления суставов и связок.</p>
               </div>
             </div>
             <!-- <h3 class="heading primary-color header-price fz-60 "> 9500〒</h3> -->
@@ -57,9 +59,9 @@
             <li class="nav-item mb-2">
               <img src="/img/standarts/eco2.png" class="img-responsive">
             </li>
-            <!-- <li class="nav-item mb-2">
+            <li class="nav-item mb-2">
               <img src="/img/standarts/haccp2.png" class="img-responsive">
-            </li> -->
+            </li>
             <li class="nav-item mb-2">
               <img src="/img/standarts/kap2.png" class="img-responsive">
             </li>
@@ -69,9 +71,9 @@
             <li class="nav-item mb-2">
               <img src="/img/standarts/madeinkz2.png" class="img-responsive">
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <img src="/img/standarts/halal2.png" class="img-responsive">
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -87,7 +89,7 @@
           <h2 class="text-center text-uppercase mb-5"> Наши продукты</h2>
         </div>
       </div>
-      <div class="row">
+      <div class="row no-gutters">
         <div class="col-sm-3">
           <div class="product-item">
             <div class="product-thumbnail">
@@ -100,8 +102,8 @@
               </div>
             </div>
             <div class="product-info">
-              <h2 class="product-title">Протеин в пластмассовой таре<br> 3 кг.</h2>
-              <span class="price">23000〒</span>
+              <h2 class="product-title">Протеин в банке 3 кг.</h2>
+              <span class="price">24000〒</span>
             </div>
           </div>
         </div>
@@ -117,7 +119,7 @@
               </div>
             </div>
             <div class="product-info">
-              <h2 class="product-title">Протеин в пластмассовой таре<br> 1 кг.</h2>
+              <h2 class="product-title">Протеин в банке 1 кг.</h2>
               <span class="price">9500〒</span>
             </div>
           </div>
@@ -134,7 +136,7 @@
               </div>
             </div>
             <div class="product-info">
-              <h2 class="product-title">Протеин в зип пакете 1 кг.</h2>
+              <h2 class="product-title">Протеин в пакете 1 кг.</h2>
               <span class="price">8500〒</span>
             </div>
           </div>
@@ -177,11 +179,10 @@
     </div>
   </section> -->
 
-
   <!-- WHY YOU DO YOU NEED COLLAGEN? -->
   <section class="section pt-8 pb-8 bg-black">
     <div class="container">
-      <h2 class="text-uppercase fz-50- text-center mb-5 primary-color">Чем полезен Протеин?</h2>
+      <h2 class="text-uppercase fz-50- text-center mb-5 primary-color">Чем полезен Гидролизат Протеина?</h2>
       <div class="row">
         <div class="col-sm-6 col-lg-4">
           <div class="box-icon style-1 text-center">
@@ -215,7 +216,7 @@
         </div>
         <div class="offset-sm-3 col-sm-6 col-lg-6 text-center">
           <!-- <p class="white">Протеин представляет собой основной белок, который обеспечивает прочность хрящей, связывающих ткани и стенки сосудов. Благодаря содержанию в своем складе специальных аминокислот ― оксилизина и оксипролина ― его невозможно заменить любым другим белком. Как показали исследования американских медиков, регулярный и своевременный прием Протеина может помочь остановить развитие даже таких болезней, как артрит и целлюлит.</p> -->
-          <p class="white">БАД к пище "Протеин" представляет собой полноценный животный белок, содержайщий полный набор незаменимых аминокислот. Обогащение питания гидролизатом коллагена помогает восстановить его баланс в организме, который может нарушаться с возрастом а также при повышенных физических нагрузках. Препараты, созданные на основе гидролизованного коллагена, восстанавливают соединительные ткани при значительных физических нагрузках, повышают иммунитет, замедляют старение кожи.</p>
+          <p class="white">"Гидролизат Протеина" представляет собой полноценный животный белок, содержайщий полный набор незаменимых аминокислот. Обогащение питания гидролизатом коллагена помогает восстановить его баланс в организме, который может нарушаться с возрастом а также при повышенных физических нагрузках. Препараты, созданные на основе гидролизованного коллагена, восстанавливают соединительные ткани при значительных физических нагрузках, повышают иммунитет, замедляют старение кожи.</p>
           <!-- <p class="white">Многочисленные исследования неоднократно показали эффективность коллагена. Среди наиболее значимых работ можно выделить экспериментальные исследования доктора Д. Пирсона, исследовательской группы К. Вея (в частности – их фундаментальная резюмирующая работа «Идентификация пищевых продуктов-производных коллагеновых пептидов в крови человека после перорального приема гидролизата коллагена»), а также труды М. Барнетта и Х. Матсумото.</p> -->
         </div>
         <!-- <div class="col-sm-6 col-lg-4">
@@ -279,6 +280,36 @@
     </div>
   </section>
 
+  <!-- BENEFITS OF COLLAGEN -->
+  <section class="section bg-benefits pt-8- pb-8-">
+    <div class="container">
+      <div class="row pt-8 pb-8">
+        <div class="order-xs-2 col-sm-12 col-lg-6">
+          <img class="d-block mt-5 mx-auto" src="/img/promo/collagen/collagen-products.png" alt="">
+          <div class="text-center">
+            <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Заказать</a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-6">
+          <h2 class="text-uppercase fz-50- primary-color">Преимущество гидролизата протеина</h2>
+          <ul class="list-benefist">
+            <li><span class="primary-color"><i class="fa fa-check"></i></span> Полный состав Аминокислот</li>
+            <li><span class="primary-color"><i class="fa fa-check"></i></span> 100% натуральный, без ГМО</li>
+            <li><span class="primary-color"><i class="fa fa-check"></i></span> Витамины A, B12, D, C</li>
+            <li><span class="primary-color"><i class="fa fa-check"></i></span> Высокая скорость усвоения</li>
+            <li><span class="primary-color"><i class="fa fa-check"></i></span> Усвояемость продукта на 98%</li>
+            <li><span class="primary-color"><i class="fa fa-check"></i></span> Быстрое восстановление после тренировки</li>
+            <li><span class="primary-color"><i class="fa fa-check"></i></span> Отсутствие аллергенов</li>
+            <li><span class="primary-color"><i class="fa fa-check"></i></span> Снижает возможность появления травм при нагрузках и механических воздействиях</li>
+            <li><span class="primary-color"><i class="fa fa-check"></i></span> Приятный вкус и легко разбавляемый</li>
+            <li><span class="primary-color"><i class="fa fa-check"></i></span> Повышает Иммунитет</li>
+            <li><span class="primary-color"><i class="fa fa-check"></i></span> Рекомендует Казахская Академия Питания</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- WHO NEEDS COLLAGEN -->
   <section class="section bg-who-needs">
     <div class="container">
@@ -306,35 +337,6 @@
     </div>
   </section>
 
-  <!-- BENEFITS OF COLLAGEN -->
-  <section class="section bg-benefits pt-8- pb-8-">
-    <div class="container">
-      <div class="row pt-8 pb-8">
-        <div class="order-xs-2 col-sm-12 col-lg-6">
-          <img class="d-block mt-5 mx-auto" src="/img/promo/collagen/collagen-products.png" alt="">
-          <div class="text-center">
-            <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Заказать</a>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-6">
-          <h2 class="text-uppercase fz-50- primary-color">Преимущество нашего продукта</h2>
-          <ul class="list-benefist">
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> 100% натуральный, без ГМО</li>
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Витамины A, B12, D, C</li>
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Полный состав аминокислот</li>
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Высокая скорость усвоения</li>
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Усвояемость продукта на 98%</li>
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Отсутствие аллергенов</li>
-            <!-- <li><span class="primary-color"><i class="fa fa-check"></i></span> Снижает возможность появления травм при нагрузках и механических воздействиях</li> -->
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Приятный вкус и легко разбавляемый</li>
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Повышает Иммунитет</li>
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Рекомендует Казахская Академия Питания</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- STANDARTS -->
   <section class="section bg-black pt-7 pb-7">
     <div class="container-fluid">
@@ -350,18 +352,18 @@
             <li class="nav-item mb-2">
               <img src="/img/standarts/haccp2.png" class="img-responsive">
             </li>
-            <!-- <li class="nav-item mb-2">
+            <li class="nav-item mb-2">
               <img src="/img/standarts/kap2.png" class="img-responsive">
-            </li> -->
+            </li>
             <li class="nav-item mb-2">
               <img src="/img/standarts/gmo2.png" class="img-responsive">
             </li>
             <li class="nav-item mb-2">
               <img src="/img/standarts/madeinkz2.png" class="img-responsive">
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <img src="/img/standarts/halal2.png" class="img-responsive">
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -484,13 +486,24 @@
           <h3 class="text-uppercase heading fw-normal fz-40 mb-2"> Часто задаваемые вопросы</h3>
           <div id="accordion" class="accordion">
             <div class="accordion-section">
-              <div class="accordion-header" id="headingZero">
+              <div class="accordion-header" id="headingSix">
                 <h6 class="accordion-title">
-                  <div data-toggle="collapse" data-target="#collapseZero" aria-expanded="true" aria-controls="collapseZero">На сколько хватает 1 кг?</div>
+                  <div class="collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">Чем отличается ваш протеин от других?</div>
                   <span class="accordion-icon"></span>
                 </h6>
               </div>
-              <div id="collapseZero" class="collapse show" aria-labelledby="headingZero" data-parent="#accordion">
+              <div id="collapseSix" class="collapse show" aria-labelledby="headingSix" data-parent="#accordion">
+                <div class="accordion-content">На рынке есть очень большое количество производители спортивного питания. Все они зарубежные компании. Во многом чтобы удешевить стоимость протеина используются разные бюджетные методы, протеин делается из сыворотки или яичного белка. Тут нужно просто задуматься, чтобы нарастить мясо, то есть мышцы эффективнее есть мясо или яйцо? В силу того что в нашей стране пока мясо стоит не так дорого мы предоставляем качественный продукт за доступную цену. Мы используем современное немецкое оборудование.</div>
+              </div>
+            </div>
+            <div class="accordion-section">
+              <div class="accordion-header" id="headingZero">
+                <h6 class="accordion-title">
+                  <div data-toggle="collapse" data-target="#collapseZero" aria-expanded="false" aria-controls="collapseZero">На сколько хватает 1 кг?</div>
+                  <span class="accordion-icon"></span>
+                </h6>
+              </div>
+              <div id="collapseZero" class="collapse" aria-labelledby="headingZero" data-parent="#accordion">
                 <div class="accordion-content">В одном килограмме протеина на 40 порций по 25 гр. Если вы будете принимать по 2 раза в день вам хватит на 20 дней. Соответственно в 3 кг 120 порции.</div>
               </div>
             </div>
@@ -559,17 +572,6 @@
               </div>
               <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
                 <div class="accordion-content">Уместно сказать что наш протеин вреден ровно настолько, насколько и мясо. Некоторые люди ошибочно полагает, что протеин это что-то химическое. Протеин в переводе с английского означает белок. То есть это тот самый необходимый строительный материал нашего организма. Порой по различным причинам бывает сложно получать нужное количество белка от еды. Но как правило эту недостачу замечают люди у которых организм дает сбой или люди которые используют свое тело в полной мере - спортсмены. Многие производители для увеличения эффекта от некачественного продукта, добавляют разные добавки которые вредят репродуктивной системе или в целом здоровью.</div>
-              </div>
-            </div>
-            <div class="accordion-section">
-              <div class="accordion-header" id="headingSix">
-                <h6 class="accordion-title">
-                  <div class="collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Чем отличается ваш протеин от других?</div>
-                  <span class="accordion-icon"></span>
-                </h6>
-              </div>
-              <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
-                <div class="accordion-content">На рынке есть очень большое количество производители спортивного питания. Все они зарубежные компании. Во многом чтобы удешевить стоимость протеина используются разные бюджетные методы, протеин делается из сыворотки или яичного белка. Тут нужно просто задуматься, чтобы нарастить мясо, то есть мышцы эффективнее есть мясо или яйцо? В силу того что в нашей стране пока мясо стоит не так дорого мы предоставляем качественный продукт за доступную цену. Мы используем современное немецкое оборудование.</div>
               </div>
             </div>
           </div>

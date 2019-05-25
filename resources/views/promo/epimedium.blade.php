@@ -6,7 +6,7 @@
 
 @section('head')
   <link href="https://fonts.googleapis.com/css?family=Philosopher&amp;subset=cyrillic" rel="stylesheet">
-  <link rel="stylesheet" href="/css/epimedium/my.css" type="text/css" media="all"/>
+  <link rel="stylesheet" href="/css/promo/epimedium.css" type="text/css" media="all"/>
 @endsection
 
 @section('content')

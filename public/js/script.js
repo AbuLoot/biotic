@@ -81,7 +81,7 @@
     });
 
     //Owl Carousel
-    // OwlCarousel();
+    OwlCarousel();
 
     //Headroom Menu
     if ($(window).width() <= 768) {

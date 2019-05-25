@@ -98,8 +98,8 @@ Route::get('toggle-favorite/{id}', 'FavoriteController@toggleFavorite');
 
 // Promo
 Route::get('/', 'PromoController@index');
-Route::get('/epimediumnaya-pasta', 'PromoController@epimedium');
-Route::get('/protein', 'PromoController@collagen');
+Route::get('/promo/epimediumnaya-pasta', 'PromoController@epimedium');
+Route::get('/promo/protein', 'PromoController@collagen');
 
 
 // News
