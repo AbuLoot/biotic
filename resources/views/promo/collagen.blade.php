@@ -28,8 +28,7 @@
         </div>
         <div class="row header-main-content">
           <div class="col-sm-7">
-            <!-- <h3 class="heading primary-color text-uppercase header-title">Говяжий Гидролизат Протеина</h3> -->
-            <h3 class="heading primary-color text-uppercase header-title">Коллагеновый Гидролизат Протеина</h3>
+            <h3 class="heading primary-color text-uppercase header-title">Говяжий Гидролизат Протеина</h3>
             <div class="row">
               <div class="col-sm-10">
                 <!-- <p class="primary-color- white fz-20 lh-24 ts-1">Протеин полученный из натурального говяжьего белка, для набора мышечной массы и для укрепления суставов и связок.</p> -->
