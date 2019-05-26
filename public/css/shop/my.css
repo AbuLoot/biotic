@@ -61,9 +61,6 @@ label {
 
 /* For Mobile */
 @media (max-width: 479px) {
-  .main-logo {
-    width: 120px;
-  }
   .custom_search .search-field {
     padding-left: 20px;
   }
