@@ -18,7 +18,7 @@
             <div class="branding__logo">
               <a href="/">
                 <img src="/img/promo/sidra/logo.png" alt="Sidra" class="mw-150">
-                <!-- <img src="img/promo/logo.png" alt="Biotic"> -->
+                <!-- <img src="/img/promo/logo.png" alt="Biotic"> -->
               </a>
               <h3 class="heading small fz-26 white ts-1"> Натуральный продукт</h3>
             </div>
@@ -805,12 +805,12 @@
   <!-- CONTACT BUTTONS -->
   <div class="fixed-button">
     <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77078875631" target="_top" data-attr="whatsapp_call">
-      <img src="img/whatsapp-logo.png">
+      <img src="/img/whatsapp-logo.png">
     </a>
   </div>
   <div class="fixed-button2">
     <a onclick="fbq('track', 'Contact');" href="tel:+77078875631" target="_top" data-attr="phone">
-      <img src="img/phone-receiver.png">
+      <img src="/img/phone-receiver.png">
     </a>
   </div>
 
@@ -847,7 +847,7 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <img src="img/promo/sidra/bank.png" class="d-block modal-bank-margin mx-auto">
+            <img src="/img/promo/sidra/bank.png" class="d-block modal-bank-margin mx-auto">
           </div>
         </div>
       </div>

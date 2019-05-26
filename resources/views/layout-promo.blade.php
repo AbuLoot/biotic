@@ -81,7 +81,7 @@
       @yield('content')
 
       <!-- CONTACT BUTTONS -->
-      <!-- <div class="fixed-button">
+      <div class="fixed-button">
         <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77078875631" target="_top" data-attr="whatsapp_call">
           <img src="/img/whatsapp-logo.png">
         </a>
@@ -90,7 +90,7 @@
         <a onclick="fbq('track', 'Contact');" href="tel:+77078875631" target="_top" data-attr="phone">
           <img src="/img/phone-receiver.png">
         </a>
-      </div> -->
+      </div>
     </main>
 
     <footer class="footer bg-gray dark">
