@@ -685,7 +685,7 @@
             <li><i class="fa fa-check  primary-color"></i> <span class="m-1">Лучшая Цена</span></li>
             <li><i class="fa fa-check  primary-color"></i> <span class="m-1">Оригинальный продукт</span></li>
           </ul> -->
-          <h3>Цена 5900<span class="fz-25">〒</span></h3>
+          <h3>Цена 7900<span class="fz-25">〒</span></h3>
           <!-- <p class="fz-18">Доставка <span class="fz-24 badge badge-warning">2-3 дня</span> по Казахстану</p> -->
           <div class="text-center-">
             <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Заказать</a>
