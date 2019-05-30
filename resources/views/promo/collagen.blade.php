@@ -235,7 +235,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8 offset-sm-2">
-          <h2 class="text-center text-uppercase mb-5"> Наши сертификаты</h2>
+          <h2 class="text-center text-uppercase mb-5"> Сертификаты</h2>
         </div>
       </div>
       <div class="row">
