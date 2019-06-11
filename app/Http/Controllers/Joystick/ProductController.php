@@ -179,7 +179,7 @@ class ProductController extends Controller
         $product->title_extra = $request->title_extra;
         $product->direction = $request->direction;
         $product->color = $request->color;
-        $product->background = $backgroundName;
+        $product->background = (isset($backgroundName)) ? $backgroundName : '';
         $product->company_id = $request->company_id;
         $product->barcode = $request->barcode;
         $product->price = $request->price;
