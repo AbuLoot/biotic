@@ -87,17 +87,6 @@
     <div id="filemanager"> 
       <div class="header">
         <a href="#" class="text-secondary">Pages</a>
-
-        <div class="btn-group responsive-btns mr-4 float-right" role="group">
-          <button class="btn btn-link btn-sm" title="New file" id="new-file-btn" data-vvveb-action="newPage" data-vvveb-shortcut="">
-            <i class="la la-file"></i> <small>New page</small>
-          </button>
-          
-          <!--  &ensp;
-          <button class="btn btn-link text-dark p-0"  title="Delete file" id="delete-file-btn" data-vvveb-action="deletePage" data-vvveb-shortcut="">
-            <i class="la la-trash"></i> <small>Delete</small>
-          </button> -->
-        </div>
       </div>
 
       <div class="tree">
@@ -677,8 +666,6 @@
     <form>
       <div class="modal-content">
         <div class="modal-header">
-          <p class="modal-title text-primary"><i class="la la-lg la-file"></i> New page</p>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true"><small><i class="la la-close"></i></small></span>
           </button>
         </div>
@@ -795,15 +782,7 @@
     Vvveb.FileManager.init();
     Vvveb.FileManager.addPages(
     [
-      {name:"narrow-jumbotron", title:"Jumbotron",  url: "/vvvebJs/demo/narrow-jumbotron/index.html", assets: ['/vvvebJs/demo/narrow-jumbotron/narrow-jumbotron.css']},
-      {name:"landing-page", title:"Landing page",  url: "/vvvebJs/demo/startbootstrap-landing-page/index.html", assets: ['/vvvebJs/demo/startbootstrap-landing-page/css/landing-page.min.css']},
-      {name:"album", title:"Album",  url: "/vvvebJs/demo/album/index.html", assets: ['/vvvebJs/demo/album/album.css']},
-      {name:"blog", title:"Blog",  url: "/vvvebJs/demo/blog/index.html", assets: ['/vvvebJs/demo/blog/blog.css']},
-      {name:"carousel", title:"Carousel",  url: "/vvvebJs/demo/carousel/index.html", assets: ['/vvvebJs/demo/carousel/carousel.css']},
-      {name:"offcanvas", title:"Offcanvas",  url: "/vvvebJs/demo/offcanvas/index.html", assets: ['/vvvebJs/demo/offcanvas/offcanvas.css','/vvvebJs/demo/offcanvas/offcanvas.js']},
-      {name:"pricing", title:"Pricing",  url: "/vvvebJs/demo/pricing/index.html", assets: ['/vvvebJs/demo/pricing/pricing.css']},
-      {name:"product", title:"Product",  url: "/vvvebJs/demo/product/index.html", assets: ['/vvvebJs/demo/product/product.css']},
-      {name:"ecommerce", title:"eCommerce homepage",  url: "ecommerce_demo/index.html"},
+      {name:"narrow-jumbotron", title:"Описание",  url: "http://biotic.kz/admin/products/1/desc.html", assets: ['/vvvebJs/demo/narrow-jumbotron/narrow-jumbotron.css']},
       //uncomment php code below and rename file to .php extension to load saved html files in the editor
       /*
       <?php 
