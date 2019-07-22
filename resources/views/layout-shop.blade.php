@@ -177,6 +177,7 @@
                         <?php endforeach; ?>
                       <?php }; ?>
                       <?php $traverse($categories); ?>
+                      <li class="promo-link"><a href="/promo"><b>Актуально</b></a></li>
                     </ul>
                   </nav>
                 </div>

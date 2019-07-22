@@ -72,7 +72,7 @@
     </div>
   </section>
 
-  <!-- CATEGORIES -->
+  <!-- CATEGORIES
   <section class="pt-3 pb-3">
     <div class="container">
       <div class="row">
@@ -129,7 +129,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- POPULAR PRODUCTS -->
   <section class="pt-3 pb-3">
@@ -201,7 +201,7 @@
               </div>
               <div class="product-info">
                 <a class="silver fz-14" href="/catalog/{{ $new_product->category->parent->slug . '/' . $new_product->category->slug . '/' . $new_product->category_id }}">{{ $new_product->category->title }}</a>
-                <a href="/product">
+                <a href="/product/{{ $new_product->slug }}">
                   <h2 class="product-title">{{ $new_product->title }}</h2>
                   <div class="price mt-1">{{ $new_product->price }}〒</div>
                 </a>
@@ -229,7 +229,7 @@
           success: function(data) {
             $('*[data-product-id="'+productId+'"]').replaceWith('<a href="/cart" class="button style-flat button-xs button-secondary">Оплатить</a>');
             $('#count-items').text(data.countItems);
-            $('#modalCart').modal('show');
+            // $('#modalCart').modal('show');
 
             // alert('Товар добавлен в корзину');
           }

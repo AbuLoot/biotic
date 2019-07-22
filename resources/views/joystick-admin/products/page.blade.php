@@ -796,14 +796,14 @@
     Vvveb.FileManager.addPages(
     [
       {name:"narrow-jumbotron", title:"Jumbotron",  url: "/vvvebJs/demo/narrow-jumbotron/index.html", assets: ['/vvvebJs/demo/narrow-jumbotron/narrow-jumbotron.css']},
-      {name:"landing-page", title:"Landing page",  url: "/vvvebJs/demo/startbootstrap-landing-page/index.html", assets: ['/vvvebJs/demo/startbootstrap-landing-page/css/landing-page.min.css']},
+      // {name:"landing-page", title:"Landing page",  url: "/vvvebJs/demo/startbootstrap-landing-page/index.html", assets: ['/vvvebJs/demo/startbootstrap-landing-page/landing-page.min.css']},
       {name:"album", title:"Album",  url: "/vvvebJs/demo/album/index.html", assets: ['/vvvebJs/demo/album/album.css']},
       {name:"blog", title:"Blog",  url: "/vvvebJs/demo/blog/index.html", assets: ['/vvvebJs/demo/blog/blog.css']},
       {name:"carousel", title:"Carousel",  url: "/vvvebJs/demo/carousel/index.html", assets: ['/vvvebJs/demo/carousel/carousel.css']},
       {name:"offcanvas", title:"Offcanvas",  url: "/vvvebJs/demo/offcanvas/index.html", assets: ['/vvvebJs/demo/offcanvas/offcanvas.css','/vvvebJs/demo/offcanvas/offcanvas.js']},
       {name:"pricing", title:"Pricing",  url: "/vvvebJs/demo/pricing/index.html", assets: ['/vvvebJs/demo/pricing/pricing.css']},
       {name:"product", title:"Product",  url: "/vvvebJs/demo/product/index.html", assets: ['/vvvebJs/demo/product/product.css']},
-      {name:"ecommerce", title:"eCommerce homepage",  url: "ecommerce_demo/index.html"},
+      // {name:"ecommerce", title:"eCommerce homepage",  url: "ecommerce_demo/index.html"},
       //uncomment php code below and rename file to .php extension to load saved html files in the editor
       /*
       <?php 

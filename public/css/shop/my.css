@@ -14,6 +14,9 @@
 ul.mobile-menu > li > a:first-child {
   text-transform: uppercase;
 }
+.header-desktop.style-5 .menu--primary > ul > li.promo-link > a {
+  color: #f76b6a;
+}
 
 label {
   margin-top: .5rem;

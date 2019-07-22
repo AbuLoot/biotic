@@ -43,7 +43,7 @@
 
       <nav class="navbar fixed-top- navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-          <a  class="navbar-brand biotic-logo" href="/">
+          <a  class="navbar-brand biotic-logo" href="/promo">
             <img src="/img/logo.png" alt="Biotic">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,7 +53,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto text-center">
               <li class="nav-item active">
-                <a class="nav-link- white text-uppercase" href="/">Главная <span class="sr-only">(current)</span></a>
+                <a class="nav-link- white text-uppercase" href="/">Магазин <span class="sr-only">(current)</span></a>
               </li>
             </ul>
             <div class="header-social-networks  text-center-sm ml-auto fz-22">
