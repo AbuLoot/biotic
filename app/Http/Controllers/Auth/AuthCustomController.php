@@ -46,7 +46,6 @@ class AuthCustomController extends Controller
 
         $user = new User();
         $user->name = $request->name;
-        // $user->phone = $request->phone;
         $user->email = $request->email;
         $user->password = bcrypt($request->password);
         $user->save();

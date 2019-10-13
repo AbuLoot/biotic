@@ -28,11 +28,11 @@
         </div>
         <div class="row header-main-content">
           <div class="col-sm-7">
-            <h3 class="heading primary-color text-uppercase header-title">Говяжий Гидролизат Протеина</h3>
+            <h3 class="heading primary-color text-uppercase header-title">Гидролизат Протеина</h3>
             <div class="row">
               <div class="col-sm-10">
                 <!-- <p class="primary-color- white fz-20 lh-24 ts-1">Протеин полученный из натурального говяжьего белка, для набора мышечной массы и для укрепления суставов и связок.</p> -->
-                <p class="primary-color- white fz-20 lh-24 ts-1">Идеальный протеин для набора мышечной массы и для укрепления суставов и связок.</p>
+                <p class="primary-color- white fz-25 lh-32 ts-1">Мощный Протеин из коллагена для набора мышечной массы и для укрепления суставов и связок. Эффект за 2 недели!</p>
               </div>
             </div>
             <!-- <h3 class="heading primary-color header-price fz-60 "> 9500〒</h3> -->
@@ -127,7 +127,7 @@
           <div class="product-item">
             <div class="product-thumbnail">
               <a href="#">
-                <img class="img-responsive" src="/img/promo/collagen/paper-package.png" alt="" />
+                <img class="img-responsive" src="/img/promo/collagen/silver-package.png" alt="" />
               </a>
               <!-- <div class="actions"> <div class="action action-view-detail"> </div> <div class="action action-add-to-cart"> <a href="#" class="button-add-to-cart" data-toggle="modal" data-target="#appModal">Заказать</a> </div> </div> -->
               <div class="text-center">
@@ -184,39 +184,51 @@
       <h2 class="text-uppercase fz-50- text-center mb-5 primary-color">Чем полезен Гидролизат Протеина?</h2>
       <div class="row">
         <div class="col-sm-6 col-lg-4">
-          <div class="box-icon style-1 text-center">
+          <div class="box-icon style-1 text-center-">
             <div class="content-wrap">
               <div class="image">
                 <img class="rounded" src="/img/promo/collagen/muscules-org.jpg" alt="Протеин помогает эффективно набрать мышечную массу">
               </div>
-              <h4 class="white"><i class="primary-color fa fa-check"></i> Протеин помогает эффективно набрать мышечную массу и укрепить суставы</h4>
+              <h4 class="white ls-1"><i class="primary-color fa fa-check"></i> Протеин помогает эффективно набрать мышечную массу и укрепить суставы</h4>
             </div>
           </div>
         </div>
         <div class="col-sm-6 col-lg-4">
-          <div class="box-icon style-1 text-center">
+          <div class="box-icon style-1 text-center-">
             <div class="content-wrap">
               <div class="image">
                 <img class="rounded" src="/img/promo/collagen/orthopaedics1-org.jpg" alt="Восстанавливает целостность структуры хрящевой ткани и тканей сухожилий">
               </div>
-              <h4 class="white"><i class="primary-color fa fa-check"></i> Восстанавливает целостность структуры хрящевой ткани и тканей сухожилий</h4>
+              <h4 class="white ls-1"><i class="primary-color fa fa-check"></i> Восстанавливает целостность структуры хрящевой ткани и тканей сухожилий</h4>
             </div>
           </div>
         </div>
         <div class="col-sm-6 col-lg-4">
-          <div class="box-icon style-1 text-center">
+          <div class="box-icon style-1 text-center-">
             <div class="content-wrap">
               <div class="image">
                 <img class="rounded" src="/img/promo/collagen/shoulder_impingement2-org.jpg" alt="Его употребление приводит к повышению прочности и износостойкости костей">
               </div>
-              <h4 class="white"><i class="primary-color fa fa-check"></i> Его употребление приводит к повышению прочности и износостойкости костей</h4>
+              <h4 class="white ls-1"><i class="primary-color fa fa-check"></i> Его употребление приводит к повышению прочности и износостойкости костей</h4>
             </div>
           </div>
         </div>
-        <div class="offset-sm-3 col-sm-6 col-lg-6 text-center">
+        <div class="-offset-sm-3 col-sm-6 col-lg-4 text-center-">
+          <p class="white fz-22 lh-28 ls-1 mb-2"><i class="primary-color fa fa-check"></i> Гидролизованный коллаген производится из натурального коллагена, который получают из копыт и рог животных, а&nbsp;так же их кожи.</p>
+        </div>
+        <!-- <div class="-offset-sm-3 col-sm-6 col-lg-4 text-center-">
+          <p class="white fz-22 lh-28 ls-1 mb-2"><i class="primary-color fa fa-check"></i> Молекулы натурального коллагена химически измельчают на более мелкие части, для улучшения пищевой биодоступности, проникновение в волосы и верхние слои кожи.</p>
+        </div> -->
+        <div class="-offset-sm-3 col-sm-6 col-lg-4 text-center-">
+          <p class="white fz-22 lh-28 ls-1 mb-2"><i class="primary-color fa fa-check"></i> Гидролизованный коллаген нашел свое применение в&nbsp;питании и медицине, а так же в косметике. Его широко применяют как добавку в пищу для восполнения недостатка аминокислот в организме. Как следствие использования гидролизата коллагена вместе с&nbsp;витаминами, наблюдалось улучшения качества кожи.</p>
+        </div>
+        <div class="offset-sm-3 col-sm-6 col-lg-6 text-center-">
           <!-- <p class="white">Протеин представляет собой основной белок, который обеспечивает прочность хрящей, связывающих ткани и стенки сосудов. Благодаря содержанию в своем складе специальных аминокислот ― оксилизина и оксипролина ― его невозможно заменить любым другим белком. Как показали исследования американских медиков, регулярный и своевременный прием Протеина может помочь остановить развитие даже таких болезней, как артрит и целлюлит.</p> -->
-          <p class="white">"Гидролизат Протеина" представляет собой полноценный животный белок, содержайщий полный набор незаменимых аминокислот. Обогащение питания гидролизатом коллагена помогает восстановить его баланс в организме, который может нарушаться с возрастом а также при повышенных физических нагрузках. Препараты, созданные на основе гидролизованного коллагена, восстанавливают соединительные ткани при значительных физических нагрузках, повышают иммунитет, замедляют старение кожи.</p>
+          <!-- <p class="white">"Гидролизат Протеина" представляет собой полноценный животный белок, содержайщий полный набор незаменимых аминокислот. Обогащение питания гидролизатом коллагена помогает восстановить его баланс в организме, который может нарушаться с возрастом а также при повышенных физических нагрузках. Препараты, созданные на основе гидролизованного коллагена, восстанавливают соединительные ткани при значительных физических нагрузках, повышают иммунитет, замедляют старение кожи.</p> -->
           <!-- <p class="white">Многочисленные исследования неоднократно показали эффективность коллагена. Среди наиболее значимых работ можно выделить экспериментальные исследования доктора Д. Пирсона, исследовательской группы К. Вея (в частности – их фундаментальная резюмирующая работа «Идентификация пищевых продуктов-производных коллагеновых пептидов в крови человека после перорального приема гидролизата коллагена»), а также труды М. Барнетта и Х. Матсумото.</p> -->
+          <!-- <p class="white fz-22 lh-28 ls-1 mb-2"><i class="primary-color fa fa-check"></i> Гидролизованный коллаген производится из натурального коллагена, который получают из копыт и рог животных, а&nbsp;так же их кожи.</p> -->
+          <!-- <p class="white fz-22 lh-28 ls-1 mb-2"><i class="primary-color fa fa-check"></i> Молекулы натурального коллагена химически измельчают на более мелкие части, для улучшения пищевой биодоступности, проникновение в волосы и верхние слои кожи при наружном применении.</p> -->
+          <!-- <p class="white fz-22 lh-28 ls-1 mb-2"><i class="primary-color fa fa-check"></i> Гидролизованный коллаген нашел свое применение в&nbsp;питании и медицине, а так же в косметике. Его широко применяют как добавку в пищу для восполнения недостатка аминокислот в организме. Как следствие использования гидролизата коллагена вместе с&nbsp;витаминами, наблюдалось улучшения качества кожи.</p> -->
         </div>
         <!-- <div class="col-sm-6 col-lg-4">
           <h4 class="white"><i class="primary-color fa fa-check"></i> Укрепляет суставы и связки</h4>

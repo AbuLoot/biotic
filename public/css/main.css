@@ -18,6 +18,9 @@
 .yellow {
   color: #ffed00;
 }
+.font-philosopher {
+  font-family: "Philosopher", Helvetica, Arial, sans-serif;
+}
 
 /* Biotic Logo */
 .navbar-brand {

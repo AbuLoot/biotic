@@ -107,10 +107,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   top: -10%;
   right: 0;
 }
+.standarts {
+  display: block;
+  padding: 5px;
+  background-color: #266736;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
 .made-in-turkey {
   position: absolute;
-  bottom: 70px;
-  left: -30px;
+  bottom: -166px;
+  right: 0;
 }
 .phones {
   max-width: 240px;
@@ -231,16 +238,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   .header-price > s {display: none; }
   .made-in-turkey {
       bottom: -110px;
-      left: 180px;
   }
   .section-custom-padding {
     padding: 60px 0;
   }
   .section-about {padding: 140px 0 60px; }
 
-  .section-bg-man > div > .row {
-    padding: 270px 0 0;
-  }
   .section-bg-man {
     background-image: url(../../img/promo/sidra/sidra-man-mobile.jpg);
     background-position: center left;
@@ -271,7 +274,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   .header-price > s {display: none; }
   .made-in-turkey {
       bottom: -380px;
-      left: 50%;
   }
   .section-custom-padding {
     padding: 60px 0;
@@ -283,6 +285,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     background-image: url(../../img/promo/sidra/sidra-man-mobile.jpg);
     background-position: center 480px;
     background-size: 150%;
+  }
+  .section-bg-man > div > .row {
+    padding: 270px 0 0;
   }
   .section-bg-woman {
     background-image: url(../../img/promo/sidra/flowers-mobile.jpg);

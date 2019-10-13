@@ -14,8 +14,8 @@ class AddColumnsToProductsTable extends Migration
     public function up()
     {
         Schema::table('products', function (Blueprint $table) {
-            $table->string('title_extra')->after('title');
-            $table->enum('direction', ['left', 'center', 'right'])->after('meta_description');
+            $table->string('title_extra')->after('meta_description');
+            $table->enum('direction', ['left', 'center', 'right'])->after('title_extra');
             $table->string('color')->nullable()->after('direction');
             $table->string('background')->nullable()->after('color');
         });

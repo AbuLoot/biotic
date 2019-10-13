@@ -53,7 +53,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto text-center">
               <li class="nav-item active">
-                <a class="nav-link- white text-uppercase" href="/">Магазин <span class="sr-only">(current)</span></a>
+                <a class="nav-link- white text-uppercase" href="/"><span class="mini-cart-icon"></span> Магазин <span class="sr-only">(current)</span></a>
               </li>
             </ul>
             <div class="header-social-networks  text-center-sm ml-auto fz-22">
@@ -112,7 +112,7 @@
                 <h4 class="white- mt-3"> Адрес</h4>
                 <div class="mb-3"></div>
                 <p class="fz-22">Республика Казахстан, город Алматы, улица Толе би 286/2, офис 401.</p>
-                <p class="heading fz-22 fw-normal"> <a class="primary-color" href="mailto:info@biotic.com">info@biotic.kz</a></p>
+                <p class="heading fz-22 fw-normal"> <a class="primary-color" href="mailto:biotic.company@gmail.com">biotic.company@gmail.com</a></p>
               </div>
             </div>
             <div class="col-sm-4">
@@ -124,6 +124,7 @@
                 <p>ИИК: KZ139470398991749916 (тенге),<br>
                   ИИК: KZ919470643000346735 (рубль)</p>
                 <p>АО ДБ «Альфа-Банк» г. Алматы<br> БИК банка ALFAKZKA</p>
+                <p>KASPI: 5169 4931 9973 4057<br>
               </div>
             </div>
             <div class="col-sm-4">

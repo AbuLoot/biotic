@@ -20,7 +20,11 @@ class CreateProductsTable extends Migration
             $table->foreign('category_id')->references('id')->on('categories');
             $table->string('slug');
             $table->string('title');
+            $table->string('title_extra');
             $table->string('meta_description');
+            $table->enum('direction', ['left', 'center', 'right']);
+            $table->string('color')->nullable();
+            $table->string('background')->nullable();
             $table->integer('company_id');
             $table->string('barcode');
             $table->decimal('price', 44, 2);

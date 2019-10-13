@@ -10,88 +10,51 @@
     <link rel="icon" href="favicon.ico">
     <base href="">
     <title>{{ $product->title }}</title>
-    
+
     <link href="/vvvebJs/css/editor.css" rel="stylesheet">
     <link href="/vvvebJs/css/line-awesome.css" rel="stylesheet">
   </head>
 <body>
 <div id="vvveb-builder">
-
   <div id="top-panel">
     <img src="/vvvebJs/img/logo.png" alt="Vvveb" class="float-left" id="logo">
 
     <div class="btn-group float-left" role="group">
-      <button class="btn btn-light" title="Toggle file manager" id="toggle-file-manager-btn" data-vvveb-action="toggleFileManager" data-toggle="button" aria-pressed="false">
-        <img src="/vvvebJs/libs/builder/icons/file-manager-layout.svg" width="20px" height="20px">
-      </button>
-
-      <button class="btn btn-light" title="Toggle left column" id="toggle-left-column-btn" data-vvveb-action="toggleLeftColumn" data-toggle="button" aria-pressed="false">
-        <img src="/vvvebJs/libs/builder/icons/left-column-layout.svg" width="20px" height="20px">
-      </button>
-
-      <button class="btn btn-light" title="Toggle right column" id="toggle-right-column-btn" data-vvveb-action="toggleRightColumn" data-toggle="button" aria-pressed="false">
-        <img src="/vvvebJs/libs/builder/icons/right-column-layout.svg" width="20px" height="20px">
-      </button>
+      <button class="btn btn-light" title="Toggle file manager" id="toggle-file-manager-btn" data-vvveb-action="toggleFileManager" data-toggle="button" aria-pressed="false"> <img src="/vvvebJs/libs/builder/icons/file-manager-layout.svg" width="20px" height="20px"> </button>
+      <button class="btn btn-light" title="Toggle left column" id="toggle-left-column-btn" data-vvveb-action="toggleLeftColumn" data-toggle="button" aria-pressed="false"> <img src="/vvvebJs/libs/builder/icons/left-column-layout.svg" width="20px" height="20px"> </button>
+      <button class="btn btn-light" title="Toggle right column" id="toggle-right-column-btn" data-vvveb-action="toggleRightColumn" data-toggle="button" aria-pressed="false"> <img src="/vvvebJs/libs/builder/icons/right-column-layout.svg" width="20px" height="20px"> </button>
     </div>
               
     <div class="btn-group mr-3" role="group">
-      <button class="btn btn-light" title="Undo (Ctrl/Cmd + Z)" id="undo-btn" data-vvveb-action="undo" data-vvveb-shortcut="ctrl+z">
-        <i class="la la-undo"></i>
-      </button>
-
-      <button class="btn btn-light"  title="Redo (Ctrl/Cmd + Shift + Z)" id="redo-btn" data-vvveb-action="redo" data-vvveb-shortcut="ctrl+shift+z">
-        <i class="la la-undo la-flip-horizontal"></i>
-      </button>
+      <button class="btn btn-light" title="Undo (Ctrl/Cmd + Z)" id="undo-btn" data-vvveb-action="undo" data-vvveb-shortcut="ctrl+z"> <i class="la la-undo"></i> </button>
+      <button class="btn btn-light"  title="Redo (Ctrl/Cmd + Shift + Z)" id="redo-btn" data-vvveb-action="redo" data-vvveb-shortcut="ctrl+shift+z"> <i class="la la-undo la-flip-horizontal"></i> </button>
     </div>
 
     <div class="btn-group mr-3" role="group">
-      <button class="btn btn-light" title="Designer Mode (Free component dragging)" id="designer-mode-btn" data-toggle="button" aria-pressed="false" data-vvveb-action="setDesignerMode">
-        <i class="la la-hand-grab-o"></i>
-      </button>
-
-      <button class="btn btn-light" title="Preview" id="preview-btn" type="button" data-toggle="button" aria-pressed="false" data-vvveb-action="preview">
-        <i class="la la-eye"></i>
-      </button>
-
-      <button class="btn btn-light" title="Fullscreen (F11)" id="fullscreen-btn" data-toggle="button" aria-pressed="false" data-vvveb-action="fullscreen">
-        <i class="la la-arrows"></i>
-      </button>
+      <button class="btn btn-light" title="Designer Mode (Free component dragging)" id="designer-mode-btn" data-toggle="button" aria-pressed="false" data-vvveb-action="setDesignerMode"> <i class="la la-hand-grab-o"></i> </button>
+      <button class="btn btn-light" title="Preview" id="preview-btn" type="button" data-toggle="button" aria-pressed="false" data-vvveb-action="preview"> <i class="la la-eye"></i> </button>
+      <button class="btn btn-light" title="Fullscreen (F11)" id="fullscreen-btn" data-toggle="button" aria-pressed="false" data-vvveb-action="fullscreen"> <i class="la la-arrows"></i> </button>
     </div>
     
     <div class="btn-group mr-3" role="group">
-      <button class="btn btn-light" title="Export (Ctrl + E)" id="save-btn" data-vvveb-action="saveAjax" data-vvveb-shortcut="ctrl+e" data-id="{{ $product->id }}">
-        <i class="la la-save"></i>
-      </button>
-      
-      <button class="btn btn-light" title="Download" id="download-btn" data-vvveb-action="download" data-download="index.html">
-        <i class="la la-download"></i>
-      </button>
+      <button class="btn btn-light" title="Export (Ctrl + E)" id="save-btn" data-vvveb-action="saveAjax" data-vvveb-shortcut="ctrl+e" data-id="{{ $product->id }}"> <i class="la la-save"></i> </button>
+      <button class="btn btn-light" title="Download" id="download-btn" data-vvveb-action="download" data-download="index.html"> <i class="la la-download"></i> </button>
     </div>  
 
     <div class="btn-group float-right responsive-btns" role="group">
-     <button id="mobile-view" data-view="mobile" class="btn btn-light"  title="Mobile view" data-vvveb-action="viewport">
-        <i class="la la-mobile-phone"></i>
-      </button>
-
-      <button id="tablet-view"  data-view="tablet" class="btn btn-light"  title="Tablet view" data-vvveb-action="viewport">
-        <i class="la la-tablet"></i>
-      </button>
-      
-      <button id="desktop-view"  data-view="" class="btn btn-light"  title="Desktop view" data-vvveb-action="viewport">
-        <i class="la la-laptop"></i>
-      </button>
+      <button id="mobile-view" data-view="mobile" class="btn btn-light"  title="Mobile view" data-vvveb-action="viewport"> <i class="la la-mobile-phone"></i> </button>
+      <button id="tablet-view"  data-view="tablet" class="btn btn-light"  title="Tablet view" data-vvveb-action="viewport"> <i class="la la-tablet"></i> </button>
+      <button id="desktop-view"  data-view="" class="btn btn-light"  title="Desktop view" data-vvveb-action="viewport"> <i class="la la-laptop"></i> </button>
     </div>
   </div>  
-  
+
   <div id="left-panel">
     <div id="filemanager"> 
       <div class="header">
         <a href="#" class="text-secondary">Pages</a>
 
         <div class="btn-group responsive-btns mr-4 float-right" role="group">
-          <button class="btn btn-link btn-sm" title="New file" id="new-file-btn" data-vvveb-action="newPage" data-vvveb-shortcut="">
-            <i class="la la-file"></i> <small>New page</small>
-          </button>
+          <button class="btn btn-link btn-sm" title="New file" id="new-file-btn" data-vvveb-action="newPage" data-vvveb-shortcut=""> <i class="la la-file"></i> <small>New page</small> </button>
           
           <!--  &ensp;
           <button class="btn btn-link text-dark p-0"  title="Delete file" id="delete-file-btn" data-vvveb-action="deletePage" data-vvveb-shortcut="">
@@ -308,7 +271,7 @@
       </div>
     </div>
   </div>
-  
+
   <div id="bottom-panel">
 
     <div class="btn-group" role="group">
@@ -329,7 +292,6 @@
       </div>
     </div>
   </div>
-
 
 <!-- templates -->
 
@@ -806,7 +768,7 @@
       // {name:"ecommerce", title:"eCommerce homepage",  url: "ecommerce_demo/index.html"},
       //uncomment php code below and rename file to .php extension to load saved html files in the editor
       /*
-      <?php 
+      <?php
          $htmlFiles = glob("*.html");
          foreach ($htmlFiles as $file) :
             if (in_array($file, array('new-page-blank-template.html', 'editor.html'))) continue; //skip template files
