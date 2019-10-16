@@ -82,12 +82,12 @@
 
       <!-- CONTACT BUTTONS -->
       <div class="fixed-button">
-        <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77751080390" target="_top" data-attr="whatsapp_call">
+        <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77078875631" target="_top" data-attr="whatsapp_call">
           <img src="/img/whatsapp-logo.png">
         </a>
       </div>
       <div class="fixed-button2">
-        <a onclick="fbq('track', 'Contact');" href="tel:+77751080390" target="_top" data-attr="phone">
+        <a onclick="fbq('track', 'Contact');" href="tel:+77078875631" target="_top" data-attr="phone">
           <img src="/img/phone-receiver.png">
         </a>
       </div>
@@ -132,8 +132,8 @@
                 <h4 class="white- mt-3"> Номера телефонов</h4>
                 <div class="mb-3"></div>
                 <div class="phones mx-auto">
-                  <a onclick="fbq('track', 'Contact');" href="tel:+77751080390" target="_top" data-attr="phone"><i class="fa fa-phone"></i> 8 (707) 887 5631</a>
-                  <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77751080390" target="_top" data-attr="whatsapp_call"><i class="fa fa-whatsapp"></i> 8 (707) 887 5631</a>
+                  <a onclick="fbq('track', 'Contact');" href="tel:+77078875631" target="_top" data-attr="phone"><i class="fa fa-phone"></i> 8 (707) 887 5631</a>
+                  <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77078875631" target="_top" data-attr="whatsapp_call"><i class="fa fa-whatsapp"></i> 8 (707) 887 5631</a>
                 </div>
               </div>
             </div>
