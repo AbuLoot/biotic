@@ -38,7 +38,7 @@
         </div>
         <div class="row header-main-content" -style=" background-color: #000;">
           <div class="col-sm-6">
-            <h3 class="heading white text-uppercase header-title"> Эпимедиумная Паста Sidra</h3>
+            <h3 class="heading white text-uppercase header-title"> Эпимедиумная Паста из 15 трав</h3>
             <!-- <p class="white fz-20 lh-24 ls-1 mt-2" style="text-shadow: 1px 1px 20px #000;">Уникальный рецепт половой силы и здоровья для мужчин и женщин из Турции</p> -->
             <h4 class="white -fz-20 -lh-26">Прилив мужской силы и здоровья до 2-х дней.<br> Лечит простатит и повышает Иммунитет.</h4>
 
@@ -56,6 +56,13 @@
             </ul>
             <!-- <img src="/img/promo/sidra/made-in-turkey2.png" class="made-in-turkey"> -->
           </div>
+          <!-- <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active">Cras justo odio </a>
+            <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+            <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+            <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Vestibulum at eros</a>
+          </div> -->
         </div>
       </div>
     </div>
@@ -178,10 +185,10 @@
             </div>
 
             <div class="text-center-">
-              <h3 class="white">Цена 7900<span class="fz-25">〒</span>. Бесплатная доставка!</h3>
+              <h3 class="white">Цена 9900<span class="fz-25">〒</span>. Бесплатная доставка!</h3>
               <p class="white">Доставка <span class="fz-24 badge badge-warning">2-4 дня</span> во все регионы Казахстана</p>
               <div class="bg-dark p-1 white">Отпускается без рецепта врача, не является лекарственным средством</div>
-              <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Заказать</a>
+              <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Консультация</a>
             </div>
           </div>
         </div>
@@ -300,7 +307,7 @@
               </div>
 
               <div class="text-center">
-                <h3>Цена 7900<span class="fz-25">〒</span></h3>
+                <h3>Цена 9900<span class="fz-25">〒</span></h3>
                 <p class="fz-18 dark">Доставка <span class="fz-24 badge badge-warning">2-4 дня</span> по Казахстану</p>
                 <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Доставить</a>
               </div>
@@ -694,10 +701,10 @@
             <li><i class="fa fa-check  primary-color"></i> <span class="m-1">Лучшая Цена</span></li>
             <li><i class="fa fa-check  primary-color"></i> <span class="m-1">Оригинальный продукт</span></li>
           </ul> -->
-          <h3>Цена 7900<span class="fz-25">〒</span></h3>
+          <h3>Цена 9900<span class="fz-25">〒</span></h3>
           <!-- <p class="fz-18">Доставка <span class="fz-24 badge badge-warning">2-4 дня</span> по Казахстану</p> -->
           <div class="text-center-">
-            <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Заказать</a>
+            <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Консультация</a>
           </div>
         </div>
       </div>

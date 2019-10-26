@@ -19,7 +19,7 @@
           <h2 class="h1 ts-1 font-philosopher">Польза Эпимедиумной Пасты Sidra</h2>
           <h4 class="white ts-1 -fz-20 ">Прилив мужской силы и здоровья до 2-х дней.<br> Лечит простатит и повышает Иммунитет.</h4>
           <!-- <p class="ts-1">Уникальный рецепт половой силы и здоровья для мужчин и женщин из Турции</p> -->
-          <a class="button style-outline button-xs button-secondary fz-20" href="/epimediumnaya-pasta">Подробнее</a>
+          <a class="button style-flat button-xs button-secondary fz-20" href="/epimediumnaya-pasta">Подробнее</a>
           <!-- <img src="/img/epimedium.jpg" class="img-responsive pull-right"> -->
         </div>
       <!-- </a> -->

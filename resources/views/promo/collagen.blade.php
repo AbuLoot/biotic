@@ -102,7 +102,7 @@
             </div>
             <div class="product-info">
               <h2 class="product-title">Протеин в банке 3 кг.</h2>
-              <span class="price">24000〒</span>
+              <span class="price">26000〒</span>
             </div>
           </div>
         </div>
@@ -119,7 +119,7 @@
             </div>
             <div class="product-info">
               <h2 class="product-title">Протеин в банке 1 кг.</h2>
-              <span class="price">9500〒</span>
+              <span class="price">11000〒</span>
             </div>
           </div>
         </div>
@@ -136,7 +136,7 @@
             </div>
             <div class="product-info">
               <h2 class="product-title">Протеин в пакете 1 кг.</h2>
-              <span class="price">8500〒</span>
+              <span class="price">9900〒</span>
             </div>
           </div>
         </div>
@@ -153,7 +153,7 @@
             </div>
             <div class="product-info">
               <h2 class="product-title">Коллаген в капсулах</h2>
-              <span class="price">6500〒</span>
+              <span class="price">7000〒</span>
             </div>
           </div>
         </div>
