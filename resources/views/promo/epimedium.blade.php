@@ -90,7 +90,7 @@
       <div class="row">
         <div class="col-sm-7 p-0">
           <div class="section-custom-padding pl-5 pr-1">
-            <h3 class="text-uppercase white">Полезные свойства эпимедиумной пасты <span class="primary-color">для мужчин</span></h3>
+            <h3 class="text-uppercase white">Чем Полезна Эпимедиумная паста <span class="primary-color">для мужчин?</span></h3>
             <div class="mb-3"></div>
             <!-- <p class="white fz-22">Полезные свойства эпимедиумной пасты для мужчин.</p> -->
             <div class="row">
