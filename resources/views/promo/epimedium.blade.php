@@ -38,9 +38,9 @@
         </div>
         <div class="row header-main-content" -style=" background-color: #000;">
           <div class="col-sm-6">
-            <h3 class="heading white text-uppercase header-title"> Эпимедиумная Паста из 15 трав</h3>
+            <h3 class="heading white text-uppercase header-title"> Медовая Паста из 15 трав</h3>
             <!-- <p class="white fz-20 lh-24 ls-1 mt-2" style="text-shadow: 1px 1px 20px #000;">Уникальный рецепт половой силы и здоровья для мужчин и женщин из Турции</p> -->
-            <h4 class="white -fz-20 -lh-26">Прилив мужской силы и здоровья до 2-х дней.<br> Лечит простатит и повышает Иммунитет.</h4>
+            <h4 class="white -fz-20 -lh-26">Способствует Мощной Эррекции до 2-х дней.<br> Также лечит простатит и повышает Иммунитет.</h4>
 
             <!-- <br> -->
             <!-- <h3 class="heading white header-price fz-60 "> <s class="fz-50 red">6900〒</s> &nbsp;</h3> -->
