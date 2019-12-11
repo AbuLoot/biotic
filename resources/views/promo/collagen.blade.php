@@ -13,34 +13,32 @@
     <div class="section">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-sm-8">
             <div class="branding__logo">
               <h3 class="heading small fz-24 white ts-1 mt-2"> 100% натуральный продукт</h3>
             </div>
           </div>
-          <div class="col-sm-4"></div>
           <div class="col-sm-4">
-            <div class="phones">
-              <a onclick="fbq('track', 'Contact');" href="tel:+77078875631" target="_top" data-attr="phone"><i class="fa fa-phone"></i> 8 (707) 887 5631</a>
-              <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77078875631" target="_top" data-attr="whatsapp_call"><i class="fa fa-whatsapp"></i> 8 (707) 887 5631</a>
-            </div>
+            <!-- <div class="phones">
+              <a onclick="fbq('track', 'Contact');" href="tel:+77084000715" target="_top" data-attr="phone"><i class="fa fa-phone"></i> 8 (708) 4000715</a>
+              <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77084000715" target="_top" data-attr="whatsapp_call"><i class="fa fa-whatsapp"></i> 8 (708) 4000715</a>
+            </div> -->
           </div>
         </div>
         <div class="row header-main-content">
-          <div class="col-sm-7">
-            <h3 class="heading primary-color text-uppercase header-title">Гидролизат Протеина</h3>
-            <div class="row">
-              <div class="col-sm-10">
-                <!-- <p class="primary-color- white fz-20 lh-24 ts-1">Протеин полученный из натурального говяжьего белка, для набора мышечной массы и для укрепления суставов и связок.</p> -->
-                <p class="primary-color- white fz-25 lh-32 ts-1">Мощный Протеин из коллагена для набора мышечной массы и для укрепления суставов и связок. Эффект за 2 недели!</p>
-              </div>
+          <div class="offset-md-2 col-sm-8">
+            <h3 class="heading primary-color text-center text-uppercase header-title">Гидролизат Протеина</h3>
+
+            <!-- <p class="primary-color- white fz-20 lh-24 ts-1">Протеин полученный из натурального говяжьего белка, для набора мышечной массы и для укрепления суставов и связок.</p> -->
+            <div class="offset-md-1 col-sm-10">
+              <p class="primary-color- text-center white fz-25 lh-32 ts-1">Протеин из коллагена для набора мышечной массы и для укрепления суставов и связок. Эффект за 16 дней!</p>
             </div>
+
             <!-- <h3 class="heading primary-color header-price fz-60 "> 9500〒</h3> -->
           </div>
-          <div class="col-sm-5">
-            <!-- <img src="/img/promo/collagen/banka1.png" class="banka1"> -->
-            <img src="/img/promo/collagen/collagen-products.png" class="float-sm-right">
-          </div>
+          <!-- <div class="col-sm-5">
+            <img src="/img/promo/collagen/banka-1-kg.png" class="float-sm-right">
+          </div> -->
         </div>
       </div>
     </div>
@@ -50,30 +48,23 @@
   <section class="section bg-black pt-5 pb-2">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-12">
-          <ul class="nav nav-pills nav-fill">
-            <li class="nav-item mb-2">
-              <img src="/img/standarts/eac2.png" class="img-responsive">
-            </li>
-            <li class="nav-item mb-2">
-              <img src="/img/standarts/eco2.png" class="img-responsive">
-            </li>
-            <li class="nav-item mb-2">
-              <img src="/img/standarts/haccp2.png" class="img-responsive">
-            </li>
-            <li class="nav-item mb-2">
-              <img src="/img/standarts/kap2.png" class="img-responsive">
-            </li>
-            <li class="nav-item mb-2">
-              <img src="/img/standarts/gmo2.png" class="img-responsive">
-            </li>
-            <li class="nav-item mb-2">
-              <img src="/img/standarts/madeinkz2.png" class="img-responsive">
-            </li>
-            <!-- <li class="nav-item">
-              <img src="/img/standarts/halal2.png" class="img-responsive">
-            </li> -->
-          </ul>
+        <div class="col-4 col-sm-4 col-md-2 mb-2">
+          <img src="/img/standarts/eac2.png" class="img-responsive">
+        </div>
+        <div class="col-4 col-sm-4 col-md-2 mb-2">
+          <img src="/img/standarts/eco2.png" class="img-responsive">
+        </div>
+        <div class="col-4 col-sm-4 col-md-2 mb-2">
+          <img src="/img/standarts/haccp2.png" class="img-responsive">
+        </div>
+        <div class="col-4 col-sm-4 col-md-2 mb-2">
+          <img src="/img/standarts/kap2.png" class="img-responsive">
+        </div>
+        <div class="col-4 col-sm-4 col-md-2 mb-2">
+          <img src="/img/standarts/gmo2.png" class="img-responsive">
+        </div>
+        <div class="col-4 col-sm-4 col-md-2 mb-2">
+          <img src="/img/standarts/madeinkz2.png" class="img-responsive">
         </div>
       </div>
     </div>
@@ -89,7 +80,7 @@
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-sm-3">
+        <div class="col-sm-6 col-md-3">
           <div class="product-item">
             <div class="product-thumbnail">
               <a href="#">
@@ -102,11 +93,11 @@
             </div>
             <div class="product-info">
               <h2 class="product-title">Протеин в банке 3 кг.</h2>
-              <span class="price">26000〒</span>
+              <span class="price">23990〒</span>
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-6 col-md-3">
           <div class="product-item">
             <div class="product-thumbnail">
               <a href="#">
@@ -119,11 +110,11 @@
             </div>
             <div class="product-info">
               <h2 class="product-title">Протеин в банке 1 кг.</h2>
-              <span class="price">11000〒</span>
+              <span class="price">9990〒</span>
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-6 col-md-3">
           <div class="product-item">
             <div class="product-thumbnail">
               <a href="#">
@@ -136,11 +127,11 @@
             </div>
             <div class="product-info">
               <h2 class="product-title">Протеин в пакете 1 кг.</h2>
-              <span class="price">9900〒</span>
+              <span class="price">8990〒</span>
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-6 col-md-3">
           <div class="product-item">
             <div class="product-thumbnail">
               <a href="#">
@@ -153,7 +144,7 @@
             </div>
             <div class="product-info">
               <h2 class="product-title">Коллаген в капсулах</h2>
-              <span class="price">7000〒</span>
+              <span class="price">6990〒</span>
             </div>
           </div>
         </div>
@@ -213,15 +204,15 @@
             </div>
           </div>
         </div>
-        <div class="-offset-sm-3 col-sm-6 col-lg-4 text-center-">
+        <!-- <div class="-offset-sm-3 col-sm-6 col-lg-4 text-center-">
           <p class="white fz-22 lh-28 ls-1 mb-2"><i class="primary-color fa fa-check"></i> Гидролизованный коллаген производится из натурального коллагена, который получают из копыт и рог животных, а&nbsp;так же их кожи.</p>
-        </div>
+        </div> -->
         <!-- <div class="-offset-sm-3 col-sm-6 col-lg-4 text-center-">
           <p class="white fz-22 lh-28 ls-1 mb-2"><i class="primary-color fa fa-check"></i> Молекулы натурального коллагена химически измельчают на более мелкие части, для улучшения пищевой биодоступности, проникновение в волосы и верхние слои кожи.</p>
         </div> -->
-        <div class="-offset-sm-3 col-sm-6 col-lg-4 text-center-">
+        <!-- <div class="-offset-sm-3 col-sm-6 col-lg-4 text-center-">
           <p class="white fz-22 lh-28 ls-1 mb-2"><i class="primary-color fa fa-check"></i> Гидролизованный коллаген нашел свое применение в&nbsp;питании и медицине, а так же в косметике. Его широко применяют как добавку в пищу для восполнения недостатка аминокислот в организме. Как следствие использования гидролизата коллагена вместе с&nbsp;витаминами, наблюдалось улучшения качества кожи.</p>
-        </div>
+        </div> -->
         <div class="offset-sm-3 col-sm-6 col-lg-6 text-center-">
           <!-- <p class="white">Протеин представляет собой основной белок, который обеспечивает прочность хрящей, связывающих ткани и стенки сосудов. Благодаря содержанию в своем складе специальных аминокислот ― оксилизина и оксипролина ― его невозможно заменить любым другим белком. Как показали исследования американских медиков, регулярный и своевременный прием Протеина может помочь остановить развитие даже таких болезней, как артрит и целлюлит.</p> -->
           <!-- <p class="white">"Гидролизат Протеина" представляет собой полноценный животный белок, содержайщий полный набор незаменимых аминокислот. Обогащение питания гидролизатом коллагена помогает восстановить его баланс в организме, который может нарушаться с возрастом а также при повышенных физических нагрузках. Препараты, созданные на основе гидролизованного коллагена, восстанавливают соединительные ткани при значительных физических нагрузках, повышают иммунитет, замедляют старение кожи.</p> -->
@@ -298,21 +289,21 @@
         <div class="order-xs-2 col-sm-12 col-lg-6">
           <img class="d-block mt-5 mx-auto" src="/img/promo/collagen/collagen-products.png" alt="">
           <div class="text-center">
-            <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Заказать</a>
+            <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Консультация</a>
           </div>
         </div>
         <div class="col-sm-12 col-lg-6">
           <h2 class="text-uppercase fz-50- primary-color">Преимущество гидролизата протеина</h2>
           <ul class="list-benefist">
             <li><span class="primary-color"><i class="fa fa-check"></i></span> Полный состав Аминокислот</li>
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> 100% натуральный, без ГМО</li>
             <li><span class="primary-color"><i class="fa fa-check"></i></span> Витамины A, B12, D, C</li>
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Высокая скорость усвоения</li>
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Усвояемость продукта на 98%</li>
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Быстрое восстановление после тренировки</li>
+            <li><span class="primary-color"><i class="fa fa-check"></i></span> 100% натуральный, без ГМО</li>
             <li><span class="primary-color"><i class="fa fa-check"></i></span> Отсутствие аллергенов</li>
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Снижает возможность появления травм при нагрузках и механических воздействиях</li>
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Приятный вкус и легко разбавляемый</li>
+            <li><span class="primary-color"><i class="fa fa-check"></i></span> Приятный вкус</li>
+            <!-- <li><span class="primary-color"><i class="fa fa-check"></i></span> Высокая скорость усвоения</li> -->
+            <!-- <li><span class="primary-color"><i class="fa fa-check"></i></span> Усвояемость продукта на 98%</li> -->
+            <li><span class="primary-color"><i class="fa fa-check"></i></span> Быстрое восстановление после тренировки</li>
+            <li><span class="primary-color"><i class="fa fa-check"></i></span> Снижает возможность появления травм при нагрузках</li>
             <li><span class="primary-color"><i class="fa fa-check"></i></span> Повышает Иммунитет</li>
             <li><span class="primary-color"><i class="fa fa-check"></i></span> Рекомендует Казахская Академия Питания</li>
           </ul>
@@ -323,60 +314,58 @@
 
   <!-- WHO NEEDS COLLAGEN -->
   <section class="section bg-who-needs">
-    <div class="container">
-      <div class="row pt-8 pb-8">
-        <div class="col-sm-12 col-lg-8">
-          <h2 class="text-uppercase fz-50- primary-color"> Для кого нужен протеин?</h2>
-          <ul class="list-who-needs">
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Говяжий протеин предназначен в первую очередь для регулировки режима питания <span class="primary-color">спортсменов</span> при сильных нагрузках на связки и суставы, при которых наблюдается ускорение процессов обмена веществ</li>
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Способствует естественному сбросу лишнего веса при дозеровке от 25 гр. с небольшой физ. нагрузкой</li>
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Протеин будет полезен людям получившим травму или перенесшие операцию в период реабилитации</li>
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Для людей занимающихся тяжелым физическим трудом, чтобы заряжаться <span class="primary-color">силой и энергией</span></li>
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Для тех кто хочет сохранить <span class="primary-color">молодость</span> и избавиться от дряблости кожи</li>
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Для <span class="primary-color">беременных и кормящих</span>, для полноценного питания организма</li>
-            <!-- <li><span class="primary-color"><i class="fa fa-check"></i></span> Для постящихся которые сильно истощаются от голода</li> -->
-            <!-- <li><span class="primary-color"><i class="fa fa-check"></i></span> Для тех чей ежедневный рацион питания не может удовлетворить рекомендуемую суточную норму белка</li> -->
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Если ваш <span class="primary-color">ребенок</span> занимается спортом или ненормированно питается Наш протеин лучшее решения так как производится из натурального говяжьего белка и в составе имеет все необходимые витамины для укрепления роста мышц и суставов</li>
-          </ul>
-        </div>
-        <div class="col-sm-12 col-lg-4">
-          <img class="d-block mt-10 mx-auto" src="/img/promo/collagen/banka-3kg.png" alt="">
-          <div class="text-center">
-            <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Заказать</a>
+    <div class="cover-left">
+      <div class="container">
+        <div class="row pt-8 pb-8">
+          <div class="col-sm-12 col-lg-8">
+            <h2 class="text-uppercase fz-50- primary-color"> Для кого нужен протеин?</h2>
+            <ul class="list-who-needs">
+              <li><span class="primary-color"><i class="fa fa-check"></i></span> Говяжий протеин предназначен в первую очередь для регулировки режима питания <span class="primary-color">спортсменов</span> при сильных нагрузках на связки и суставы, при которых наблюдается ускорение процессов обмена веществ</li>
+              <li><span class="primary-color"><i class="fa fa-check"></i></span> Для тех кто хочет сохранить <span class="primary-color">молодость</span> и избавиться от дряблости кожи</li>
+              <li><span class="primary-color"><i class="fa fa-check"></i></span> Для людей занимающихся тяжелым физическим трудом, чтобы заряжаться <span class="primary-color">силой и энергией</span></li>
+              <li><span class="primary-color"><i class="fa fa-check"></i></span> Для <span class="primary-color">беременных и кормящих</span>, для полноценного питания организма</li>
+              <!-- <li><span class="primary-color"><i class="fa fa-check"></i></span> Способствует естественному сбросу лишнего веса при дозеровке от 25 гр. с небольшой физ. нагрузкой</li> -->
+              <li><span class="primary-color"><i class="fa fa-check"></i></span> Протеин будет полезен людям получившим травму или перенесшие операцию в период реабилитации</li>
+              <!-- <li><span class="primary-color"><i class="fa fa-check"></i></span> Для постящихся которые сильно истощаются от голода</li> -->
+              <!-- <li><span class="primary-color"><i class="fa fa-check"></i></span> Для тех чей ежедневный рацион питания не может удовлетворить рекомендуемую суточную норму белка</li> -->
+              <li><span class="primary-color"><i class="fa fa-check"></i></span> Если ваш <span class="primary-color">ребенок</span> занимается спортом или ненормированно питается Наш протеин лучшее решения так как производится из натурального говяжьего белка и в составе имеет все необходимые витамины для укрепления роста мышц и суставов</li>
+            </ul>
           </div>
+          <div class="col-sm-12 col-lg-4">
+            <img class="d-block mt-10 mx-auto" src="/img/promo/collagen/banka-3kg.png" alt="">
+            <div class="text-center">
+              <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Консультация</a>
+            </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- STANDARTS -->
-  <section class="section bg-black pt-7 pb-7">
+  <section class="section bg-standarts pt-5 pb-3">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-12">
-          <ul class="nav nav-pills nav-fill">
-            <li class="nav-item mb-2">
-              <img src="/img/standarts/eac2.png" class="img-responsive">
-            </li>
-            <li class="nav-item mb-2">
-              <img src="/img/standarts/eco2.png" class="img-responsive">
-            </li>
-            <li class="nav-item mb-2">
-              <img src="/img/standarts/haccp2.png" class="img-responsive">
-            </li>
-            <li class="nav-item mb-2">
-              <img src="/img/standarts/kap2.png" class="img-responsive">
-            </li>
-            <li class="nav-item mb-2">
-              <img src="/img/standarts/gmo2.png" class="img-responsive">
-            </li>
-            <li class="nav-item mb-2">
-              <img src="/img/standarts/madeinkz2.png" class="img-responsive">
-            </li>
-            <!-- <li class="nav-item">
-              <img src="/img/standarts/halal2.png" class="img-responsive">
-            </li> -->
-          </ul>
+        <div class="col-4 col-sm-4 col-md-2 mb-2">
+          <img src="/img/standarts/eac2.png" class="img-responsive">
         </div>
+        <div class="col-4 col-sm-4 col-md-2 mb-2">
+          <img src="/img/standarts/eco2.png" class="img-responsive">
+        </div>
+        <div class="col-4 col-sm-4 col-md-2 mb-2">
+          <img src="/img/standarts/haccp2.png" class="img-responsive">
+        </div>
+        <div class="col-4 col-sm-4 col-md-2 mb-2">
+          <img src="/img/standarts/kap2.png" class="img-responsive">
+        </div>
+        <div class="col-4 col-sm-4 col-md-2 mb-2">
+          <img src="/img/standarts/gmo2.png" class="img-responsive">
+        </div>
+        <div class="col-4 col-sm-4 col-md-2 mb-2">
+          <img src="/img/standarts/madeinkz2.png" class="img-responsive">
+        </div>
+        <!-- <div class="col-4 col-sm-4 col-md-2 mb-2">
+          <img src="/img/standarts/halal2.png" class="img-responsive">
+        </div> -->
       </div>
     </div>
   </section>
@@ -571,7 +560,7 @@
                 </h6>
               </div>
               <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                <div class="accordion-content">Да массу можно набрать, но максимальная эффективность достигается при принятии всех мер, какой хорошо питаться, принимать протеин, тренироваться и вовремя спать.</div>
+                <div class="accordion-content">Да массу можно набрать, но максимальная эффективность достигается при принятии всех мер, хорошо питаться, принимать протеин, тренироваться и вовремя спать.</div>
               </div>
             </div>
             <div class="accordion-section">
@@ -617,18 +606,6 @@
       </div>
     </div>
   </section>
-
-  <!-- CONTACT BUTTONS -->
-  <div class="fixed-button">
-    <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77078875631" target="_top" data-attr="whatsapp_call">
-      <img src="/img/whatsapp-logo.png">
-    </a>
-  </div>
-  <div class="fixed-button2">
-    <a onclick="fbq('track', 'Contact');" href="tel:+77078875631" target="_top" data-attr="phone">
-      <img src="/img/phone-receiver.png">
-    </a>
-  </div>
 
   <!-- APP MODAL -->
   <div class="modal fade" id="appModal" tabindex="-1" role="dialog" aria-labelledby="appModalLabel" aria-hidden="true">

@@ -778,6 +778,12 @@ function googleMap() {
     google.maps.event.addDomListener(window, 'load', init);
   }
 
+  // MATERIAL BUTTON TOGGLE
+  $('.material-button-toggle').on("click", function () {
+      $(this).toggleClass('open');
+      $('.option').toggleClass('scale-on');
+  });
+
   function init() {
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions

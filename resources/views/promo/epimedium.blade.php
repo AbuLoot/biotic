@@ -818,18 +818,6 @@
     </div>
   </section>
 
-  <!-- CONTACT BUTTONS -->
-  <div class="fixed-button">
-    <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77078875631" target="_top" data-attr="whatsapp_call">
-      <img src="/img/whatsapp-logo.png">
-    </a>
-  </div>
-  <div class="fixed-button2">
-    <a onclick="fbq('track', 'Contact');" href="tel:+77078875631" target="_top" data-attr="phone">
-      <img src="/img/phone-receiver.png">
-    </a>
-  </div>
-
   <!-- APP MODAL -->
   <div class="modal fade" id="appModal" tabindex="-1" role="dialog" aria-labelledby="appModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">

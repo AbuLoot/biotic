@@ -4,15 +4,21 @@
   }
 }
 .bg-header {
-  background-color: #151515;
-  background-image: url(../../img/promo/collagen/bodybuilder-new.jpg);
+  background-color: #000000;
+  background-image: url(../../img/promo/collagen/bodybuilder-2.jpg);
+  /*background-image: url(../../img/promo/collagen/hulk.jpg);*/
+  /*background-image: url(../../img/promo/collagen/bodybuilder-new.jpg);*/
   background-repeat: no-repeat;
-  /*background-position:  -150px top;*/
-  background-position: center;
+  background-position: top center;
   background-size: cover;
 }
 .bg-green {
   background-color: #1b6736;
+}
+.bg-standarts {
+  line-height: 0;
+  background-color: #111111;
+  background-image: linear-gradient(to bottom, #000000, #040404, #090909, #0d0d0d, #101010);
 }
 .glow-green {
   background: rgb(1,161,6);
@@ -140,14 +146,17 @@
 
 /* WHO NEEDS COLLAGEN */
 .bg-who-needs {
-  background-color: #111;
+  background-color: #000;
   background-image: url(../../img/promo/collagen/body2.jpg);
   background-repeat: no-repeat;
   background-position: center right;
 }
-.bg-who-needs > div > .row {
+.cover-left {
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9136029411764706) 50%, rgba(0,0,0,0.04805672268907568) 60%);
+}
+.bg-who-needs div > .row {
   background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(17,17,17,1) 0%, rgba(0,0,0,0.9136029411764706) 50%, rgba(0,0,0,0.04805672268907568) 70%);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9136029411764706) 50%, rgba(0,0,0,0.04805672268907568) 70%);
 }
 .list-who-needs {
   /*list-style-type: disc;*/
@@ -161,14 +170,14 @@
 
 /* BENEFITS OF COLLAGEN */
 .bg-benefits {
-  background-color: #0e0e0e;
+  background-color: #000000;
   background-image: url(../../img/promo/collagen/hall5.jpg);
   background-repeat: no-repeat;
   background-position: center left;
 }
 .bg-benefits > div > .row {
   background: rgb(0,0,0);
-  background: linear-gradient(260deg, rgba(17,17,17,1) 0%, rgba(0,0,0,0.9136029411764706) 50%, rgba(0,0,0,0.04805672268907568) 70%);
+  background: linear-gradient(260deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9136029411764706) 50%, rgba(0,0,0,0.04805672268907568) 70%);
 }
 .list-benefist {
   /*list-style-type: disc;*/
@@ -239,7 +248,7 @@
     left: 0;
   }
   .bg-who-needs {
-    background-color: #111;
+    background-color: #000;
     background-image: url(../../img/promo/collagen/body2.jpg);
     background-repeat: no-repeat;
     background-position: top center;
