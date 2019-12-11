@@ -93,7 +93,7 @@
           </li>
           <li class="option">
             <button class="material-button option2 bg-telegram" type="button">
-              <a href="tg://resolve?domain=baitunproject" target="_blank">
+              <a href="tg://resolve?domain=biotic_company" target="_blank">
                 <!-- <span class="fa fa-telegram" aria-hidden="true"></span> -->
                 <img src="/img/telegram.png">
               </a>
