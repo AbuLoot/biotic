@@ -158,8 +158,8 @@
                 <h4 class="white- mt-3"> Номера телефонов</h4>
                 <div class="mb-3"></div>
                 <div class="phones mx-auto">
-                  <a onclick="fbq('track', 'Contact');" href="tel:+77078875631" target="_top" data-attr="phone"><i class="fa fa-phone"></i> 8 (707) 887 5631</a>
-                  <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77078875631" target="_top" data-attr="whatsapp_call"><i class="fa fa-whatsapp"></i> 8 (707) 887 5631</a>
+                  <a onclick="fbq('track', 'Contact');" href="tel:+77084000715" target="_top" data-attr="phone"><i class="fa fa-phone"></i> 8 (708) 400 0715</a>
+                  <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77084000715" target="_top" data-attr="whatsapp_call"><i class="fa fa-whatsapp"></i> 8 (708) 400 0715</a>
                 </div>
               </div>
             </div>

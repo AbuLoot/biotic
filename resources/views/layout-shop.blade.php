@@ -42,11 +42,11 @@
               <ul class="top-bar-info text-center-sm">
                 <li class="info-item">
                   <i class="info-icon fa fa-phone"></i>
-                  <a class="fz-16" href="tel:+77078875631">87078875631</a>
+                  <a class="fz-16" href="tel:+77084000715">87084000715</a>
                 </li>
                 <li class="info-item">
                   <i class="info-icon fa fa-whatsapp"></i>
-                  <a class="fz-16" href="whatsapp:+77078875631">87078875631</a>
+                  <a class="fz-16" href="whatsapp:+77084000715">87084000715</a>
                 </li>
               </ul>
             </div>
