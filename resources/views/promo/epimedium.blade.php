@@ -1,6 +1,6 @@
 @extends('layout-promo')
 
-@section('title_description', $project->title)
+@section('title_description', $project->title_description)
 
 @section('meta_description', $project->meta_description)
 
