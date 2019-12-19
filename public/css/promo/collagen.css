@@ -7,7 +7,7 @@
 }
 .bg-header {
   background-color: #000000;
-  background-image: url(../../img/promo/collagen/body.jpg);
+  /*background-image: url(../../img/promo/collagen/body.jpg);*/
   background-image: url(../../img/promo/collagen/bodybuilder.jpg);
   /*background-image: url(../../img/promo/collagen/bodybuilder-new.jpg);*/
   background-repeat: no-repeat;
@@ -245,7 +245,7 @@
     padding: 20px 0 20px;
     text-align: center;
   }
-  .header-title {font-size: 40px; }
+  .header-title {font-size: 40px; color: #fff; }
   .header-price > s {display: none; }
   .made-in-turkey {
       bottom: -340px;

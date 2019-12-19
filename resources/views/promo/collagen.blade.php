@@ -27,7 +27,7 @@
         </div>
         <div class="row header-main-content">
           <div class="offset-md-2- col-sm-6">
-            <h1 class="heading white text-center- text-uppercase header-title">Гидролизат Протеина</h1>
+            <h1 class="heading primary-color text-center- text-uppercase header-title">Гидролизат Протеина</h1>
 
             <!-- <p class="primary-color- white fz-20 lh-24 ts-1">Протеин полученный из натурального говяжьего белка, для набора мышечной массы и для укрепления суставов и связок.</p> -->
             <div class="offset-md-1- col-sm-10-">
