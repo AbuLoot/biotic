@@ -26,12 +26,12 @@
           </div>
         </div>
         <div class="row header-main-content">
-          <div class="offset-md-2 col-sm-8">
-            <h3 class="heading primary-color text-center text-uppercase header-title">Гидролизат Протеина</h3>
+          <div class="offset-md-2- col-sm-6">
+            <h1 class="heading white text-center- text-uppercase header-title">Гидролизат Протеина</h1>
 
             <!-- <p class="primary-color- white fz-20 lh-24 ts-1">Протеин полученный из натурального говяжьего белка, для набора мышечной массы и для укрепления суставов и связок.</p> -->
-            <div class="offset-md-1 col-sm-10">
-              <p class="primary-color- text-center white fz-25 lh-32 ts-1">Протеин из коллагена для набора мышечной массы и для укрепления суставов и связок. Эффект за 16 дней!</p>
+            <div class="offset-md-1- col-sm-10-">
+              <p class="primary-color- text-center- white fz-25 lh-32 ts-1">Протеин из коллагена для набора мышечной массы и для укрепления суставов и связок. Эффект за 16 дней!</p>
             </div>
 
             <!-- <h3 class="heading primary-color header-price fz-60 "> 9500〒</h3> -->
@@ -93,7 +93,7 @@
             </div>
             <div class="product-info">
               <h2 class="product-title">Протеин в банке 3 кг.</h2>
-              <span class="price">23990〒</span>
+              <span class="price">23900〒</span>
             </div>
           </div>
         </div>
@@ -110,7 +110,7 @@
             </div>
             <div class="product-info">
               <h2 class="product-title">Протеин в банке 1 кг.</h2>
-              <span class="price">9990〒</span>
+              <span class="price">9900〒</span>
             </div>
           </div>
         </div>
@@ -127,7 +127,7 @@
             </div>
             <div class="product-info">
               <h2 class="product-title">Протеин в пакете 1 кг.</h2>
-              <span class="price">8990〒</span>
+              <span class="price">8900〒</span>
             </div>
           </div>
         </div>
@@ -144,7 +144,7 @@
             </div>
             <div class="product-info">
               <h2 class="product-title">Коллаген в капсулах</h2>
-              <span class="price">6990〒</span>
+              <span class="price">6900〒</span>
             </div>
           </div>
         </div>
