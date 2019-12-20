@@ -188,7 +188,7 @@
           <div class="box-icon style-1 text-center-">
             <div class="content-wrap">
               <div class="image">
-                <img class="rounded" src="/img/promo/collagen/orthopaedics1-org.jpg" alt="Восстанавливает целостность структуры хрящевой ткани и тканей сухожилий">
+                <img class="rounded" src="/img/promo/collagen/shoulder_impingement2-org.jpg" alt="Восстанавливает целостность структуры хрящевой ткани и тканей сухожилий">
               </div>
               <h4 class="white ls-1"><i class="primary-color fa fa-check"></i> Восстанавливает целостность структуры хрящевой ткани и тканей сухожилий</h4>
             </div>
@@ -198,7 +198,7 @@
           <div class="box-icon style-1 text-center-">
             <div class="content-wrap">
               <div class="image">
-                <img class="rounded" src="/img/promo/collagen/shoulder_impingement2-org.jpg" alt="Его употребление приводит к повышению прочности и износостойкости костей">
+                <img class="rounded" src="/img/promo/collagen/orthopaedics1-org.jpg" alt="Его употребление приводит к повышению прочности и износостойкости костей">
               </div>
               <h4 class="white ls-1"><i class="primary-color fa fa-check"></i> Его употребление приводит к повышению прочности и износостойкости костей</h4>
             </div>
