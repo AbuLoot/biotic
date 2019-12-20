@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Prompt:400,700&display=swap');
-
 @media (min-width:1200px) {
   .container {
     max-width:1190px;
@@ -72,10 +70,9 @@
    padding: 80px 0;
 }
 .header-title {
-  font-family: 'Prompt', sans-serif;
   font-size: 80px;
-  /*font-style: italic;*/
   letter-spacing: 0px;
+  color: #01a106;
 }
 .header-price {
   font-family: 'Roboto';

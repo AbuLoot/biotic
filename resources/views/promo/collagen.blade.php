@@ -27,11 +27,11 @@
         </div>
         <div class="row header-main-content">
           <div class="offset-md-2- col-sm-6">
-            <h1 class="heading primary-color text-center- text-uppercase header-title">Гидролизат Протеина</h1>
+            <h1 class="heading text-center- text-uppercase header-title">Гидролизат Протеина</h1>
 
             <!-- <p class="primary-color- white fz-20 lh-24 ts-1">Протеин полученный из натурального говяжьего белка, для набора мышечной массы и для укрепления суставов и связок.</p> -->
             <div class="offset-md-1- col-sm-10-">
-              <p class="primary-color- text-center- white fz-25 lh-32 ts-1">Протеин из коллагена для набора мышечной массы и для укрепления суставов и связок. Эффект за 16 дней!</p>
+              <p class="primary-color- text-center- white fz-24 lh-30 ts-1">Протеин из коллагена для набора мышечной массы и для укрепления суставов и связок. Эффект за 16 дней!</p>
             </div>
 
             <!-- <h3 class="heading primary-color header-price fz-60 "> 9500〒</h3> -->
