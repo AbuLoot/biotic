@@ -16,7 +16,8 @@
   .bg-header {
     min-height: 600px;
     background-color: #000000;
-    background-image: url(../../img/promo/collagen/hulk.jpg);
+    background-image: url(../../img/promo/collagen/bodybuilder.jpg);
+    /*background-image: url(../../img/promo/collagen/hulk.jpg);*/
     background-position: top center;
     background-size: cover;
   }
