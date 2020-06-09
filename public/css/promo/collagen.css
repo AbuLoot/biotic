@@ -1,3 +1,13 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');*/
+body {
+  /*font-family: 'Bebas Neue', cursive;*/
+
+  /*line-height: 1.6;*/
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  /*font-family: 'Bebas Neue', "Roboto", Helvetica, Arial, cursive;*/
+}
 @media (min-width:1200px) {
   .container {
     max-width:1190px;
@@ -5,11 +15,11 @@
 }
 .bg-header {
   background-color: #000000;
-  /*background-image: url(../../img/promo/collagen/body.jpg);*/
-  background-image: url(../../img/promo/collagen/bodybuilder.jpg);
+  background-image: url(../../img/promo/collagen/protein-header.jpg);
+  /*background-image: url(../../img/promo/collagen/ZS4vkkB.jpg);*/
   /*background-image: url(../../img/promo/collagen/bodybuilder-new.jpg);*/
   background-repeat: no-repeat;
-  background-position: top -30%;
+  background-position: 0% 30%;
   background-size: 130%;
 }
 @media (max-width: 479px) {
@@ -42,6 +52,25 @@
 .yellow {
   color: #ffed00;
 }
+.modal .modal-content {
+  color: #fff;
+  background-color: #000;
+}
+.modal .close,
+.modal input::placeholder,
+.modal .modal-content h3,
+.modal .modal-content h4 {
+  color: #fff;
+}
+.modal input[type=email],
+.modal input[type=number],
+.modal input[type=tel],
+.modal input[type=text],
+.modal select {
+  color: #fff;
+  border-bottom: 1px solid #ffffff;
+}
+
 
 /* Biotic Logo */
 .navbar-brand {
@@ -71,8 +100,11 @@
    padding: 80px 0;
 }
 .header-title {
-  font-size: 80px;
+  font-size: 70px;
   letter-spacing: 0px;
+  color: #fff;
+}
+.color-green {
   color: #01a106;
 }
 .header-price {
@@ -115,13 +147,13 @@
   -moz-box-shadow: 0px 10px 14px -7px #3e7327;
   -webkit-box-shadow: 0px 10px 14px -7px #3e7327;
   box-shadow: 0px 10px 14px -7px #3e7327;
-  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #01a107), color-stop(1, #1a1f17));
+  /*background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #01a107), color-stop(1, #1a1f17));
   background:-moz-linear-gradient(top, #01a107 5%, #1a1f17 100%);
   background:-webkit-linear-gradient(top, #01a107 5%, #1a1f17 100%);
   background:-o-linear-gradient(top, #01a107 5%, #1a1f17 100%);
   background:-ms-linear-gradient(top, #01a107 5%, #1a1f17 100%);
   background:linear-gradient(to bottom, #01a107 5%, #1a1f17 100%);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#01a107', endColorstr='#1a1f17',GradientType=0);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#01a107', endColorstr='#1a1f17',GradientType=0);*/
   background-color: #01a107;
   -moz-border-radius: 40px;
   -webkit-border-radius: 40px;
@@ -155,11 +187,34 @@
 }
 
 /* WHO NEEDS COLLAGEN */
+.why-beefprotein {
+  color: #fff;
+  font-size: 18px;
+  background-color: #000;
+  background-image: url(../../img/promo/collagen/protein-need.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.why-beefprotein h2 {
+  margin-bottom: 20px;
+}
+.why-beefprotein p {
+  margin-bottom: 10px;
+}
+.why-beefprotein ul {
+  margin-left: 20px;
+}
+
+/* WHO NEEDS COLLAGEN */
 .bg-who-needs {
   background-color: #000;
   background-image: url(../../img/promo/collagen/body2.jpg);
   background-repeat: no-repeat;
   background-position: center right;
+}
+.cover-dark {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.12) 100%);
 }
 .cover-left {
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9136029411764706) 50%, rgba(0,0,0,0.04805672268907568) 60%);
@@ -177,11 +232,19 @@
   font-size: 18px;
   margin-bottom: 15px;
 }
+.bg-who-needs h2 {
+  margin-bottom: 20px;
+}
+.bg-who-needs p {
+  margin-bottom: 10px;
+}
 
 /* BENEFITS OF COLLAGEN */
 .bg-benefits {
+  color: #ffffff;
+  font-size: 18px;
   background-color: #000000;
-  background-image: url(../../img/promo/collagen/hall5.jpg);
+  background-image: url(../../img/promo/collagen/protein-advantages.jpg);
   background-repeat: no-repeat;
   background-position: center left;
 }
@@ -189,23 +252,21 @@
   background: rgb(0,0,0);
   background: linear-gradient(260deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9136029411764706) 50%, rgba(0,0,0,0.04805672268907568) 70%);
 }
-.list-benefist {
-  /*list-style-type: disc;*/
-  padding: 25px 0 0 20px;
-  color: #fff;
-}
-.list-benefist > li {
-  font-size: 18px;
-  margin-bottom: 15px;
-}
-
 .reviews {
   background-color: #111;
   background-image: url(../../img/promo/collagen/body2.jpg);
   background-repeat: no-repeat;
   background-position: right center;
 }
-
+.bg-benefits h2 {
+  margin-bottom: 20px;
+}
+.bg-benefits p {
+  margin-bottom: 10px;
+}
+.bg-benefits ul {
+  margin-left: 20px;
+}
 .box-section-shadow {
   border: 1px solid #eeeeee;
   -moz-box-shadow: 0 0 30px rgba(170, 170, 170, 0.2);
@@ -257,6 +318,9 @@
     top: -10%;
     left: 0;
   }
+  .why-beefprotein {
+    background-size: 350%;
+  }
   .bg-who-needs {
     background-color: #000;
     background-image: url(../../img/promo/collagen/body2.jpg);
@@ -264,11 +328,13 @@
     background-position: top center;
   }
   .bg-benefits {
-    background-color: #0e0e0e;
-    background-image: url(../../img/promo/collagen/hall5.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    text-align: right;
+    background-image: none;
+  }
+  .bg-benefits .pt-8 {
+    padding-top: 40px !important;
+  }
+  .bg-benefits > div > .row {
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9136029411764706) 50%, rgba(0,0,0,0.04805672268907568) 70%);
   }
   .order-xs-1 {
     -ms-flex-order:1;

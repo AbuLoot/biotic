@@ -41,7 +41,7 @@
   <div class="site">
     <main id="main">
 
-      <nav class="navbar fixed-top- navbar-expand-lg navbar-dark bg-dark">
+      <!-- <nav class="navbar fixed-top- navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
           <a  class="navbar-brand biotic-logo" href="/promo">
             <img src="/img/logo.png" alt="Biotic">
@@ -65,7 +65,7 @@
             </div>
           </div>
         </div>
-      </nav>
+      </nav> -->
 
       <!-- <section class="container-fluid mt-10 mb-10">
         <div class="row">
@@ -84,15 +84,15 @@
       <div class="material-button-anim">
         <ul class="list-inline" id="options">
           <li class="option">
-            <button class="material-button option1 bg-whatsapp" type="button">
-              <a href="whatsapp://send?phone=+77084000715" target="_blank">
+            <button class="material-button option2 bg-whatsapp" type="button">
+              <a href="whatsapp://send?phone=+77087181502" target="_blank">
                 <!-- <span class="fa fa-whatsapp" aria-hidden="true"></span> -->
                 <img src="/img/whatsapp.png">
               </a>
             </button>
           </li>
           <li class="option">
-            <button class="material-button option2 bg-telegram" type="button">
+            <button class="material-button option3 bg-telegram" type="button">
               <a href="tg://resolve?domain=biotic_company" target="_blank">
                 <!-- <span class="fa fa-telegram" aria-hidden="true"></span> -->
                 <img src="/img/telegram.png">
@@ -100,15 +100,15 @@
             </button>
           </li>
           <li class="option">
-            <button class="material-button option3 bg-ripple" type="button">
-              <a href="tel:+77084000715" target="_blank"><span class="fa fa-phone" aria-hidden="true"></span></a>
+            <button class="material-button option4 bg-ripple" type="button">
+              <a href="tel:+77087181502" target="_blank"><span class="fa fa-phone" aria-hidden="true"></span></a>
             </button>
           </li>
-          <li class="option">
+          <!-- <li class="option">
             <button class="material-button option4" type="button">
               <a href="mailto:biotic.company@gmail.com" target="_blank"><span class="fa fa-envelope" aria-hidden="true"></span></a>
             </button>
-          </li>
+          </li> -->
         </ul>
         <button class="material-button material-button-toggle btnColorBg" type="button">
           <span class="fa fa-user" aria-hidden="true"></span>
@@ -158,8 +158,8 @@
                 <h4 class="white- mt-3"> Номера телефонов</h4>
                 <div class="mb-3"></div>
                 <div class="phones mx-auto">
-                  <a onclick="fbq('track', 'Contact');" href="tel:+77084000715" target="_top" data-attr="phone"><i class="fa fa-phone"></i> 8 (708) 400 0715</a>
-                  <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77084000715" target="_top" data-attr="whatsapp_call"><i class="fa fa-whatsapp"></i> 8 (708) 400 0715</a>
+                  <a onclick="fbq('track', 'Contact');" href="tel:+77087181502" target="_top" data-attr="phone"><i class="fa fa-phone"></i> 8 (708) 718 1502</a>
+                  <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77087181502" target="_top" data-attr="whatsapp_call"><i class="fa fa-whatsapp"></i> 8 (708) 718 1502</a>
                 </div>
               </div>
             </div>
