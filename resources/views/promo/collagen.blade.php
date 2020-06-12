@@ -156,6 +156,98 @@
   </section>
 
   <!-- WHO NEEDS COLLAGEN -->
+  <section class="section bg-w bg-black">
+    <div class="cover-left-">
+      <div class="container">
+        <div class="row align-items-center pt-8">
+          <div class="col-sm-12 col-lg-6 pb-4 order-xs-2">
+            <h2 class="text-uppercase fz-50- white">Хотите набрать <span class="primary-color">мышечную массу</span>?</h2>
+            <!-- <h4 class="white">Хотите набрать мышечную массу?</h4> -->
+            <ul class="list-who-needs">
+              <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте больше белка(мясные, молочные продукты, рыбы, яйца и другие).</li>
+              <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте больше углеводов(овсянка, гречка, рис, овощи, фрукты и другие).</li>
+              <li><span class="primary-color"><i class="fa fa-check"></i></span> Пейте <span class="color-green">Beef Protein</span> и Тренируйтесь!</li>
+            </ul>
+            <div class="text-center">
+              <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Заказать</a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-6 pb-4 order-xs-1">
+            <img class="d-block mx-auto" src="/img/promo/collagen/protein-for-mass.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO NEEDS COLLAGEN 2 -->
+  <section class="section bg-black">
+    <div class="cover-dark-">
+      <div class="container">
+        <div class="row align-items-center pt-4">
+          <div class="col-sm-12 col-lg-6 pb-4">
+            <img class="d-block mx-auto" src="/img/promo/collagen/protein-for-body-drying.jpg" alt="">
+          </div>
+          <div class="col-sm-12 col-lg-6 pb-4">
+            <h3 class="text-uppercase fz-50- white">Хотите избавиться от лишнего веса и накачать <span class="primary-color">качественную мускулатуру</span>?</h3>
+            <!-- <h4 class="white">Хотите накачать рельефную мускулатуру и избавиться от лишнего веса?</h4> -->
+            <ul class="list-who-needs">
+              <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте больше белка(мясные, молочные продукты, рыбы, яйца и другие).</li>
+              <li><span class="primary-color"><i class="fa fa-check"></i></span> Замените быстрые углеводы(мучные и сахарные продукты) на сложные углеводы(овсянка, гречка, овощи, ягоды, некоторые фрукты и другие). </li>
+              <li><span class="primary-color"><i class="fa fa-check"></i></span> Пейте <span class="color-green">Beef Protein</span> и Тренируйтесь!</li>
+            </ul>
+            <div class="text-center">
+              <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Заказать</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERTIFICATES -->
+  <section class="section pt-8 pb-8">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 offset-sm-2">
+          <h2 class="text-center text-uppercase mb-5"> Сертификаты</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-9 mx-auto">
+          <div class="row">
+            <div class="col-6 col-sm-4">
+              <a target="_blank" href="/img/promo/collagen/sertificates/iso-9001-ru.jpg">
+                <img class="img-responsive" src="/img/promo/collagen/sertificates/iso-9001-ru-mini.jpg"><br>
+              </a>
+            </div>
+            <div class="col-6 col-sm-4">
+              <a target="_blank" href="/img/promo/collagen/sertificates/Svidetelstvo-sport-pit.jpg">
+                <img class="img-responsive" src="/img/promo/collagen/sertificates/Svidetelstvo-sport-pit-mini.jpg">
+              </a>
+            </div>
+            <div class="col-6 col-sm-4">
+              <a target="_blank" href="/img/promo/collagen/sertificates/Svidetelstvo-sport-pit-1.jpg">
+                <img class="img-responsive" src="/img/promo/collagen/sertificates/Svidetelstvo-sport-pit-1-mini.jpg"><br><br>
+              </a>
+            </div>
+            <div class="col-6 col-sm-4">
+              <a target="_blank" href="/img/promo/collagen/sertificates/Декларация-о-соответствии-товара.jpg">
+                <img class="img-responsive" src="/img/promo/collagen/sertificates/Декларация-о-соответствии-товара-mini.jpg"><br>
+              </a>
+            </div>
+            <div class="col-6 col-sm-4">
+              <a target="_blank" href="/img/promo/collagen/sertificates/Сертификат-качества.jpg">
+                <img class="img-responsive" src="/img/promo/collagen/sertificates/Сертификат-качества-mini.jpg">
+              </a><br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO NEEDS COLLAGEN -->
   <section class="section why-beefprotein">
     <div class="cover-dark">
       <div class="container">
@@ -213,98 +305,6 @@
           </ul>
           <p>Ввиду очевидных преимуществ и при полном отсутствии негативных эффектов, данный вид спортивного питания идеален для решения задачи по построению качественной мускулатуры.</p>
           <!-- <p>Он является действительно качественным и эффективным «бонусом» для организма в плане белкового насыщения, которое в большинстве случаев невозможно естественным образом.</p> -->
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SERTIFICATES -->
-  <section class="section pt-8 pb-8">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 offset-sm-2">
-          <h2 class="text-center text-uppercase mb-5"> Сертификаты</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-9 mx-auto">
-          <div class="row">
-            <div class="col-6 col-sm-4">
-              <a target="_blank" href="/img/promo/collagen/sertificates/iso-9001-ru.jpg">
-                <img class="img-responsive" src="/img/promo/collagen/sertificates/iso-9001-ru-mini.jpg"><br>
-              </a>
-            </div>
-            <div class="col-6 col-sm-4">
-              <a target="_blank" href="/img/promo/collagen/sertificates/Svidetelstvo-sport-pit.jpg">
-                <img class="img-responsive" src="/img/promo/collagen/sertificates/Svidetelstvo-sport-pit-mini.jpg">
-              </a>
-            </div>
-            <div class="col-6 col-sm-4">
-              <a target="_blank" href="/img/promo/collagen/sertificates/Svidetelstvo-sport-pit-1.jpg">
-                <img class="img-responsive" src="/img/promo/collagen/sertificates/Svidetelstvo-sport-pit-1-mini.jpg"><br><br>
-              </a>
-            </div>
-            <div class="col-6 col-sm-4">
-              <a target="_blank" href="/img/promo/collagen/sertificates/Декларация-о-соответствии-товара.jpg">
-                <img class="img-responsive" src="/img/promo/collagen/sertificates/Декларация-о-соответствии-товара-mini.jpg"><br>
-              </a>
-            </div>
-            <div class="col-6 col-sm-4">
-              <a target="_blank" href="/img/promo/collagen/sertificates/Сертификат-качества.jpg">
-                <img class="img-responsive" src="/img/promo/collagen/sertificates/Сертификат-качества-mini.jpg">
-              </a><br>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- WHO NEEDS COLLAGEN -->
-  <section class="section bg-w bg-black">
-    <div class="cover-left-">
-      <div class="container">
-        <div class="row align-items-center pt-8">
-          <div class="col-sm-12 col-lg-6 pb-4 order-xs-2">
-            <h2 class="text-uppercase fz-50- white">Хотите набрать <span class="primary-color">мышечную массу</span>?</h2>
-            <!-- <h4 class="white">Хотите набрать мышечную массу?</h4> -->
-            <ul class="list-who-needs">
-              <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте больше белка(мясные, молочные продукты, рыбы, яйца и другие).</li>
-              <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте больше углеводов(овсянка, гречка, рис, овощи, фрукты и другие).</li>
-              <li><span class="primary-color"><i class="fa fa-check"></i></span> Пейте <span class="color-green">Beef Protein</span> и Тренируйтесь!</li>
-            </ul>
-            <div class="text-center">
-              <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Заказать</a>
-            </div>
-          </div>
-          <div class="col-sm-12 col-lg-6 pb-4 order-xs-1">
-            <img class="d-block mx-auto" src="/img/promo/collagen/protein-for-mass.jpg" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- WHO NEEDS COLLAGEN 2 -->
-  <section class="section bg-black">
-    <div class="cover-dark-">
-      <div class="container">
-        <div class="row align-items-center pt-4">
-          <div class="col-sm-12 col-lg-6 pb-4">
-            <img class="d-block mx-auto" src="/img/promo/collagen/protein-for-body-drying.jpg" alt="">
-          </div>
-          <div class="col-sm-12 col-lg-6 pb-4">
-            <h3 class="text-uppercase fz-50- white">Хотите избавиться от лишнего веса и накачать <span class="primary-color">качественную мускулатуру</span>?</h3>
-            <!-- <h4 class="white">Хотите накачать рельефную мускулатуру и избавиться от лишнего веса?</h4> -->
-            <ul class="list-who-needs">
-              <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте больше белка(мясные, молочные продукты, рыбы, яйца и другие).</li>
-              <li><span class="primary-color"><i class="fa fa-check"></i></span> Замените быстрые углеводы(мучные и сахарные продукты) на сложные углеводы(овсянка, гречка, овощи, ягоды, некоторые фрукты и другие). </li>
-              <li><span class="primary-color"><i class="fa fa-check"></i></span> Пейте <span class="color-green">Beef Protein</span> и Тренируйтесь!</li>
-            </ul>
-            <div class="text-center">
-              <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Заказать</a>
-            </div>
-          </div>
         </div>
       </div>
     </div>
