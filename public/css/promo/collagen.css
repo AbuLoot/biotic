@@ -15,11 +15,11 @@ h1, h2, h3, h4, h5, h6,
 }
 .bg-header {
   background-color: #000000;
-  background-image: url(../../img/promo/collagen/protein-header.jpg);
+  /*background-image: url(../../img/promo/collagen/protein-header.jpg);*/
   /*background-image: url(../../img/promo/collagen/ZS4vkkB.jpg);*/
-  /*background-image: url(../../img/promo/collagen/bodybuilder-new.jpg);*/
+  background-image: url(../../img/promo/collagen/bodybuilder.jpg);
   background-repeat: no-repeat;
-  background-position: 0% 30%;
+  background-position: 0% 0%;
   background-size: 130%;
 }
 @media (max-width: 479px) {
