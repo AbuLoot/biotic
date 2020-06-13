@@ -40,7 +40,7 @@
             <!-- <h3 class="heading primary-color header-price fz-60 "> 9500〒</h3> -->
           </div>
           <div class="col-sm-4">
-            <img src="/img/promo/collagen/banka-3kg.png" class="float-sm-right">
+            <img src="/img/promo/collagen/banka-3kg.png" class="float-sm-right-">
           </div>
         </div>
       </div>
