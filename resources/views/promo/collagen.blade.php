@@ -30,11 +30,11 @@
         </div>
         <div class="row header-main-content">
           <div class="offset-md-2- col-sm-8">
-            <h1 class="heading text-center- text-uppercase header-title ts-1"><span class="color-green">BEEF PROTEIN</span> до&nbsp;7&nbsp;кг мышечной массы за&nbsp;1&nbsp;месяц</h1>
+            <h1 class="heading text-center- text-uppercase header-title ts-1"><span class="color-green">BEEF PROTEIN</span> набери до&nbsp;7&nbsp;кг мышечной массы за&nbsp;1&nbsp;месяц</h1>
 
             <!-- <p class="primary-color- white fz-20 lh-24 ts-1">Протеин полученный из натурального говяжьего белка, для набора мышечной массы и для укрепления суставов и связок.</p> -->
             <div class="offset-md-1- col-sm-10-">
-              <p class="primary-color- text-center- white fz-26 lh-30 ts-1">Это натуральный протеин для построения качественной мускулатуры и для укрепления суставов и связок.</p>
+              <p class="primary-color- text-center- white fz-26 lh-30 ts-1">Это натуральный коллаген для построения качественной мускулатуры и для укрепления суставов и связок.</p>
             </div>
 
             <!-- <h3 class="heading primary-color header-price fz-60 "> 9500〒</h3> -->
@@ -189,7 +189,7 @@
             <img class="d-block mx-auto" src="/img/promo/collagen/protein-for-body-drying.jpg" alt="">
           </div>
           <div class="col-sm-12 col-lg-6 pb-4">
-            <h3 class="text-uppercase fz-50- white">Хотите избавиться от лишнего веса и накачать <span class="primary-color">качественную мускулатуру</span>?</h3>
+            <h3 class="text-uppercase fz-50- white">Хотите избавиться от лишнего веса и накачать <span class="primary-color">красивую мускулатуру</span>?</h3>
             <!-- <h4 class="white">Хотите накачать рельефную мускулатуру и избавиться от лишнего веса?</h4> -->
             <ul class="list-who-needs">
               <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте больше белка(мясные, молочные продукты, рыбы, яйца и другие).</li>
@@ -254,15 +254,16 @@
         <div class="row no-gutters pt-8 pb-8">
           <div class="col-sm-12 col-lg-6">
             <h2 class="text-uppercase fz-50- text-white"> Почему нужен<br> <span class="primary-color">BEEF PROTEIN</span>?</h2>
-            <p>Повышенная физическая нагрузка у спортсменов и как следствие недостаток аминокислот в организме приводит:</p>
+            <!-- <p>Повышенная физическая нагрузка у спортсменов и как следствие недостаток аминокислот в организме приводит:</p> -->
+            <p>При тяжелом физическом труде и спортивных нагрузках происходит истощение организма и хрящевой ткани. И как следствие происходит недостаток аминокислот в организме что приводит:</p>
             <ul class="list-who-needs-">
               <li><i class="fa fa-minus"></i> к мышечному стрессу</li>
-              <li><i class="fa fa-minus"></i> нарушению синтезов белков,</li>
-              <li><i class="fa fa-minus"></i> нарушению обмена веществ,</li>
+              <li><i class="fa fa-minus"></i> к болям локтей и колен,</li>
+              <li><i class="fa fa-minus"></i> подверженность организма к травмам,</li>
               <li><i class="fa fa-minus"></i> нервным расстройствам,
-              <li><i class="fa fa-minus"></i> что в итоге приводит к ослаблению функций памяти и снижению иммунитета.</li>
+              <li><i class="fa fa-minus"></i> в итоге к ослаблению функций памяти и снижению иммунитета.</li>
             </ul>
-            <p>В связи с этим многие принимают протеин, который насыщает структуру мышц белком в должной степени.</p>
+            <p>В связи с этим многие принимают коллагеновый протеин, который восстанавливает и наращивает мышцы белком и укрепляет суставы и связки.</p>
             <!-- <p>Также недостаток аминокислот и кальция в организме приводит к ослаблению костей и плохому состоянию кожи, волос и ногтей. Что делает организм более подверженным к травмам и ущербам.</p> -->
             <!-- <p>Поэтому рекомендуется в период интенсивных тренировок принимать  коллагеновый протеин, который является строителем кожи, связок и соединительных тканей организма.</p> -->
           </div>
@@ -294,12 +295,14 @@
           <p>BEEF PROTEIN имеет международный сертификат HACCP, всю необходимую документацию и лабораторные анализы.</p>
           <p>Преимущества нашей продукции:</p>
           <ul class="list-benefist">
+
+
             <li><span class="primary-color"><i class="fa fa-check"></i></span> Полный состав Аминокислот</li>
-            <li><span class="primary-color"><i class="fa fa-check"></i></span> Отсутствие аллергенов</li>
+            <li><span class="primary-color"><i class="fa fa-check"></i></span> Гибкость суставов и позвонков</li>
             <!-- <li><span class="primary-color"><i class="fa fa-check"></i></span> Высокая скорость усвоения</li> -->
             <li><span class="primary-color"><i class="fa fa-check"></i></span> Усвояемость продукта на 98%</li>
             <li><span class="primary-color"><i class="fa fa-check"></i></span> Повышает Иммунитет</li>
-            <!-- <li><span class="primary-color"><i class="fa fa-check"></i></span> Рекомендует Казахская Академия Питания</li> -->
+            <li><span class="primary-color"><i class="fa fa-check"></i></span> Рекомендует Казахская Академия Питания</li>
             <li><span class="primary-color"><i class="fa fa-check"></i></span> Минеральные вещества (кальций и магний),</li>
             <li><span class="primary-color"><i class="fa fa-check"></i></span> Жирорастворимые витамины А, Е, С, Д3 и В12.</li>
           </ul>
