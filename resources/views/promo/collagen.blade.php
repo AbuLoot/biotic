@@ -30,11 +30,11 @@
         </div>
         <div class="row header-main-content">
           <div class="offset-md-2- col-sm-8">
-            <h1 class="heading text-center- text-uppercase header-title ts-1"><span class="color-green">BEEF PROTEIN</span> набери до&nbsp;7&nbsp;кг мышечной массы за&nbsp;1&nbsp;месяц</h1>
-
+            <!-- <h1 class="heading text-center- text-uppercase header-title ts-1"><span class="color-green">BEEF PROTEIN</span> набери до&nbsp;7&nbsp;кг мышечной массы за&nbsp;1&nbsp;месяц</h1> -->
+            <h1 class="heading text-center- text-uppercase header-title ts-1"><span class="color-green">BEEF PROTEIN</span><br> набери мышечную массу и укрепи суставы и связки</h1>
             <!-- <p class="primary-color- white fz-20 lh-24 ts-1">Протеин полученный из натурального говяжьего белка, для набора мышечной массы и для укрепления суставов и связок.</p> -->
             <div class="offset-md-1- col-sm-10-">
-              <p class="primary-color- text-center- white fz-26 lh-30 ts-1">Это натуральный коллаген для построения качественной мускулатуры и для укрепления суставов и связок.</p>
+              <!-- <p class="primary-color- text-center- white fz-26 lh-30 ts-1">Это натуральный коллаген для построения качественной мускулатуры и для укрепления суставов и связок.</p> -->
             </div>
 
             <!-- <h3 class="heading primary-color header-price fz-60 "> 9500〒</h3> -->
@@ -96,7 +96,7 @@
             </div>
             <div class="product-info">
               <h2 class="product-title">Протеин в банке 3 кг.</h2>
-              <span class="price">25700〒</span>
+              <span class="price">26900〒</span>
             </div>
           </div>
         </div>
@@ -113,7 +113,7 @@
             </div>
             <div class="product-info">
               <h2 class="product-title">Протеин в банке 1 кг.</h2>
-              <span class="price">9900〒</span>
+              <span class="price">10900〒</span>
             </div>
           </div>
         </div>
@@ -130,7 +130,7 @@
             </div>
             <div class="product-info">
               <h2 class="product-title">Протеин в пакете 1 кг.</h2>
-              <span class="price">8900〒</span>
+              <span class="price">9900〒</span>
             </div>
           </div>
         </div>
@@ -164,7 +164,7 @@
             <h2 class="text-uppercase fz-50- white">Хотите набрать <span class="primary-color">мышечную массу</span>?</h2>
             <!-- <h4 class="white">Хотите набрать мышечную массу?</h4> -->
             <ul class="list-who-needs">
-              <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте больше белка(мясные, молочные продукты, рыбы, яйца и другие).</li>
+              <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте больше белков(мясные, молочные продукты, рыбы, яйца и другие).</li>
               <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте больше углеводов(овсянка, гречка, рис, овощи, фрукты и другие).</li>
               <li><span class="primary-color"><i class="fa fa-check"></i></span> Пейте <span class="color-green">Beef Protein</span> и Тренируйтесь!</li>
             </ul>
@@ -192,7 +192,7 @@
             <h3 class="text-uppercase fz-50- white">Хотите избавиться от лишнего веса и накачать <span class="primary-color">красивую мускулатуру</span>?</h3>
             <!-- <h4 class="white">Хотите накачать рельефную мускулатуру и избавиться от лишнего веса?</h4> -->
             <ul class="list-who-needs">
-              <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте больше белка(мясные, молочные продукты, рыбы, яйца и другие).</li>
+              <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте больше белков(мясные, молочные продукты, рыбы, яйца и другие).</li>
               <li><span class="primary-color"><i class="fa fa-check"></i></span> Замените быстрые углеводы(мучные и сахарные продукты) на сложные углеводы(овсянка, гречка, овощи, ягоды, некоторые фрукты и другие). </li>
               <li><span class="primary-color"><i class="fa fa-check"></i></span> Пейте <span class="color-green">Beef Protein</span> и Тренируйтесь!</li>
             </ul>
