@@ -72,7 +72,7 @@ Route::post('send-app', 'InputController@sendApp');
 
 
 // Shop
-Route::get('/', 'ShopController@index');
+// Route::get('/', 'ShopController@index');
 Route::get('catalog', 'ShopController@catalog');
 Route::get('catalog/all/{category}', 'ShopController@allCategoryProducts');
 Route::get('catalog/{category}/{id}', 'ShopController@categoryProducts');
@@ -100,7 +100,7 @@ Route::get('toggle-favorite/{id}', 'FavoriteController@toggleFavorite');
 Route::get('/promo', 'PromoController@index');
 Route::get('/epimediumnaya-pasta', 'PromoController@epimedium');
 Route::get('/protein', 'PromoController@collagen');
-// Route::get('/', 'PromoController@collagen');
+Route::get('/', 'PromoController@collagen');
 
 
 // News
