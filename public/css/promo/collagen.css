@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6,
   /*background-image: url(../../img/promo/collagen/ZS4vkkB.jpg);*/
   background-image: url(../../img/promo/collagen/bodybuilder.jpg);
   background-repeat: no-repeat;
-  background-position: 0% 0%;
+  background-position: center 0%;
   background-size: 130%;
 }
 @media (max-width: 479px) {
