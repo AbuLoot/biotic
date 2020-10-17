@@ -194,7 +194,7 @@
             <h2 class="text-uppercase fz-50- white">Хотите набрать <span class="primary-color">мышечную</span> массу?</h2>
             <!-- <h4 class="white">Хотите набрать мышечную массу?</h4> -->
             <ul class="list-who-needs">
-              <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте белки(мясные, молочные продукты, рыбы, яйца и другие).</li>
+              <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте больше белков(мясные, молочные продукты, рыбы, яйца и другие).</li>
               <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте больше углеводов(овсянка, гречка, рис, овощи, фрукты и другие).</li>
               <li><span class="primary-color"><i class="fa fa-check"></i></span> Пейте <span class="color-green">Beef Protein</span> и Тренируйтесь!</li>
             </ul>
