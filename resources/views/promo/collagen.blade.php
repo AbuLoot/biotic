@@ -109,7 +109,7 @@
       <div class="row">
         <div class="col-sm-8 offset-sm-2">
           <!-- <h4 class="text-center text-uppercase"> Они говорят что мы лучшие</h4> -->
-          <h2 class="text-center text-uppercase mb-5"> Beef Proteins</h2>
+          <h2 class="text-center text-uppercase mb-5"> <span class="primary-color">Beef</span> Proteins</h2>
         </div>
       </div>
       <div class="row no-gutters">
