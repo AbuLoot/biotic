@@ -73,13 +73,43 @@
     </div>
   </section>
 
+  <!-- WHO NEEDS COLLAGEN -->
+  <section class="section why-beefprotein">
+    <div class="cover-dark">
+      <div class="container">
+        <div class="row no-gutters pt-8 pb-8">
+          <div class="col-sm-12 col-lg-6">
+            <h2 class="text-uppercase fz-50- text-white"> Почему нужен<br> <span class="primary-color">BEEF PROTEIN</span>?</h2>
+            <!-- <p>Повышенная физическая нагрузка у спортсменов и как следствие недостаток аминокислот в организме приводит:</p> -->
+            <p>При тяжелом физическом труде и спортивных нагрузках происходит истощение организма и хрящевой ткани. И как следствие происходит недостаток аминокислот в организме что приводит:</p>
+            <ul class="list-who-needs-">
+              <li><i class="fa fa-minus"></i> к мышечному стрессу</li>
+              <li><i class="fa fa-minus"></i> к болям локтей и колен,</li>
+              <li><i class="fa fa-minus"></i> подверженность организма к травмам,</li>
+              <li><i class="fa fa-minus"></i> нервным расстройствам,
+              <li><i class="fa fa-minus"></i> в итоге к ослаблению функций памяти и снижению иммунитета.</li>
+            </ul>
+            <p>В связи с этим многие принимают коллагеновый протеин, который восстанавливает и наращивает мышцы белком и укрепляет суставы и связки.</p>
+            <!-- <p>Также недостаток аминокислот и кальция в организме приводит к ослаблению костей и плохому состоянию кожи, волос и ногтей. Что делает организм более подверженным к травмам и ущербам.</p> -->
+            <!-- <p>Поэтому рекомендуется в период интенсивных тренировок принимать  коллагеновый протеин, который является строителем кожи, связок и соединительных тканей организма.</p> -->
+          </div>
+          <div class="col-sm-12 col-lg-6">
+            <img class="d-block mt-5 mx-auto" src="/img/promo/collagen/banka-3kg.png" alt="">
+            <div class="text-center">
+              <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Консультация</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- OUR PRODUCTS -->
   <section class="section pt-8 pb-8">
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-8 offset-sm-2">
           <!-- <h4 class="text-center text-uppercase"> Они говорят что мы лучшие</h4> -->
-          <h2 class="text-center text-uppercase mb-5"> Спорт питания</h2>
+          <h2 class="text-center text-uppercase mb-5"> Beef Proteins</h2>
         </div>
       </div>
       <div class="row no-gutters">
@@ -161,10 +191,10 @@
       <div class="container">
         <div class="row align-items-center pt-8">
           <div class="col-sm-12 col-lg-6 pb-4 order-xs-2">
-            <h2 class="text-uppercase fz-50- white">Хотите набрать <span class="primary-color">мышечную массу</span>?</h2>
+            <h2 class="text-uppercase fz-50- white">Хотите набрать <span class="primary-color">мышечную</span> массу?</h2>
             <!-- <h4 class="white">Хотите набрать мышечную массу?</h4> -->
             <ul class="list-who-needs">
-              <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте больше белков(мясные, молочные продукты, рыбы, яйца и другие).</li>
+              <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте белки(мясные, молочные продукты, рыбы, яйца и другие).</li>
               <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте больше углеводов(овсянка, гречка, рис, овощи, фрукты и другие).</li>
               <li><span class="primary-color"><i class="fa fa-check"></i></span> Пейте <span class="color-green">Beef Protein</span> и Тренируйтесь!</li>
             </ul>
@@ -189,7 +219,7 @@
             <img class="d-block mx-auto" src="/img/promo/collagen/protein-for-body-drying.jpg" alt="">
           </div>
           <div class="col-sm-12 col-lg-6 pb-4">
-            <h3 class="text-uppercase fz-50- white">Хотите избавиться от лишнего веса и накачать <span class="primary-color">красивую мускулатуру</span>?</h3>
+            <h3 class="text-uppercase fz-50- white">Хотите избавиться от лишнего жира и накачать красивую <span class="primary-color">мускулатуру</span>?</h3>
             <!-- <h4 class="white">Хотите накачать рельефную мускулатуру и избавиться от лишнего веса?</h4> -->
             <ul class="list-who-needs">
               <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте больше белков(мясные, молочные продукты, рыбы, яйца и другие).</li>
@@ -242,36 +272,6 @@
               </a><br>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- WHO NEEDS COLLAGEN -->
-  <section class="section why-beefprotein">
-    <div class="cover-dark">
-      <div class="container">
-        <div class="row no-gutters pt-8 pb-8">
-          <div class="col-sm-12 col-lg-6">
-            <h2 class="text-uppercase fz-50- text-white"> Почему нужен<br> <span class="primary-color">BEEF PROTEIN</span>?</h2>
-            <!-- <p>Повышенная физическая нагрузка у спортсменов и как следствие недостаток аминокислот в организме приводит:</p> -->
-            <p>При тяжелом физическом труде и спортивных нагрузках происходит истощение организма и хрящевой ткани. И как следствие происходит недостаток аминокислот в организме что приводит:</p>
-            <ul class="list-who-needs-">
-              <li><i class="fa fa-minus"></i> к мышечному стрессу</li>
-              <li><i class="fa fa-minus"></i> к болям локтей и колен,</li>
-              <li><i class="fa fa-minus"></i> подверженность организма к травмам,</li>
-              <li><i class="fa fa-minus"></i> нервным расстройствам,
-              <li><i class="fa fa-minus"></i> в итоге к ослаблению функций памяти и снижению иммунитета.</li>
-            </ul>
-            <p>В связи с этим многие принимают коллагеновый протеин, который восстанавливает и наращивает мышцы белком и укрепляет суставы и связки.</p>
-            <!-- <p>Также недостаток аминокислот и кальция в организме приводит к ослаблению костей и плохому состоянию кожи, волос и ногтей. Что делает организм более подверженным к травмам и ущербам.</p> -->
-            <!-- <p>Поэтому рекомендуется в период интенсивных тренировок принимать  коллагеновый протеин, который является строителем кожи, связок и соединительных тканей организма.</p> -->
-          </div>
-          <div class="col-sm-12 col-lg-6">
-            <img class="d-block mt-5 mx-auto" src="/img/promo/collagen/banka-3kg.png" alt="">
-            <div class="text-center">
-              <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Консультация</a>
-            </div>
         </div>
       </div>
     </div>
