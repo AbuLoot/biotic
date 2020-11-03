@@ -11,12 +11,12 @@
 
   <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" media="all"/>
   <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css" media="all" />
-  <link rel="stylesheet" href="/css/simple-line-icons.css" type="text/css" media="all" />
   <link rel="stylesheet" href="/css/settings.css" type="text/css" media="all"/>
-  <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css" media="all"/>
-  <link rel="stylesheet" href="/css/owl.carousel.css" type="text/css" media="all"/>
-  <link rel="stylesheet" href="/css/owl.theme.css" type="text/css" media="all"/>
-  <link rel="stylesheet" href="/css/owl.transitions.css" type="text/css" media="all"/>
+  <!-- <link rel="stylesheet" href="/css/simple-line-icons.css" type="text/css" media="all" /> -->
+  <!-- <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css" media="all"/> -->
+  <!-- <link rel="stylesheet" href="/css/owl.carousel.css" type="text/css" media="all"/> -->
+  <!-- <link rel="stylesheet" href="/css/owl.theme.css" type="text/css" media="all"/> -->
+  <!-- <link rel="stylesheet" href="/css/owl.transitions.css" type="text/css" media="all"/> -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css" type="text/css" media="all"/>
   <link rel="stylesheet" href="/css/custom.css" type="text/css" media="all"/>
@@ -183,16 +183,13 @@
                     <a class="link" aria-label="Youtube" href="https://www.youtube.com/channel/UC3h_DOXPPT1XXbkRz8zvaMQ" target="_blank"><i class="fa fa-youtube"></i></a>
                   </li>
                   <li class="item">
+                    <a class="link" aria-label="Instagram" href="https://www.instagram.com/biotic.company" target="_blank"><i class="fa fa-instagram"></i></a>
+                  </li>
+                  <li class="item">
                     <a class="link" aria-label="Facebook" href="https://www.facebook.com/biotic.kz" target="_blank"><i class="fa fa-facebook"></i></a>
                   </li>
                   <li class="item">
                     <a class="link" aria-label="Twitter" href="https://twitter.com/biotickz" target="_blank"><i class="fa fa-twitter"></i></a>
-                  </li>
-                  <li class="item">
-                    <a class="link" aria-label="Instagram" href="https://www.instagram.com/biotic.kz" target="_blank"><i class="fa fa-instagram"></i></a>
-                  </li>
-                  <li class="item">
-                    <a class="link" aria-label="Vkontakte" href="https://www.vk.com/biotic_kz" target="_blank"><i class="fa fa-vk"></i></a>
                   </li>
                 </ul>
               </div>
@@ -204,68 +201,23 @@
   </div>
 
   <!-- <a id="backtotop" class="scrollup scrollup--fixed"><i class="fa fa-angle-up"></i></a> -->  
-  <!-- Facebook Pixel Code -->
-  <script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window,document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-   fbq('init', '740059156373187'); 
-  fbq('track', 'PageView');
-  </script>
-  <noscript>
-   <img height="1" width="1" 
-  src="https://www.facebook.com/tr?id=740059156373187&ev=PageView
-  &noscript=1"/>
-  </noscript>
-  <!-- End Facebook Pixel Code -->
-
-  <!-- Yandex.Metrika counter -->
-  <script type="text/javascript" >
-     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-     m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-     (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-     ym(51824582, "init", {
-          id:51824582,
-          clickmap:true,
-          trackLinks:true,
-          accurateTrackBounce:true,
-          webvisor:true
-     });
-  </script>
-  <noscript><div><img src="https://mc.yandex.ru/watch/51824582" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  <!-- /Yandex.Metrika counter -->
 
   <!-- LOAD JQUERY LIBRARY -->
   <script src="/js/jquery.min.js"></script>
   <script src="/js/jquery-migrate.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
   <script src="/js/modernizr-2.7.1.min.js"></script>
-  <script src="/js/imagesloaded.pkgd.min.js"></script>
-  <script src="/js/isotope.pkgd.min.js"></script>
-  <script src="/js/jquery.isotope.init.js"></script>
-  <script src="/js/jquery.magnific-popup.min.js"></script>
-  <script src="/js/owl.carousel.min.js"></script>
-  <script src="/js/headroom.min.js"></script>
-  <script src="/js/jQuery.headroom.js"></script>
+  <!-- <script src="/js/headroom.min.js"></script> -->
+  <!-- <script src="/js/jQuery.headroom.js"></script> -->
   <script src="/js/script.js"></script>
+
+  <!-- <script src="/js/isotope.pkgd.min.js"></script> -->
+  <!-- <script src="/js/jquery.isotope.init.js"></script> -->
+  <!-- <script src="/js/imagesloaded.pkgd.min.js"></script> -->
+  <!-- <script src="/js/jquery.magnific-popup.min.js"></script> -->
+  <!-- <script src="/js/owl.carousel.min.js"></script> -->
 
   @yield('scripts')
 
-  <!-- <script src="/js/jquery.themepunch.tools.min.js"></script>
-  <script src="/js/jquery.themepunch.revolution.min.js"></script>
-  <script src="/js/extensions/revolution.extension.video.min.js"></script>
-  <script src="/js/extensions/revolution.extension.slideanims.min.js"></script>
-  <script src="/js/extensions/revolution.extension.actions.min.js"></script>
-  <script src="/js/extensions/revolution.extension.layeranimation.min.js"></script>
-  <script src="/js/extensions/revolution.extension.kenburn.min.js"></script>
-  <script src="/js/extensions/revolution.extension.navigation.min.js"></script>
-  <script src="/js/extensions/revolution.extension.migration.min.js"></script>
-  <script src="/js/extensions/revolution.extension.parallax.min.js"></script> -->
 </body>
 </html>

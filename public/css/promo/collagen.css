@@ -100,12 +100,22 @@ h1, h2, h3, h4, h5, h6,
    padding: 80px 0;
 }
 .header-title {
+  color: #fff;
   font-size: 60px;
   letter-spacing: 0px;
-  color: #fff;
+  text-transform: uppercase;
 }
 .header-title > span {
-  font-size: 75px;
+  color: #01a106;
+  font-size: 120px;
+  line-height: 86px;
+  font-family: 'Teko', sans-serif;
+}
+.recommendation {
+  color: #fff;
+  font-size: 18px;
+  font-style: italic;
+  padding: 15px;
 }
 .color-green {
   color: #01a106;
@@ -209,6 +219,44 @@ h1, h2, h3, h4, h5, h6,
   margin-left: 20px;
 }
 
+.who-need {
+  position: relative;
+  width: 100%;
+  border: 3px solid #01a106;
+  padding: 15px;
+  margin-bottom: 30px;
+  /*padding: 37px 30px 34px;*/
+  /*-webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);*/
+  /*box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);*/
+  /*z-index: 9;*/
+}
+/*.who-need .grid-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #222;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  opacity: 0;
+  visibility: hidden;
+  z-index: -1;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.who-need:hover .grid-overlay {
+  opacity: 1;
+  visibility: visible;
+}*/
+.who-need h5 {
+  padding: 30px  15px;
+  text-align: center;
+}
+
 /* WHO NEEDS COLLAGEN */
 .bg-who-needs {
   background-color: #000;
@@ -307,12 +355,23 @@ h1, h2, h3, h4, h5, h6,
     padding: 20px 0 20px;
     text-align: center;
   }
-  .header-title {font-size: 30px; color: #fff; }
-  .header-title > span {font-size: 36px;}
-  .header-price > s {display: none; }
+  .header-title {
+    color: #fff;
+    font-size: 30px;
+  }
+  .header-title > span {
+    font-size: 60px;
+    line-height: 40px;
+  }
+  .recommendation {
+    font-size: 15px;
+  }
+  .header-price > s {
+    display: none;
+  }
   .made-in-turkey {
-      bottom: -340px;
-      left: 50%;
+    bottom: -340px;
+    left: 50%;
   }
   .banka1 {
     top: -10%;
