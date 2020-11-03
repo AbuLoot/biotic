@@ -37,7 +37,7 @@
         <div class="row header-main-content">
           <div class="offset-md-2- col-sm-8">
             <!-- <h1 class="heading text-center- text-uppercase header-title ts-1"><span class="color-green">BEEF PROTEIN</span> набери до&nbsp;7&nbsp;кг мышечной массы за&nbsp;1&nbsp;месяц</h1> -->
-            <h1 class="heading header-title ts-1"><span>BULL PROTEIN</span> Построй свое тело и&nbsp;укрепи суставы и&nbsp;связки</h1>
+            <h1 class="heading header-title ts-1"><span>BEEF PROTEIN</span> Построй свое тело и&nbsp;укрепи суставы и&nbsp;связки</h1>
             <!-- <h1 class="heading text-center- text-uppercase header-title ts-1"><span class="color-green">BULL PROTEIN</span><br> набери мышечную массу от 2 до 6кг и&nbsp;укрепи суставы и&nbsp;связки</h1> -->
             <!-- <p class="primary-color- white fz-20 lh-24 ts-1">Протеин полученный из натурального говяжьего белка, для набора мышечной массы и для укрепления суставов и связок.</p> -->
 
