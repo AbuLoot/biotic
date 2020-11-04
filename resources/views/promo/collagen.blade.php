@@ -56,7 +56,7 @@
   <!-- STANDARTS -->
   <section class="section bg-black pt-5 pb-2">
     <div class="container-fluid">
-      <div class="row">
+      <div class="row no-gutters">
         <div class="col-4 col-sm-4 col-md-2 mb-2">
           <img src="/img/standarts/eac2.png" class="img-responsive">
         </div>
@@ -375,7 +375,7 @@
   <!-- STANDARTS -->
   <section class="section bg-standarts pt-5 pb-3">
     <div class="container-fluid">
-      <div class="row">
+      <div class="row no-gutters">
         <div class="col-4 col-sm-4 col-md-2 mb-2">
           <img src="/img/standarts/eac2.png" class="img-responsive">
         </div>
