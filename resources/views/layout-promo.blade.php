@@ -7,16 +7,10 @@
   <link rel="shortcut icon" href="/favicon.png" type="image/x-icon"/>
   <title>@yield('title_description', 'Biotic - Натуральные продукты')</title>
   <meta name="description" content="@yield('meta_description', 'Торговая компания “Biotic” специализируется на продаже высококачественных, натуральных продуктов для здоровья и красоты. Оптово-розничные продажи БАДов, витаминов, трав, спортивного питания, натуральной пищи, ароматов, средств для гигиены и ухода.')">
-  <meta name="yandex-verification" content="d2620ce1d90694d6" />
 
   <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" media="all"/>
   <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css" media="all" />
   <link rel="stylesheet" href="/css/settings.css" type="text/css" media="all"/>
-  <!-- <link rel="stylesheet" href="/css/simple-line-icons.css" type="text/css" media="all" /> -->
-  <!-- <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css" media="all"/> -->
-  <!-- <link rel="stylesheet" href="/css/owl.carousel.css" type="text/css" media="all"/> -->
-  <!-- <link rel="stylesheet" href="/css/owl.theme.css" type="text/css" media="all"/> -->
-  <!-- <link rel="stylesheet" href="/css/owl.transitions.css" type="text/css" media="all"/> -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Teko:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css" type="text/css" media="all"/>
   <link rel="stylesheet" href="/css/custom.css" type="text/css" media="all"/>

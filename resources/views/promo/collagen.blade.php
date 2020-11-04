@@ -406,7 +406,7 @@
     <div class="reviews-overlay pt-8 pb-8">
       <div class="container-fluid">
         <h2 class="heading text-center mb-5 primary-color">Отзывы</h2>
-        <div class="row no-gutters">
+        <div class="row">
 
           <div class="col-md-3 col-sm-6 col-6">
             <div class="embed-responsive embed-responsive-4by3">
