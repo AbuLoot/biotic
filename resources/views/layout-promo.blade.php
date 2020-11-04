@@ -195,15 +195,23 @@
   <script src="/js/jquery-migrate.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
   <script src="/js/modernizr-2.7.1.min.js"></script>
-  <!-- <script src="/js/headroom.min.js"></script> -->
-  <!-- <script src="/js/jQuery.headroom.js"></script> -->
   <script src="/js/script.js"></script>
+ 
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript" >
+     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+     m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+     (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-  <!-- <script src="/js/isotope.pkgd.min.js"></script> -->
-  <!-- <script src="/js/jquery.isotope.init.js"></script> -->
-  <!-- <script src="/js/imagesloaded.pkgd.min.js"></script> -->
-  <!-- <script src="/js/jquery.magnific-popup.min.js"></script> -->
-  <!-- <script src="/js/owl.carousel.min.js"></script> -->
+     ym(69020533, "init", {
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true,
+          webvisor:true
+     });
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/69020533" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
 
   @yield('scripts')
 
