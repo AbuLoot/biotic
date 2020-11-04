@@ -17,7 +17,7 @@
   <!-- <link rel="stylesheet" href="/css/owl.carousel.css" type="text/css" media="all"/> -->
   <!-- <link rel="stylesheet" href="/css/owl.theme.css" type="text/css" media="all"/> -->
   <!-- <link rel="stylesheet" href="/css/owl.transitions.css" type="text/css" media="all"/> -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Teko:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css" type="text/css" media="all"/>
   <link rel="stylesheet" href="/css/custom.css" type="text/css" media="all"/>
   @yield('head')
@@ -31,12 +31,6 @@
   <![endif]-->
 </head>
 <body>
-  <!-- <div class="noo-spinner">
-    <div class="spinner">
-      <div class="cube1"></div>
-      <div class="cube2"></div>
-    </div>
-  </div> -->
 
   <div class="site">
     <main id="main">

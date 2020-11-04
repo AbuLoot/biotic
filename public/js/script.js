@@ -80,16 +80,6 @@
       }
     });
 
-    //Owl Carousel
-    OwlCarousel();
-
-    //Headroom Menu
-    if ($(window).width() <= 768) {
-      if($(".left-menu-content").length == 0) {
-        $(".header").headroom();
-      }
-    }
-
     //toggle mini cart
     $('#mini-cart').on('click', function() {
       $(this).toggleClass("open");
