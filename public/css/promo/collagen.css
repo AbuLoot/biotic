@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6,
   background-image: url(../../img/promo/collagen/bodybuilder-main.jpg);
   background-repeat: no-repeat;
   background-position: center 0%;
-  background-size: 110%;
+  background-size: 100%;
 }
 @media (max-width: 479px) {
   .bg-header {
