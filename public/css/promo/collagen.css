@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6,
   background-color: #000000;
   /*background-image: url(../../img/promo/collagen/protein-header.jpg);*/
   /*background-image: url(../../img/promo/collagen/ZS4vkkB.jpg);*/
-  background-image: url(../../img/promo/collagen/bodybuilder-main.jpg);
+  background-image: url(../../img/promo/collagen/bodybuilder-main-bull-with-shadow.jpg);
   background-repeat: no-repeat;
   background-position: center 0%;
   background-size: 100%;
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6,
   .bg-header {
     min-height: 600px;
     background-color: #000000;
-    background-image: url(../../img/promo/collagen/bodybuilder-main.jpg);
+    background-image: url(../../img/promo/collagen/bodybuilder-main-bull-with-shadow.jpg);
     /*background-image: url(../../img/promo/collagen/hulk.jpg);*/
     background-position: center;
     background-size: 301%;
@@ -37,8 +37,8 @@ h1, h2, h3, h4, h5, h6,
 }
 .bg-standarts {
   line-height: 0;
-  background-color: #111111;
-  background-image: linear-gradient(to bottom, #000000, #040404, #090909, #0d0d0d, #101010);
+  background-color: #000;
+  /*background-image: linear-gradient(to bottom, #000000, #040404, #090909, #0d0d0d, #101010);*/
 }
 .glow-green {
   background: rgb(1,161,6);
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6,
 .yellow {
   color: #ffed00;
 }
-.modal .modal-content {
+/*.modal .modal-content {
   color: #fff;
   background-color: #000;
 }
@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6,
   color: #fff;
   border-bottom: 1px solid #ffffff;
 }
-
+*/
 
 /* Biotic Logo */
 .navbar-brand {
@@ -94,11 +94,24 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .header-main-content {
-  padding: 100px 0 100px;
+  padding: 100px 0 50px;
+}
+.header-main-bg {
+  padding: 50px 0 0;
+}
+.header-main-bg > img {
+  width: 60%;
 }
 .section-custom-padding {
    padding: 80px 0;
 }
+/*.green-tape {
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  background-color: rgb(1 161 6 / 58%)
+  transform: rotate(0.1turn);
+}*/
 .header-title {
   color: #fff;
   font-size: 60px;
@@ -106,10 +119,28 @@ h1, h2, h3, h4, h5, h6,
   text-transform: uppercase;
 }
 .header-title > span {
-  color: #01a106;
+  /*color: #01a106;*/
   font-size: 120px;
-  line-height: 86px;
+  line-height: 100px;
   font-family: 'Teko', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+.description-list {
+  color: #fff;
+  margin-left: 15px;
+  margin-bottom: 0px;
+}
+.description-list li {
+  line-height: 40px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+}
+.description-list li i {
+  font-size: 26px;
+  color: #01a106;
 }
 .recommendation {
   color: #fff;
@@ -204,10 +235,10 @@ h1, h2, h3, h4, h5, h6,
   color: #fff;
   font-size: 18px;
   background-color: #000;
-  background-image: url(../../img/promo/collagen/protein-need.jpg);
+/*  background-image: url(../../img/promo/collagen/protein-need.jpg);
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  background-size: cover;*/
 }
 .why-beefprotein h2 {
   margin-bottom: 20px;
@@ -355,16 +386,36 @@ h1, h2, h3, h4, h5, h6,
     padding: 20px 0 20px;
     text-align: center;
   }
+  .header-main-bg > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .header-title {
     color: #fff;
     font-size: 30px;
   }
   .header-title > span {
     font-size: 60px;
-    line-height: 40px;
+    line-height: 60px;
+  }
+  .description-list {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .description-list li {
+    line-height: 24px;
+    font-size: 18px;
+  }
+  .description-list li i {
+    font-size: 12px;
+    vertical-align: middle;
+    margin-bottom: 4px;
   }
   .recommendation {
-    font-size: 15px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: bold;
   }
   .header-price > s {
     display: none;

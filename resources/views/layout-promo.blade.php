@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
   <link rel="icon" href="/favicon.png" type="image/x-icon"/>
   <link rel="shortcut icon" href="/favicon.png" type="image/x-icon"/>
-  <title>@yield('title_description', 'Biotic - Натуральные продукты')</title>
+  <title>@yield('title_description', 'Biotic - Натуральные продукты / 100% BULL PROTEIN - построй качественную мускулатуру и укрепи суставы и связки')</title>
   <meta name="description" content="@yield('meta_description', 'Торговая компания “Biotic” специализируется на продаже высококачественных, натуральных продуктов для здоровья и красоты. Оптово-розничные продажи БАДов, витаминов, трав, спортивного питания, натуральной пищи, ароматов, средств для гигиены и ухода.')">
 
   <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" media="all"/>

@@ -240,6 +240,8 @@ h6, .h6 {
   display: block;
 }
 .heading {
+  text-transform: uppercase;
+  font-style: italic;
   line-height: 1.15;
   font-weight: 600;
   font-size: 39px;

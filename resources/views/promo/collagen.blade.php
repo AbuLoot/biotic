@@ -24,29 +24,32 @@
               <!-- <h3 class="heading small fz-24 white ts-1 mt-2"> 100% натуральный продукт</h3> -->
             </div>
           </div>
-          <div class="col-sm-5">
-          </div>
-          <div class="col-sm-4">
+          <div class="offset-sm-5 col-sm-4">
             <div class="phones d-none d-sm-block">
               <a onclick="fbq('track', 'Contact');" href="tel:+77087181502" target="_top" data-attr="phone"><i class="fa fa-phone"></i> 8 (708) 718 1502</a>
               <a onclick="fbq('track', 'Contact');" href="whatsapp://send?phone=+77087181502" target="_top" data-attr="whatsapp_call"><i class="fa fa-whatsapp"></i> 8 (708) 718 1502</a>
             </div>
           </div>
         </div>
-        <div class="row header-main-content">
-          <div class="offset-md-2- col-sm-8">
+        <div class="row">
+          <div class="col-sm-8 header-main-content">
             <!-- <h1 class="heading text-center- text-uppercase header-title ts-1"><span class="color-green">BEEF PROTEIN</span> набери до&nbsp;7&nbsp;кг мышечной массы за&nbsp;1&nbsp;месяц</h1> -->
-            <h1 class="heading header-title ts-1"><span>BEEF PROTEIN</span> Построй свое тело и&nbsp;укрепи суставы и&nbsp;связки</h1>
+            <h1 class="heading header-title primary-color- ts-1"><span>BULL PROTEIN</span></h1>
+            <ul class="description-list ts-1">
+              <!-- <li><p> Построй свое тело и&nbsp;укрепи суставы и&nbsp;связки</p></li> -->
+              <li><i class="fa fa-circle"></i> Наращивание мыщечной массы</li>
+              <li><i class="fa fa-circle"></i> Укрепляет суставы и связки</li>
+              <li><i class="fa fa-circle"></i> Увеличивает силовые показатели</li>
+            </ul>
             <!-- <h1 class="heading text-center- text-uppercase header-title ts-1"><span class="color-green">BULL PROTEIN</span><br> набери мышечную массу от 2 до 6кг и&nbsp;укрепи суставы и&nbsp;связки</h1> -->
             <!-- <p class="primary-color- white fz-20 lh-24 ts-1">Протеин полученный из натурального говяжьего белка, для набора мышечной массы и для укрепления суставов и связок.</p> -->
 
-            <div class="col-sm-6 recommendation">
+            <div class="col-sm-6 recommendation ts-1">
               <p>"Чемпионы MMA по версии M1-Global Асу&nbsp;Алмабаев и Арман&nbsp;Ашимов зарекомендовали наш протеин!"</p>
             </div>
-            <!-- <h3 class="heading primary-color header-price fz-60 "> 9500〒</h3> -->
           </div>
-          <div class="col-sm-4">
-            <img src="/img/promo/collagen/banka-3kg.png" class="float-sm-right-">
+          <div class="col-sm-4 header-main-bg">
+            <img src="/img/promo/collagen/Web 1kg BANK BULL PROTEIN.png">
           </div>
         </div>
       </div>
@@ -91,7 +94,7 @@
             </div>
           </div> -->
           <div class="col-sm-12 offset-sm-3 col-lg-6">
-            <h2 class="heading fz-50- text-white"> Почему нужен<br> <span class="primary-color">BEEF PROTEIN</span>?</h2>
+            <h2 class="heading fz-50- text-white"> Нужен ли <span class="primary-color">protein</span>?</h2>
             <!-- <p>Повышенная физическая нагрузка у спортсменов и как следствие недостаток аминокислот в организме приводит:</p> -->
             <p>При тяжелых физических и спортивных нагрузках происходит истощение организма и хрящевой ткани. Так как коллаген является самым распространенным белком в нашем организме, его недостаток или истощение приводит:</p>
             <ul class="list-who-needs-">
@@ -143,32 +146,15 @@
       <div class="row">
         <div class="col-sm-8 offset-sm-2">
           <!-- <h4 class="text-center text-uppercase"> Они говорят что мы лучшие</h4> -->
-          <h2 class="heading text-center text-uppercase mb-5"> <span class="primary-color">Beef</span> Proteins</h2>
+          <h2 class="heading text-center text-uppercase mb-5"> <span class="primary-color">BULL </span> PROTEINS</h2>
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-sm-6 col-md-4">
+        <div class="offset-sm-2 col-sm-6 col-md-4">
           <div class="product-item">
             <div class="product-thumbnail">
               <a href="#">
-                <img class="img-responsive" src="/img/promo/collagen/banka-3kg.png" alt="" />
-              </a>
-              <!-- <div class="actions"> <div class="action action-view-detail"> </div> <div class="action action-add-to-cart"> <a href="#" class="button-add-to-cart" data-toggle="modal" data-target="#appModal">Заказать</a> </div> </div> -->
-              <div class="text-center">
-                <button type="button" class="btn-app mt-2" data-toggle="modal" data-target="#appModal">Заказать</button>
-              </div>
-            </div>
-            <div class="product-info">
-              <h2 class="product-title">Протеин в банке 3 кг.</h2>
-              <span class="price">26900〒</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="product-item">
-            <div class="product-thumbnail">
-              <a href="#">
-                <img class="img-responsive" src="/img/promo/collagen/banka-1kg.png" alt="" />
+                <img class="img-responsive" src="/img/promo/collagen/Web 1kg BANK BULL PROTEIN.png" alt="BULL PROTEIN 1kg bank" />
               </a>
               <!-- <div class="actions"> <div class="action action-view-detail"> </div> <div class="action action-add-to-cart"> <a href="#" class="button-add-to-cart" data-toggle="modal" data-target="#appModal">Заказать</a> </div> </div> -->
               <div class="text-center">
@@ -185,7 +171,7 @@
           <div class="product-item">
             <div class="product-thumbnail">
               <a href="#">
-                <img class="img-responsive" src="/img/promo/collagen/package-1kg.png" alt="" />
+                <img class="img-responsive" src="/img/promo/collagen/Web 1kg package BULL PROTEIN.png" alt="BULL PROTEIN 1kg package" />
               </a>
               <!-- <div class="actions"> <div class="action action-view-detail"> </div> <div class="action action-add-to-cart"> <a href="#" class="button-add-to-cart" data-toggle="modal" data-target="#appModal">Заказать</a> </div> </div> -->
               <div class="text-center">
@@ -198,6 +184,23 @@
             </div>
           </div>
         </div>
+        <!-- <div class="col-sm-6 col-md-4">
+          <div class="product-item">
+            <div class="product-thumbnail">
+              <a href="#">
+                <img class="img-responsive" src="/img/promo/collagen/banka-3kg.png" alt="BULL PROTEIN 3kg bank" />
+              </a>
+              <div class="actions"> <div class="action action-view-detail"> </div> <div class="action action-add-to-cart"> <a href="#" class="button-add-to-cart" data-toggle="modal" data-target="#appModal">Заказать</a> </div> </div>
+              <div class="text-center">
+                <button type="button" class="btn-app mt-2" data-toggle="modal" data-target="#appModal">Заказать</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h2 class="product-title">Протеин в банке 3 кг.</h2>
+              <span class="price">26900〒</span>
+            </div>
+          </div>
+        </div> -->
 
         <div class="offset-md-1 col-sm-10">
           <p class="text-center fz-20 lh-20 pt-2 ts-1-">Для оптовиков: <a class="primary-color" href="/docs/BEEF PROTEIN COLLAGENous PRESENTATION FOR GYM`s.pdf" target="_blank">Презентация</a></p>
@@ -237,23 +240,23 @@
           </div>
           <div class="col-lg-6 offset-lg-1 col-md-6 col-12">
             <h3 class="heading text-white mt-3">Все мы хотим иметь красивое и&nbsp;<span class="primary-color">здоровое</span> тело.</h3>
-            <p class="text-white">Поэтому очень важно заниматься активным образом жизни и питаться правильно. С Beef Protein вы добьетесь быстрых результатов. Протеин в основе которого лежит технология гидролиза, позволяет быть протеину максимально биодоступным и полезным.</p>
+            <p class="text-white">Для этого очень важно заниматься активным образом жизни и питаться правильно. С BULL PROTEIN вы добьетесь быстрых результатов. Протеин в основе которого лежит технология гидролиза, позволяет быть протеину максимально биодоступным и полезным.</p>
           </div>
         </div>
         <div class="row align-items-center pt-8">
-          <div class="col-sm-12 col-lg-6 pb-4 order-xs-2">
-            <h2 class="heading -text-uppercase fz-50- white">Хотите набрать <span class="primary-color">мышечную</span> массу?</h2>
+          <div class="col-sm-12 col-lg-4 pb-4 order-xs-2">
+            <h2 class="heading white">Хотите набрать <span class="primary-color">мышечную</span> массу?</h2>
             <!-- <h4 class="white">Хотите набрать мышечную массу?</h4> -->
             <ul class="list-who-needs">
-              <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте больше белков(мясные, молочные продукты, рыбы, яйца и другие).</li>
-              <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте больше углеводов(овсянка, гречка, рис, овощи, фрукты и другие).</li>
-              <li><span class="primary-color"><i class="fa fa-check"></i></span> Пейте <span class="color-green">Beef Protein</span> и Тренируйтесь!</li>
+              <li><span class="primary-color"><i class="fa fa-circle"></i></span> Употребляйте больше белков(мясные, молочные продукты, рыбы, яйца и другие).</li>
+              <li><span class="primary-color"><i class="fa fa-circle"></i></span> Употребляйте больше углеводов(овсянка, гречка, рис, овощи, фрукты и другие).</li>
+              <li><span class="primary-color"><i class="fa fa-circle"></i></span> Пейте <span class="color-green">BULL PROTEIN</span> и тренируйтесь!</li>
             </ul>
             <div class="text-center">
-              <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Заказать</a>
+              <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Консультация</a>
             </div>
           </div>
-          <div class="col-sm-12 col-lg-6 pb-4 order-xs-1">
+          <div class="col-sm-12 col-lg-8 pb-4 order-xs-1">
             <img class="d-block mx-auto" src="/img/promo/collagen/protein-for-mass.jpg" alt="">
           </div>
         </div>
@@ -266,19 +269,19 @@
     <div class="cover-dark-">
       <div class="container">
         <div class="row align-items-center pt-4">
-          <div class="col-sm-12 col-lg-6 pb-4">
-            <img class="d-block mx-auto" src="/img/promo/collagen/protein-for-body-drying.jpg" alt="">
+          <div class="col-sm-12 col-lg-7 pb-4">
+            <img class="d-block" src="/img/promo/collagen/protein-for-body-drying.jpg" alt="">
           </div>
-          <div class="col-sm-12 col-lg-6 pb-4">
-            <h3 class="heading -text-uppercase fz-50- white">Хотите избавиться от лишнего жира и накачать красивую <span class="primary-color">мускулатуру</span>?</h3>
+          <div class="col-sm-12 col-lg-4 pb-4">
+            <h3 class="heading white">Хотите избавиться от лишнего жира и&nbsp;накачать <span class="primary-color">мускулатуру</span>?</h3>
             <!-- <h4 class="white">Хотите накачать рельефную мускулатуру и избавиться от лишнего веса?</h4> -->
             <ul class="list-who-needs">
-              <li><span class="primary-color"><i class="fa fa-check"></i></span> Употребляйте больше белков(мясные, молочные продукты, рыбы, яйца и другие).</li>
-              <li><span class="primary-color"><i class="fa fa-check"></i></span> Замените быстрые углеводы(мучные и сахарные продукты) на сложные углеводы(овсянка, гречка, овощи, ягоды, некоторые фрукты и другие). </li>
-              <li><span class="primary-color"><i class="fa fa-check"></i></span> Пейте <span class="color-green">Beef Protein</span> и Тренируйтесь!</li>
+              <li><span class="primary-color"><i class="fa fa-circle"></i></span> Употребляйте больше белков(мясные, молочные продукты, рыбы, яйца и другие).</li>
+              <li><span class="primary-color"><i class="fa fa-circle"></i></span> Замените быстрые углеводы(мучные и сахарные продукты) на сложные углеводы(овсянка, гречка, овощи, ягоды, фрукты и другие). </li>
+              <li><span class="primary-color"><i class="fa fa-circle"></i></span> Пейте <span class="color-green">BULL PROTEIN</span> и тренируйтесь!</li>
             </ul>
             <div class="text-center">
-              <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Заказать</a>
+              <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Консультация</a>
             </div>
           </div>
         </div>
@@ -353,7 +356,7 @@
         </div>
         <div class="col-sm-12 col-lg-6 about-beef-protein">
           <h2 class="heading white">В чем <span class="primary-color">выгода</span>?</h2>
-          <p>BEEF PROTEIN имеет международный сертификаты ISO, HACCP, всю необходимую документацию и лабораторные анализы.</p>
+          <p>BULL PROTEIN имеет международный сертификаты ISO, HACCP, всю необходимую документацию и лабораторные анализы.</p>
           <p>Преимущества нашей продукции:</p>
           <ul class="list-benefist">
             <li><span class="primary-color"><i class="fa fa-check"></i></span> Полный состав Аминокислот</li>
@@ -403,11 +406,10 @@
 
   <!-- REVIEWS -->
   <section class="section bg-black reviews-">
-    <div class="reviews-overlay pt-8 pb-8">
+    <div class="reviews-overlay pt-3 pb-8">
       <div class="container-fluid">
         <h2 class="heading text-center mb-5 primary-color">Отзывы</h2>
-        <div class="row">
-
+        <!-- <div class="row">
           <div class="col-md-3 col-sm-6 col-6">
             <div class="embed-responsive embed-responsive-4by3">
             <video width="320" height="240" controls>
@@ -441,7 +443,7 @@
             </div>
           </div>
         </div>
-        <br>
+        <br> -->
         <div class="row my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
           <figure class="col-md-2 col-sm-3 col-4" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
             <a href="/reviews/collagen/r2.jpg" itemprop="contentUrl" data-size="600x1067">
