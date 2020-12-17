@@ -203,7 +203,7 @@
         </div> -->
 
         <div class="offset-md-1 col-sm-10">
-          <p class="text-center fz-20 lh-20 pt-2 ts-1-">Для оптовиков: <a class="primary-color" href="/docs/BEEF PROTEIN COLLAGENous PRESENTATION FOR GYM`s.pdf" target="_blank">Презентация</a></p>
+          <p class="text-center fz-20 lh-20 pt-2 ts-1-">Для оптовиков: <a class="primary-color" href="/docs/BULL PROTEIN HYDROLYZED COLLAGEN PRESENTATION FOR GYM`s.pdf" target="_blank">Презентация</a></p>
           <!-- <p class="primary-color- text-center- white fz-26 lh-30 ts-1">Это натуральный коллаген для построения качественной мускулатуры и для укрепления суставов и связок.</p> -->
         </div>
 
