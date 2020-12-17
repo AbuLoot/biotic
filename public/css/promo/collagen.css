@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6,
   background-color: #000000;
   /*background-image: url(../../img/promo/collagen/protein-header.jpg);*/
   /*background-image: url(../../img/promo/collagen/ZS4vkkB.jpg);*/
-  background-image: url(../../img/promo/collagen/bodybuilder-main-bull-with-shadow.jpg);
+  background-image: url(../../img/promo/collagen/bodybuilder-main-bull-with-shadow-easy.jpg);
   background-repeat: no-repeat;
   background-position: center 0%;
   background-size: 100%;
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6,
   .bg-header {
     min-height: 600px;
     background-color: #000000;
-    background-image: url(../../img/promo/collagen/bodybuilder-main-bull-with-shadow.jpg);
+    background-image: url(../../img/promo/collagen/bodybuilder-main-bull-with-shadow-easy.jpg);
     /*background-image: url(../../img/promo/collagen/hulk.jpg);*/
     background-position: center;
     background-size: 301%;
@@ -77,13 +77,7 @@ h1, h2, h3, h4, h5, h6,
   padding: 0;
 }
 .biotic-logo {
-  /*position: absolute;*/
   display: block;
-  /*padding: 25px 15px 10px;*/
-  /*border-bottom-right-radius: 25px;*/
-  /*border-bottom-left-radius: 25px;*/
-  /*background-color: #f6f7f7;*/
-  /*background-color: #333;*/
 }
 .biotic-logo > img {
   max-width: 100px;
@@ -97,7 +91,7 @@ h1, h2, h3, h4, h5, h6,
   padding: 100px 0 50px;
 }
 .header-main-bg {
-  padding: 50px 0 0;
+  padding: 50px 0 90px;
 }
 .header-main-bg > img {
   width: 60%;
@@ -249,6 +243,9 @@ h1, h2, h3, h4, h5, h6,
 .why-beefprotein ul {
   margin-left: 20px;
 }
+.product-item .product-thumbnail > a > img {
+  max-height: 500px;
+}
 
 .who-need {
   position: relative;
@@ -385,6 +382,9 @@ h1, h2, h3, h4, h5, h6,
   .header-main-content {
     padding: 20px 0 20px;
     text-align: center;
+  }
+  .header-main-bg {
+    padding: 50px 0 0;
   }
   .header-main-bg > img {
     display: block;

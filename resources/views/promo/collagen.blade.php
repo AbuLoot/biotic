@@ -355,7 +355,7 @@
           </div> -->
         </div>
         <div class="col-sm-12 col-lg-6 about-beef-protein">
-          <h2 class="heading white">В чем <span class="primary-color">выгода</span>?</h2>
+          <h2 class="heading white">В чем <span class="primary-color">превосходтво</span>?</h2>
           <p>BULL PROTEIN имеет международный сертификаты ISO, HACCP, всю необходимую документацию и лабораторные анализы.</p>
           <p>Преимущества нашей продукции:</p>
           <ul class="list-benefist">
