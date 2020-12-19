@@ -64,7 +64,7 @@
           <img src="/img/standarts/eac2.png" class="img-responsive">
         </div>
         <div class="col-4 col-sm-4 col-md-2 mb-2">
-          <img src="/img/standarts/eco2.png" class="img-responsive">
+          <img src="/img/standarts/eco3.png" class="img-responsive">
         </div>
         <div class="col-4 col-sm-4 col-md-2 mb-2">
           <img src="/img/standarts/haccp2.png" class="img-responsive">
@@ -245,8 +245,8 @@
         </div>
         <div class="row align-items-center pt-8">
           <div class="col-sm-12 col-lg-4 pb-4 order-xs-2">
-            <h2 class="heading white">Хотите набрать <span class="primary-color">мышечную</span> массу?</h2>
-            <!-- <h4 class="white">Хотите набрать мышечную массу?</h4> -->
+            <h2 class="heading white">Хочешь набрать <span class="primary-color">мышечную</span> массу?</h2>
+            <!-- <h4 class="white">Хочешь набрать мышечную массу?</h4> -->
             <ul class="list-who-needs">
               <li><span class="primary-color"><i class="fa fa-circle"></i></span> Употребляйте больше белков(мясные, молочные продукты, рыбы, яйца и другие).</li>
               <li><span class="primary-color"><i class="fa fa-circle"></i></span> Употребляйте больше углеводов(овсянка, гречка, рис, овощи, фрукты и другие).</li>
@@ -273,7 +273,7 @@
             <img class="d-block" src="/img/promo/collagen/protein-for-body-drying.jpg" alt="">
           </div>
           <div class="col-sm-12 col-lg-4 pb-4">
-            <h3 class="heading white">Хотите избавиться от лишнего жира и&nbsp;накачать <span class="primary-color">мускулатуру</span>?</h3>
+            <h3 class="heading white">Хочешь избавиться от лишнего жира и&nbsp;накачать <span class="primary-color">мускулатуру</span>?</h3>
             <!-- <h4 class="white">Хотите накачать рельефную мускулатуру и избавиться от лишнего веса?</h4> -->
             <ul class="list-who-needs">
               <li><span class="primary-color"><i class="fa fa-circle"></i></span> Употребляйте больше белков(мясные, молочные продукты, рыбы, яйца и другие).</li>
@@ -301,37 +301,37 @@
         <div class="col-lg-9 mx-auto">
           <div class="row text-center">
             <div class="col-6 col-sm-4">
-              <h5><b>ISO 22000/HACCP</b><br> Сертификат безопасности</h5>
+              <h5><b>ISO 22000/HACCP<br> Сертификат безопасности</b></h5>
               <a target="_blank" href="/img/promo/collagen/sertificates/iso-22000.jpg">
                 <img class="img-responsive" src="/img/promo/collagen/sertificates/iso-22000-mini.jpg">
               </a><br>
             </div>
             <div class="col-6 col-sm-4">
-              <h5><b>ISO 9001</b><br> Сертификат качества</h5>
+              <h5><b>ISO 9001<br> Сертификат качества</b></h5>
               <a target="_blank" href="/img/promo/collagen/sertificates/iso-9001-ru.jpg">
                 <img class="img-responsive" src="/img/promo/collagen/sertificates/iso-9001-ru-mini.jpg"><br>
               </a><br>
             </div>
             <div class="col-6 col-sm-4">
-              <h5><b>Анализ</b><br> Сертификат качества</h5>
+              <h5><b>Анализ<br> Сертификат качества</b></h5>
               <a target="_blank" href="/img/promo/collagen/sertificates/сертификат качества 1.jpg">
                 <img class="img-responsive" src="/img/promo/collagen/sertificates/сертификат качества 1-mini.jpg"><br><br>
               </a><br>
             </div>
             <div class="col-6 col-sm-4">
-              <h5><b>Казахская Академия Питания</b><br> Рекомендация стр.1</h5>
+              <h5><b>Казахская Академия Питания<br> Рекомендация стр.1</b></h5>
               <a target="_blank" href="/img/promo/collagen/sertificates/kazakh-akadimiia-pitaniia 1.jpeg">
                 <img class="img-responsive" src="/img/promo/collagen/sertificates/kazakh-akadimiia-pitaniia 1-mini.jpeg">
               </a><br>
             </div>
             <div class="col-6 col-sm-4">
-              <h5><b>Казахская Академия Питания</b><br> Подтверждение стр.2</h5>
+              <h5><b>Казахская Академия Питания<br> Подтверждение стр.2</b></h5>
               <a target="_blank" href="/img/promo/collagen/sertificates/kazakh-akadimiia-pitaniia 2.jpeg">
                 <img class="img-responsive" src="/img/promo/collagen/sertificates/kazakh-akadimiia-pitaniia 2-mini.jpeg">
               </a><br>
             </div>
             <div class="col-6 col-sm-4">
-              <h5><b>ЕАЭС</b><br> Соответствие требованиям</h5>
+              <h5><b>ЕАЭС<br> Соответствие требованиям</b></h5>
               <a target="_blank" href="/img/promo/collagen/sertificates/EAES 2019.jpg">
                 <img class="img-responsive" src="/img/promo/collagen/sertificates/EAES 2019-mini.jpg"><br>
               </a>
