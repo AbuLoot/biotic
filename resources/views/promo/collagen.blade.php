@@ -49,7 +49,7 @@
             </div>
           </div>
           <div class="col-sm-4 header-main-bg">
-            <img src="/img/promo/collagen/Web 1kg BANK BULL PROTEIN.png">
+            <img src="/img/promo/collagen/Web 1kg BANK BULL PROTEIN 2.png">
           </div>
         </div>
       </div>
@@ -86,14 +86,14 @@
   <section class="section why-beefprotein">
     <div class="cover-dark">
       <div class="container">
-        <div class="row no-gutters pt-8 pb-8">
-          <!-- <div class="col-sm-12 col-lg-6">
-            <img class="d-block mt-5 mx-auto" src="/img/promo/collagen/banka-3kg.png" alt="">
-            <div class="text-center">
+        <div class="row align-items-center pb-8">
+          <div class="col-sm-12 col-lg-6">
+            <img class="d-block- mt-5- mx-auto-" src="/img/promo/collagen/bg/left-bg-sportsmen.jpg" alt="">
+            <!-- <div class="text-center">
               <a href="#" class="btn-app btn-app-p mt-2" data-toggle="modal" data-target="#appModal">Консультация</a>
-            </div>
-          </div> -->
-          <div class="col-sm-12 offset-sm-3 col-lg-6">
+            </div> -->
+          </div>
+          <div class="col-sm-12 col-lg-6 pt-4">
             <h2 class="heading fz-50- text-white"> Нужен ли <span class="primary-color">protein</span>?</h2>
             <!-- <p>Повышенная физическая нагрузка у спортсменов и как следствие недостаток аминокислот в организме приводит:</p> -->
             <p>Во время физических и спортивных нагрузках происходит истощение организма и износ хрящевой ткани. Обычное питание во многом не восполняет суточную норму калории. Если не дать нашему организму необходимое количество белка то это приведет к следующим последствиям:</p>
@@ -154,7 +154,7 @@
           <div class="product-item">
             <div class="product-thumbnail">
               <a href="#">
-                <img class="img-responsive" src="/img/promo/collagen/Web 1kg BANK BULL PROTEIN.png" alt="BULL PROTEIN 1kg bank" />
+                <img class="img-responsive" src="/img/promo/collagen/Web 1kg BANK BULL PROTEIN 2.png" alt="BULL PROTEIN 1kg bank" />
               </a>
               <!-- <div class="actions"> <div class="action action-view-detail"> </div> <div class="action action-add-to-cart"> <a href="#" class="button-add-to-cart" data-toggle="modal" data-target="#appModal">Заказать</a> </div> </div> -->
               <div class="text-center">
@@ -171,7 +171,7 @@
           <div class="product-item">
             <div class="product-thumbnail">
               <a href="#">
-                <img class="img-responsive" src="/img/promo/collagen/Web 1kg package BULL PROTEIN.png" alt="BULL PROTEIN 1kg package" />
+                <img class="img-responsive" src="/img/promo/collagen/Web 1kg package BULL PROTEIN 2.png" alt="BULL PROTEIN 1kg package" />
               </a>
               <!-- <div class="actions"> <div class="action action-view-detail"> </div> <div class="action action-add-to-cart"> <a href="#" class="button-add-to-cart" data-toggle="modal" data-target="#appModal">Заказать</a> </div> </div> -->
               <div class="text-center">
