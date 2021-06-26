@@ -35,6 +35,7 @@
           <div class="col-sm-8 header-main-content">
             <!-- <h1 class="heading text-center- text-uppercase header-title ts-1"><span class="color-green">BEEF PROTEIN</span> набери до&nbsp;7&nbsp;кг мышечной массы за&nbsp;1&nbsp;месяц</h1> -->
             <h1 class="heading header-title primary-color- ts-1"><span>BULL PROTEIN</span></h1>
+            <!-- <h3 class="heading white ts-1">Коллаген силы и молодости!</h3> -->
             <ul class="description-list ts-1">
               <!-- <li><p> Построй свое тело и&nbsp;укрепи суставы и&nbsp;связки</p></li> -->
               <li><i class="fa fa-circle"></i> Наращивание мыщечной массы</li>

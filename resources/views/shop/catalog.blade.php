@@ -8,7 +8,6 @@
 
 @endsection
 
-
 @section('content')
   <section class="page-title-bar page-title-bar-02">
     <div class="page-title-bar-overlay"></div>

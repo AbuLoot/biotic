@@ -67,33 +67,23 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'role:admin']], func
 // Input
 Route::get('search', 'InputController@search');
 Route::get('search-ajax', 'InputController@searchAjax');
+Route::get('search-ajax-admin', 'InputController@searchAjaxAdmin');
 Route::post('filter-products', 'InputController@filterProducts');
 Route::post('send-app', 'InputController@sendApp');
 
 
 // Shop
-Route::get('/shop', 'ShopController@index');
-Route::get('catalog', 'ShopController@catalog');
-Route::get('catalog/all/{category}', 'ShopController@allCategoryProducts');
-Route::get('catalog/{category}/{id}', 'ShopController@categoryProducts');
-Route::get('catalog/{category}/{subcategory}/{id}', 'ShopController@subCategoryProducts');
-Route::get('product/{product}', 'ShopController@product');
+Route::get('shop', 'ShopController@index');
+
+Route::get('brand/{company}', 'ShopController@brandProducts');
+Route::get('brand/{company}/{category}/{id}', 'ShopController@brandCategoryProducts');
+
+Route::get('c/{category}/{id}', 'ShopController@categoryProducts');
+Route::get('c/{category}/{subcategory}/{id}', 'ShopController@subCategoryProducts');
+Route::get('c/{category}/{subcategory}/{subsubcategory}/{id}', 'ShopController@subSubCategoryProducts');
+
+Route::get('p/{id}-{product}', 'ShopController@product');
 Route::post('comment-product', 'ShopController@saveComment');
-Route::get('catalog/brand/{company}', 'ShopController@brandProducts');
-
-
-// Cart Actions
-Route::get('cart', 'CartController@cart');
-Route::get('add-to-cart/{id}', 'CartController@addToCart');
-Route::get('remove-from-cart/{id}', 'CartController@removeFromCart');
-Route::get('clear-cart', 'CartController@clearCart');
-Route::post('store-order', 'CartController@storeOrder');
-Route::get('destroy-from-cart/{id}', 'CartController@destroy');
-
-
-// Favorite Actions
-Route::get('favorites', 'FavoriteController@getFavorites');
-Route::get('toggle-favorite/{id}', 'FavoriteController@toggleFavorite');
 
 
 // Promo
@@ -101,6 +91,21 @@ Route::get('/promo', 'PromoController@index');
 Route::get('/epimediumnaya-pasta', 'PromoController@epimedium');
 Route::get('/protein', 'PromoController@collagen');
 Route::get('/', 'PromoController@collagen');
+
+
+// Cart Actions
+Route::get('cart', 'CartController@cart');
+Route::get('checkout', 'CartController@checkout');
+Route::get('add-to-cart/{id}', 'CartController@addToCart');
+Route::get('remove-from-cart/{id}', 'CartController@removeFromCart');
+Route::get('clear-cart', 'CartController@clearCart');
+Route::post('store-order', 'CartController@storeOrder');
+Route::get('destroy-from-cart/{id}', 'CartController@destroy');
+
+
+// Favourite Actions
+Route::get('favorite', 'FavouriteController@getFavorite');
+Route::get('toggle-favourite/{id}', 'FavouriteController@toggleFavourite');
 
 
 // News
@@ -111,5 +116,6 @@ Route::post('comment-news', 'NewsController@saveComment');
 
 
 // Pages
-Route::get('contacts', 'PageController@contacts');
-Route::get('{page}', 'PageController@page');
+Route::get('i/catalogs', 'PageController@catalogs');
+Route::get('i/contacts', 'PageController@contacts');
+Route::get('i/{page}', 'PageController@page');

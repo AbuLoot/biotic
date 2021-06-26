@@ -64,7 +64,7 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar" id="navbar">
           <ul class="nav nav-sidebar">
-            <li class="sidebar-title">Главное</li>
+            <!-- <li class="sidebar-title">Главное</li> -->
             <li @if (Request::is('admin/pages', 'admin/pages/*')) class="active" @endif><a href="/admin/pages"><i class="material-icons md-18">content_copy</i> Страницы</a></li>
             <li @if (Request::is('admin/news', 'admin/news/*')) class="active" @endif><a href="/admin/news"><i class="material-icons md-18">create</i> Новости</a></li>
             <li @if (Request::is('admin/projects', 'admin/projects/*')) class="active" @endif><a href="/admin/projects"><i class="material-icons md-18">widgets</i> Проекты</a></li>
@@ -77,7 +77,7 @@
             <li @if (Request::is('admin/apps', 'admin/apps/*')) class="active" @endif><a href="/admin/apps"><i class="material-icons md-18">send</i> Заявки</a></li>
           </ul>
           <ul class="nav nav-sidebar">
-            <li class="sidebar-title">Каталог</li>
+            <!-- <li class="sidebar-title">Каталог</li> -->
             <li @if (Request::is('admin/companies', 'admin/companies/*')) class="active" @endif><a href="/admin/companies"><i class="material-icons md-18">business</i> Компании</a></li>
             <li @if (Request::is('admin/countries', 'admin/countries/*')) class="active" @endif><a href="/admin/countries"><i class="material-icons md-18">map</i> Страны</a></li>
             <li @if (Request::is('admin/cities', 'admin/cities/*')) class="active" @endif><a href="/admin/cities"><i class="material-icons md-18">place</i> Города</a></li>

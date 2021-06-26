@@ -23,7 +23,7 @@ class ShopController extends Controller
         $mode_new = Mode::where('slug', 'new')->first();
         $slide_items = Slide::where('status', 1)->take(5)->get();
 
-        return view('shop.index', compact('mode_top', 'mode_new', 'slide_items'));
+        return view('shop.new-index', compact('mode_top', 'mode_new', 'slide_items'));
     }
 
     public function allCategoryProducts(Request $request, $category_slug)
@@ -81,7 +81,7 @@ class ShopController extends Controller
 
         $grouped = $options->groupBy('data');
 
-        return view('shop.catalog')->with(['category' => $category, 'products' => $products, 'grouped' => $grouped]);
+        return view('shop.new-catalog')->with(['category' => $category, 'products' => $products, 'grouped' => $grouped]);
     }
 
     public function categoryProducts(Request $request, $category_slug, $category_id)
@@ -135,61 +135,12 @@ class ShopController extends Controller
 
         $grouped = $options->groupBy('data');
 
-        return view('shop.catalog')->with(['category' => $category, 'products' => $products, 'grouped' => $grouped]);
+        return view('shop.new-catalog')->with(['category' => $category, 'products' => $products, 'grouped' => $grouped]);
     }
 
     public function subCategoryProducts(Request $request, $category_slug, $subcategory_slug, $category_id)
     {
-        $category = Category::findOrFail($category_id);
-
-        // Action operations
-        $actions = ['default' => 'id', 'low' => 'price', 'expensive' => 'price DESC', 'popular' => 'views DESC'];
-        $sort = ($request->session()->has('action')) ? $actions[session('action')] : 'id';
-
-        if ($request->ajax() AND isset($request->action)) {
-            $request->session()->put('action', $request->action);
-        }
-
-        // Option operations
-        if ($request->ajax() AND isset($request->options_id)) {
-            $request->session()->put('options', $request->options_id);
-            $request->session()->put('category_id', $category->id);
-        }
-
-        if ($request->ajax() AND empty($request->action) AND empty($request->options_id) OR session('category_id') != $category->id) {
-            $request->session()->forget('options');
-        }
-
-        if ($request->session()->has('options')) {
-
-            $options_id = session('options');
-
-            $products = Product::where('status', '<>', 0)->where('category_id', $category->id)->orderByRaw($sort)
-                ->whereHas('options', function ($query) use ($options_id) {
-                    $query->whereIn('option_id', $options_id);
-                })->paginate(12);
-        }
-        else {
-            $products = Product::where('status', '<>', 0)->where('category_id', $category->id)->orderByRaw($sort)
-                ->paginate(12);
-        }
-
-        if ($request->ajax()) {
-            return response()->json(view('shop.products-render', ['products' => $products])->render());
-        }
-
-        $options = DB::table('products')
-            ->join('product_option', 'products.id', '=', 'product_option.product_id')
-            ->join('options', 'options.id', '=', 'product_option.option_id')
-            ->select('options.id', 'options.slug', 'options.title', 'options.data')
-            ->where('category_id', $category->id)
-            // ->where('products.status', '<>', 0)
-            ->distinct()
-            ->get();
-
-        $grouped = $options->groupBy('data');
-
-        return view('shop.catalog')->with(['category' => $category, 'products' => $products, 'grouped' => $grouped]);
+        return $this->categoryProducts($request, $subcategory_slug, $category_id);
     }
 
     public function brandProducts($company_slug)
@@ -200,16 +151,16 @@ class ShopController extends Controller
         return view('shop.catalog')->with(['page' => $page, 'products_title' => $page->title, 'products' => $company->products]);
     }
 
-    public function product($product_slug)
+    public function product($product_id, $product_slug)
     {
-        $product = Product::where('slug', $product_slug)->firstOrFail();
-        $category = Category::where('id', $product->category_id)->firstOrFail();
-        $products = Product::search($product->title)->where('status', 1)->take(4)->get();
-
+        $product = Product::find($product_id);
         $product->views = $product->views + 1;
         $product->save();
 
-        return view('shop.product')->with(['product' => $product, 'products' => $products, 'category' => $category]);
+        $category = Category::where('id', $product->category_id)->firstOrFail();
+        $products = Product::search($product->title)->where('status', 1)->take(4)->get();
+
+        return view('shop.new-product')->with(['product' => $product, 'products' => $products, 'category' => $category]);
     }
 
     public function saveComment(Request $request)

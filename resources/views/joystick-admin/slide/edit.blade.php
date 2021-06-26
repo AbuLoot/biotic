@@ -33,9 +33,9 @@
         <label class="radio-inline">
           <input type="radio" name="direction" value="left"  @if($item->direction == 'left') checked @endif> По левой стороне
         </label>
-        <!-- <label class="radio-inline">
+        <label class="radio-inline">
           <input type="radio" name="direction" value="center" @if($item->direction == 'center') checked @endif> По центру
-        </label> -->
+        </label>
         <label class="radio-inline">
           <input type="radio" name="direction" value="right" @if($item->direction == 'right') checked @endif> По правой стороне
         </label>
@@ -48,7 +48,7 @@
     <div class="form-group">
       <label for="link">Ссылка на продукт</label>
       <div class="input-group">
-        <span class="input-group-addon" id="basic-addon3">http://gomarket.kz/</span>
+        <span class="input-group-addon" id="basic-addon3"><?= $_SERVER['SERVER_NAME'] ?></span>
         <input type="text" name="link" class="form-control" id="link" aria-describedby="basic-addon3" maxlength="255" value="{{ (old('link')) ? old('link') : $item->link }}">
       </div>
     </div>
