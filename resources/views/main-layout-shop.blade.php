@@ -24,7 +24,6 @@
 
   @yield('head')
 </head>
-
 <body>
   <div id="page">
     <header class="version_1">

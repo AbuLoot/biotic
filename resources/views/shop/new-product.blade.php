@@ -585,6 +585,6 @@
 @section('scripts')
 
   <!-- SPECIFIC SCRIPTS -->
-  <script  src="/new/js/carousel_with_thumbs.js"></script>
+  <script defer src="/new/js/carousel_with_thumbs.js"></script>
 
 @endsection
