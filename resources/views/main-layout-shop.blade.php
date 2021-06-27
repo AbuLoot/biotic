@@ -10,11 +10,11 @@
   <meta name="description" content="@yield('meta_description', 'Biotic - Продукты долголетия')">
 
   <!-- Favicons-->
-  <link rel="shortcut icon" href="/new//new/img/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" type="image/x-icon" href="/new//new/img/apple-touch-icon-57x57-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="/new//new/img/apple-touch-icon-72x72-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="/new//new/img/apple-touch-icon-114x114-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="/new//new/img/apple-touch-icon-144x144-precomposed.png">
+  <link rel="shortcut icon" href="/new/img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" type="image/x-icon" href="/new/img/apple-touch-icon-57x57-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="/new/img/apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="/new/img/apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="/new/img/apple-touch-icon-144x144-precomposed.png">
 
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
   <link href="/new/css/bootstrap.custom.min.css" rel="stylesheet">
@@ -313,11 +313,11 @@
   <div id="toTop"></div>
 
   <!-- COMMON SCRIPTS -->
-  <script src="/new/js/common_scripts.min.js"></script>
-  <script src="/new/js/main.js"></script>
+  <script defer src="/new/js/common_scripts.min.js"></script>
+  <script defer src="/new/js/main.js"></script>
   
   <!-- SPECIFIC SCRIPTS -->
-  <script src="/new/js/carousel-home.js"></script>
+  <script defer src="/new/js/carousel-home.js"></script>
   @yield('scripts')
 </body>
 </html>

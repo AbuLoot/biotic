@@ -251,8 +251,8 @@
 
 @section('scripts')
   <!-- SPECIFIC SCRIPTS -->
-  <script src="/new/js/sticky_sidebar.min.js"></script>
-  <script src="/new/js/specific_listing.js"></script>
+  <script defer src="/new/js/sticky_sidebar.min.js"></script>
+  <script defer src="/new/js/specific_listing.js"></script>
 
   <script>
     function addToCart(i) {
